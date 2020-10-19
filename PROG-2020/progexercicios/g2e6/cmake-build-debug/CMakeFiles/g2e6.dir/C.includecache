@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/josec/CLionProjects/progexercicios/g2e6/Contacto.h
+
+C:/Users/josec/CLionProjects/progexercicios/g2e6/main.c
+stdio.h
+-
+stdlib.h
+-
+Contacto.h
+C:/Users/josec/CLionProjects/progexercicios/g2e6/Contacto.h
+

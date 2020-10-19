@@ -1,0 +1,3 @@
+C:/Users/josec/CLionProjects/progexercicios/g1e20/cmake-build-debug/CMakeFiles/g1e20.dir
+C:/Users/josec/CLionProjects/progexercicios/g1e20/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/josec/CLionProjects/progexercicios/g1e20/cmake-build-debug/CMakeFiles/rebuild_cache.dir

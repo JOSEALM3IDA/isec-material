@@ -1,0 +1,3 @@
+C:/Users/josec/CLionProjects/progexercicios/g3e8/cmake-build-debug/CMakeFiles/g3e8.dir
+C:/Users/josec/CLionProjects/progexercicios/g3e8/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/josec/CLionProjects/progexercicios/g3e8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

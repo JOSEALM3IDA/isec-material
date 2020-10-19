@@ -1,0 +1,12 @@
+Numero de alunos: 8
+Numero de provas: 5
+Peso das provas: 20 20 10 25 25
+
+Aluno 1:	100 	90	75	65	23
+Aluno 2:	10	60	34	87	99
+Aluno 3:	45	78	34	22	45
+Aluno 4:	89	11	66	39	29
+Aluno 5:	90	88	57	93	71
+Aluno 6:	30	49	11	56	100
+Aluno 7:	100	22	50	50	50
+Aluno 8:	23	87	34	22	49

@@ -1,0 +1,65 @@
+-----ESTATISTICA: ITERACAO 7-----
+
+---LOCAL: 1	LIGACOES:  3 -1 -1	CAPACIDADE RESTANTE: 45---
+ID		IDADE	ESTADO	DURACAO
+TobiasF        	98	S	-
+HugoC          	14	D	4
+HugoB          	25	D	6
+Zulmira2A      	17	D	2
+SofiaA         	23	D	7
+
+---LOCAL: 2	LIGACOES:  3 -1 -1	CAPACIDADE RESTANTE: 46---
+ID		IDADE	ESTADO	DURACAO
+DianaD         	89	D	7
+CarlaCardoso   	34	D	4
+HugoA          	20	D	2
+PauloPires2    	67	D	2
+
+---LOCAL: 3	LIGACOES:  1  4  2	CAPACIDADE RESTANTE: 45---
+ID		IDADE	ESTADO	DURACAO
+LeonardoL      	10	D	7
+PedroPedra     	27	D	5
+SamuelSimoes   	56	D	8
+MarcoMarquesAAA	40	I	-
+PauloPires1    	23	D	3
+
+---LOCAL: 4	LIGACOES:  3 -1 -1	CAPACIDADE RESTANTE: 44---
+ID		IDADE	ESTADO	DURACAO
+SandraMotaA1   	24	D	5
+Carlos1        	20	S	-
+PauloAlves123  	34	S	-
+SandraS        	56	D	8
+Olivia1        	12	D	6
+Tomas111       	12	I	-
+
+Taxa de Saudaveis: 0.15
+Taxa de Imunes: 0.10
+Taxa de Infetados: 0.75
+
+Total de Individuos: 20
+
+Maior numero de pessoas: (6)
+Local: 4
+
+Maior numero de doentes: 5
+Local: 1
+Iteracao: 6
+
+Maior numero de imunes: 1
+Local: 3
+Iteracao: 7
+
+Maior numero de saudaveis: 3
+Local: 3
+Iteracao: 1
+
+
+Maior taxa de doentes: 0.80
+Iteracao: 5
+
+Maior taxa de imunes: 0.10
+Iteracao: 7
+
+Maior taxa de saudaveis: 0.45
+Iteracao: 0
+

@@ -1,0 +1,20 @@
+0 3
+35  0.7 Antonio Olaio
+123 0.3 Beatriz Almada
+345 0.4 Carlos Sousa
+
+1 2
+35 0.1 Antonio Olaio
+123 0.2 Beatriz Almada
+
+2 3
+3523 0.09 Celia Santos
+123 0.3 Beatriz Almada
+35 0.12 Antonio Olaio
+
+3 4
+123 0.0 Beatriz Almada
+35 0.75 Antonio Olaio
+3523 0.1 Celia Santos
+315 1.3 Artur Sousa
+

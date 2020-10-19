@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/main.c
+stdio.h
+-
+ponto.h
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/ponto.h
+retangulo.h
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/retangulo.h
+
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/ponto.c
+stdio.h
+-
+ponto.h
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/ponto.h
+
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/ponto.h
+
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/retangulo.c
+retangulo.h
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/retangulo.h
+ponto.h
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/ponto.h
+
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/retangulo.h
+stdio.h
+-
+ponto.h
+C:/Users/josec/CLionProjects/progexercicios/g2e1e2/ponto.h
+

@@ -1,0 +1,9 @@
+8 alunos ; 5 provas
+Aluno 1: 69.80
+Aluno 2: 73.80
+Aluno 3: 49.25
+Aluno 4: 46.50
+Aluno 5: 89.40
+Aluno 6: 65.90
+Aluno 7: 59.40
+Aluno 8: 43.06

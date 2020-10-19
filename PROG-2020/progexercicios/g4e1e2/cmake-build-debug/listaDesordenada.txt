@@ -1,0 +1,17 @@
+Nome: Ana Silva
+Id: 3 Peso: 55.00 Altura: 1.60 IMC: 21.48
+
+Nome: Bruno
+Id: 6 Peso: 77.00 Altura: 1.80 IMC: 0.2
+
+Nome: Carla Pires
+Id: 2 Peso: 60.00 Altura: 1.65 IMC: 0.0
+
+Nome: Anabela Esteves
+Id: 4 Peso: 85.00 Altura: 1.65 IMC: 00.00
+
+Nome: Isis Dias
+Id: 5 Peso: 55.00 Altura: 1.60 IMC: 00.00
+
+Nome: Jose Almeida
+Id: 7 Peso: 57.00 Altura: 1.69 IMC: 00.00

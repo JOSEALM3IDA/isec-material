@@ -1,0 +1,165 @@
+PauloPires1  23  S
+SofiaA  23  S
+Tomas111   12   I
+PauloPires2   67    D   10
+MarcoMarquesAAA   40    I
+Zulmira2A    17 S
+Olivia1     12  S
+SamuelSimoes   56   D   1
+SandraS       56    D   1
+HugoA        20    D  3
+HugoB        25   D   10
+HugoC       14   D    5
+PauloAlves123   34   D   4
+Carlos1     20   D    3
+CarlaCardoso  34   D   7
+SandraMotaA1   24  S 
+PedroPedra   27    S
+DianaD      89    S
+TobiasF    98    S
+LeonardoL  10   S
+PauloPires3  23  S
+SofiaB  23  S
+Tomas112   12   I
+PauloPires4   67    D   10
+MarcoMarquesAAB   40    I
+Zulmira2B    17 S
+Olivia2     12  S
+SamuelSimoes2   56   D   1
+SandraS2       56    D   1
+HugoA2        20    D  3
+HugoB2        25   D   10
+HugoC2       14   D    5
+PauloAlves124   34   D   4
+Carlos2     20   D    3
+CarlaCardoso2  34   D   7
+SandraMotaA2   24  S 
+PedroPedra2   27    S
+DianaD2      89    S
+TobiasF2    98    S
+LeonardoL2  10   S
+PauloPire1  23  S
+SofaA  23  S
+Toms111   12   I
+PauoPires2   67    D   10
+MarcoarquesAAA   40    I
+Zulmir2A    17 S
+Oliia1     12  S
+SamulSimoes   56   D   1
+SanraS       56    D   1
+HugA        20    D  3
+HuoB        25   D   10
+HuoC       14   D    5
+PaloAlves123   34   D   4
+Caros1     20   D    3
+CaraCardoso  34   D   7
+SanrMotaA1   24  S 
+Pedroedra   27    S
+DiaaD      89    S
+TobisF    98    S
+LeoardoL  10   S
+PauoPires3  23  S
+SofaB  23  S
+Toms112   12   I
+PauoPires4   67    D   10
+MarcMarquesAAB   40    I
+Zulira2B    17 S
+Oliia2     12  S
+SamelSimoes2   56   D   1
+SanraS2       56    D   1
+Hugo2        20    D  3
+HugB2        25   D   10
+HugC2       14   D    5
+PauoAlves124   34   D   4
+Carls2     20   D    3
+CarlaCrdoso2  34   D   7
+SandrMotaA2   24  S 
+PedrPedra2   27    S
+DianD2      89    S
+TobisF2    98    S
+LeonadoL2  10   S
+PaualoPires1  23  S
+SaofiaA  23  S
+Taomas111   12   I
+PaauloPires2   67    D   10
+MaarcoMarqDA   40    I
+Zulamira2A    17 S
+Olivaia1     12  S
+SamuealSimoes   56   D   1
+SasndraS       56    D   1
+HugsoA        20    D  3
+HugosB        25   D   10
+HugoCs       14   D    5
+PauloAslves123   34   D   4
+Carloss1     20   D    3
+CarlaCsardoso  34   D   7
+SandradMotaA1   24  S 
+PedroPfedra   27    S
+DianagD      89    S
+TobiashF    98    S
+LeonardhoL  10   S
+PauloPirjes3  23  S
+SofikaB  23  S
+Tomlas112   12   I
+PaulojPires4   67    D   10
+MkoMarquesAAB   40    I
+Zulmikra2B    17 S
+Olivcia2     12  S
+SamulelSimoes2   56   D   1
+SandraaS2       56    D   1
+Hugo6A2        20    D  3
+Hugo8B2        25   D   10
+HugoC02       14   D    5
+PauloAlgves124   34   D   4
+Carlosj2     20   D    3
+CarlaCar4doso2  34   D   7
+SandraMot2aA2   24  S 
+PedroPe7dra2   27    S
+DianaD2o      89    S
+TobiasF2p    98    S
+LeonardoLl2  10   S
+PauloPire1j  23  S
+SofgaA  23  S
+Tomfs111   12   I
+PauouPires2   67    D   10
+MarcooarquesAAA   40    I
+Zulmi5r2A    17 S
+Oliiag1     12  S
+SamulbSimoes   56   D   1
+Sanrfa3S       56    D   1
+HugAf       20    D  3
+HuoBd        25   D   10
+HuoCd       14   D    5
+PaloAdlves123   34   D   4
+Caros71     20   D    3
+CaraCoardoso  34   D   7
+SanrM2otaA1   24  S 
+Pedro3edra   27    S
+Diaa5D      89    S
+Tobi7sF    98    S
+Leoar2doL  10   S
+PauoP7ires3  23  S
+SofaB8  23  S
+Toms1012   12   I
+PauoPi0res4   67    D   10
+MarcMar0quesAAB   40    I
+Zulira20B    17 S
+Oliia20     12  S
+Sa0melSimoes2   56   D   1
+Sa0nraS2       56    D   1
+Hu0go2        20    D  3
+Hu0gB2        25   D   10
+Hug0C2       14   D    5
+Pau0oAlves124   34   D   4
+Car0ls2     20   D    3
+Carl0aCrdoso2  34   D   7
+Sand0rMotaA2   24  S 
+Pedr0Pedra2   27    S
+Dian0D2      89    S
+Tob0isF2    98    S
+Leonad0oL2  10   S
+RubenLousada 19 D 45
+
+
+
+

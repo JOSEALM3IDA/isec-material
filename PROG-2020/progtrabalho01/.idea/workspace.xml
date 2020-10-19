@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="progtrabalho01" targetName="progtrabalho01" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6be2b9ff-3cad-4147-82a4-84999427b364" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/C.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/utilFiles.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/utilFiles.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/utilStructs.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/utilStructs.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/utils.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progtrabalho01.dir/utils.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/progtrabalho01.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/progtrabalho01.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/report.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilFiles.c" beforeDir="false" afterPath="$PROJECT_DIR$/utilFiles.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilStructs.c" beforeDir="false" afterPath="$PROJECT_DIR$/utilStructs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.c" beforeDir="false" afterPath="$PROJECT_DIR$/utils.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.h" beforeDir="false" afterPath="$PROJECT_DIR$/utils.h" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1axOoM8G9oPBvXs2G2XrkkuNf3B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunManager" selected="CMake Application.cmder">
+    <configuration name="cmder" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" WORKING_DIR="file://$PROJECT_DIR$/cmake-build-debug" PASS_PARENT_ENVS_2="true" PROJECT_NAME="progtrabalho01" TARGET_NAME="progtrabalho01" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/../../../../cmder/Cmder.exe">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="progtrabalho01" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="progtrabalho01" TARGET_NAME="progtrabalho01" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="progtrabalho01" RUN_TARGET_NAME="progtrabalho01">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.cmder" />
+      <item itemvalue="CMake Application.progtrabalho01" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6be2b9ff-3cad-4147-82a4-84999427b364" name="Default Changelist" comment="" />
+      <created>1587673951437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587673951437</updated>
+      <workItem from="1587673956462" duration="3485000" />
+      <workItem from="1587754865127" duration="7953000" />
+      <workItem from="1587825036806" duration="7710000" />
+      <workItem from="1588079160475" duration="1239000" />
+      <workItem from="1588082673921" duration="2036000" />
+      <workItem from="1588097463391" duration="116000" />
+      <workItem from="1588385207236" duration="70000" />
+      <workItem from="1588385349319" duration="5217000" />
+      <workItem from="1588390668999" duration="165000" />
+      <workItem from="1588391702053" duration="868000" />
+      <workItem from="1588428039601" duration="3173000" />
+      <workItem from="1588591972165" duration="166000" />
+      <workItem from="1588596277597" duration="151000" />
+      <workItem from="1588683873492" duration="356000" />
+      <workItem from="1588872070889" duration="1562000" />
+      <workItem from="1588883958349" duration="11573000" />
+      <workItem from="1588991711938" duration="99000" />
+      <workItem from="1588991827446" duration="4267000" />
+      <workItem from="1589031860612" duration="3466000" />
+      <workItem from="1589288927136" duration="299000" />
+      <workItem from="1589583055053" duration="4492000" />
+      <workItem from="1589893616252" duration="14000" />
+      <workItem from="1589913128580" duration="1549000" />
+      <workItem from="1589969232427" duration="1422000" />
+      <workItem from="1590173198649" duration="30000" />
+      <workItem from="1590244649693" duration="8117000" />
+      <workItem from="1590257264009" duration="62000" />
+      <workItem from="1590498837952" duration="24000" />
+      <workItem from="1590525235515" duration="8825000" />
+      <workItem from="1590593225869" duration="1135000" />
+      <workItem from="1590594550006" duration="625000" />
+      <workItem from="1590621380166" duration="145000" />
+      <workItem from="1590627431576" duration="329000" />
+      <workItem from="1590681204475" duration="19865000" />
+      <workItem from="1590708684415" duration="2169000" />
+      <workItem from="1590714300037" duration="1719000" />
+      <workItem from="1590746945706" duration="3732000" />
+      <workItem from="1590783762927" duration="226000" />
+      <workItem from="1590847377375" duration="14294000" />
+      <workItem from="1590935021631" duration="10881000" />
+      <workItem from="1590946444155" duration="154000" />
+      <workItem from="1591008354274" duration="1021000" />
+      <workItem from="1591009505349" duration="1529000" />
+      <workItem from="1591016391533" duration="3693000" />
+      <workItem from="1591034800207" duration="607000" />
+      <workItem from="1591104128451" duration="86000" />
+      <workItem from="1591180031381" duration="1873000" />
+      <workItem from="1591293702909" duration="92000" />
+      <workItem from="1591293846259" duration="83000" />
+      <workItem from="1591483470471" duration="754000" />
+      <workItem from="1591548876193" duration="652000" />
+      <workItem from="1591559491050" duration="2605000" />
+      <workItem from="1591612184367" duration="1800000" />
+      <workItem from="1591626617418" duration="4870000" />
+      <workItem from="1591647904296" duration="2719000" />
+      <workItem from="1591660981812" duration="1384000" />
+      <workItem from="1591708701182" duration="78000" />
+      <workItem from="1591712646846" duration="1387000" />
+      <workItem from="1591714697639" duration="3021000" />
+      <workItem from="1592067420973" duration="1154000" />
+      <workItem from="1592076736607" duration="670000" />
+      <workItem from="1592084827655" duration="14000" />
+      <workItem from="1592149980981" duration="3678000" />
+      <workItem from="1592161325157" duration="623000" />
+      <workItem from="1592187706035" duration="396000" />
+      <workItem from="1592188119732" duration="2764000" />
+      <workItem from="1592191211687" duration="956000" />
+      <workItem from="1592192194728" duration="253000" />
+      <workItem from="1592253402070" duration="21000" />
+      <workItem from="1592406162097" duration="75000" />
+      <workItem from="1592909287451" duration="557000" />
+      <workItem from="1592911392777" duration="4343000" />
+      <workItem from="1593356349579" duration="78000" />
+      <workItem from="1593365188211" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588083603276">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588083603276" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590690914949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590690914949" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1591714035194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1591714035194" />
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom" timestamp="1592916083216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592916083216" />
+    <state width="1877" height="138" key="GridCell.Tab.0.center" timestamp="1592916083215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592916083215" />
+    <state width="1877" height="138" key="GridCell.Tab.0.left" timestamp="1592916083215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592916083215" />
+    <state width="1877" height="138" key="GridCell.Tab.0.right" timestamp="1592916083215">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="138" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592916083215" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1590946597495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590946597495" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1590946597492">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590946597492" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1590946597491">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590946597491" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1590946597493">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590946597493" />
+    <state x="751" y="222" key="RollbackChangesDialog" timestamp="1590857835623">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="222" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590857835623" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1588429933736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588429933736" />
+    <state x="685" y="304" key="refactoring.ChangeSignatureDialog" timestamp="1590684319657">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="304" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1590684319657" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1590704814000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1590704814000" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1592191269159">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592191269158" />
+  </component>
+</project>

@@ -1,0 +1,88 @@
+1. 
+2. #include <stdio.h>
+3. #include <string.h>
+4. 
+5. 
+6. void ex4(char *nomeF){
+7.     FILE *f;
+8.     int c;
+9. 
+10.     f = fopen(nomeF, "r");
+11.     if(f == NULL)
+12.         printf("Ficheiro nao existe\n");
+13.     else{
+14.         // int feof(FILE *f);       -> Função
+15.         // EOF - constante que assinala o fim de um ficheiro de texto     
+16.         while( (c = fgetc(f)) != EOF)
+17.             putchar(c);
+18. 
+19.         fclose(f);
+20.     }
+21. }
+22. 
+23. 
+24. void ex5(char *nomeF, char *nomeD){
+25.     FILE *f, *d;
+26.     int c;
+27. 
+28.     f = fopen(nomeF, "r");
+29.     if (f == NULL) {
+30.         printf("Problema na abertura de um ficheiro\n");
+31.         return;
+32.     }
+33. 
+34.     d = fopen(nomeD, "w");
+35.     if (d == NULL) {
+36.         printf("Problema na abertura de um ficheiro!\n");
+37.         fclose(f);
+38.         return;
+39.     }
+40. 
+41.     while ((c = fgetc(f)) != EOF) {
+42.         fprintf(d, "%c", c);
+43.     }
+44. 
+45.     fclose(f);
+46.     fclose(d);
+47. }
+48. 
+49. 
+50. void ex6(char *nomeF, char *nomeD){
+51.     FILE *f, *d;
+52.     int c;
+53.     int i = 2;
+54. 
+55.     f = fopen(nomeF, "r");
+56.     if (f == NULL) {
+57.         printf("Problema na abertura de um ficheiro\n");
+58.         return;
+59.     }
+60. 
+61.     d = fopen(nomeD, "w");
+62.     if (d == NULL) {
+63.         printf("Problema na abertura de um ficheiro!\n");
+64.         fclose(f);
+65.         return;
+66.     }
+67. 
+68.     fprintf(d, "1. ");
+69.     while ((c = fgetc(f)) != EOF) {
+70.         fprintf(d, "%c", c);
+71. 
+72.         if (c == '\n')
+73.             fprintf(d, "%d. ", i++);
+74.     }
+75. 
+76.     fclose(f);
+77.     fclose(d);
+78. }
+79. 
+80. 
+81. int main(){
+82. 
+83.     ex4("main.c");
+84.     ex5("main.c", "Novo.txt");
+85.     ex6("main.c", "NovoNumerado.txt");
+86. 
+87.     return 0;
+88. }
