@@ -1,0 +1,41 @@
+-> Supondo que a população do bairro A é 500 habitantes e que regista uma taxa anual de crescimento de 5,2% ao ano e que a população 
+do bairro B é 1500 habitantes com uma taxa anual de crescimento de 1.8%, desenvolva um algoritmo que calcule quantos anos serão necessários 
+para que a população do bairro A ultrapasse a do bairro B. Considere que as taxas anuais de crescimento permanecem constantes.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+---------
+
+RESULTADOS PRETENDIDOS:
+anos (inteiro) - numero de anos para que a pop de A ultrapasse a de B
+
+CONHECIMENTO REQUERIDO:
+popA = 500
+popB = 1500
+taxaA = 5.2/100
+taxaB = 1.8/100
+
+ESTRATÉGIA:
+Multiplicar a populaçao de A por 0.052 e a de B por 0.018 até a população de A ser maior que a de B e
+quantificar quantas vezes isso foi feito (numero de anos)
+Mostrar numero de anos
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO populacao
+	popA = 500
+	popB = 1500
+	taxaA = 5.2/100
+	taxaB = 1.8/100
+	anos = 0
+	FAZER
+		popA <- popA + popA * taxaA
+		popB <- popB + popB * taxaB
+		anos = anos + 1
+	ENQUANTO (popA < popB)
+	
+	MOSTRA (anos)
+	
+FIM populacao

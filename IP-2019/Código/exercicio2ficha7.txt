@@ -1,0 +1,38 @@
+a) yeet
+
+ESPECIFICAÇÃO DA FUNÇAO
+
+DADOS DE ENTRADA:
+frase (string) - frase que é o parametro de entrada da funçao
+
+RESULTADOS PRETENDIDOS:
+vezes (inteiro) - nº de vezes que o 1º caracter que nao seja espaço em branco, aparece na frase (em maiusculas ou minusculas).
+Se so existirem caracteres do tipo espaços em branco, devolve 0. 
+
+CONHECIMENTO REQUERIDO:
+
+ESTRATÉGIA:
+Encontrar 1º caracter da string que nao seja espaço em branco
+Converter esse caracter para maiusculas/minusculas
+Percorrer a string, comparando a versão em maiuscula (ou minuscula) de cada um dos seus caracteres com o 1º caracter e, 
+se forem iguais, incrementar o contador.
+Devolver o contador.
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO ContaPrimeiro
+RECEBE (frase)
+	i <- 0
+	ENQUANTO (frase[i] = ' ') FAZER
+		i <- i + 1
+	FIM ENQUANTO
+	frase[i] <- ParaMaiuscula(frase[i])
+	vezes <- 0
+	ENQUANTO ( frase[i] =/= '\0') FAZER
+		SE (caracter = ParaMaiuscula(frase[i])) ENTÃO
+			contador <- contador + 1
+		FIM SE
+		i <- i + 1
+	FIM ENQUANTO
+DEVOLVE (contador)
+FIM FUNCAO ContaPrimeiro

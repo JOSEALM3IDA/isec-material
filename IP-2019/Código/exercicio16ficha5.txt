@@ -1,0 +1,37 @@
+a) yeet
+
+ESPECIFICAÇÃO DA FUNÇÃO
+
+DADOS DE ENTRADA:
+ch (char): carater a introduzir pelo utilizador (parametro entrada)
+
+RESULTADOS PRETENDIDOS:
+num (inteiro): 	0 se for uma consoantes
+				de 1 a 5 correspondente a 'a' a 'u'
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pedir um char ao utilizador. Se o char for uma consoante, retornar 0
+Se for 'a' retornar 1. Se 'b', 2. Etc, etc.
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO caracteres
+RECEBE (ch)
+	ch <- CHAMAR FUNCAO tolower(ch)
+	CASO (ch)
+		QUANDO('a')
+			num <- 1
+		QUANDO('e')
+			num <- 2
+		QUANDO('i')
+			num <- 3
+		QUANDO('o')
+			num <- 4
+		QUANDO('u')
+			num <- 5
+	FIM CASO
+DEVOLVE (num)
+FIM FUNCAO caracteres

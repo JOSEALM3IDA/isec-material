@@ -1,0 +1,59 @@
+-> Escreva o algoritmo de um programa em que, dados três inteiros que representam o dia, mês e ano de uma determinada data, 
+calcule e imprima o dia, o mês e o ano, relativos à data do dia seguinte. Não considere os anos bissextos.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+dia (inteiro): dia de hoje
+mes (inteiro): mes deste mes
+ano (inteiro): ano deste ano
+
+RESULTADOS PRETENDIDOS:
+dia (inteiro): dia seguinte
+mes (inteiro): mes seguinte
+ano (inteiro): ano seguinte
+
+CONHECIMENTO REQUERIDO:
+JAN,MAR,MAI,JUL,AGO,OUT,DEZ têm 31 dias
+ABR,JUN,SET,NOV têm 30 dias
+FEV tem 28 dias
+dia <- dia + 1
+mes <- mes + 1
+ano <- ano + 1
+
+ESTRATÉGIA:
+Pede a data atual ao utilizador.
+Verifica se é o ultimo dia do ano e, se for, o dia seguinte passa a 1, o mês passa a 1 e o ano incrementa 1 unidade.
+Senão, se for o último dia do corrente mês, o dia pasa a 1, o mês incrementa 1 unidade e o ano mantém-se.
+Senão, apenas o dia incrementa 1 unidade e o mês e o ano mantém-se.
+Mostra dia, mês e ano atualizados ao utilizador.
+
+PSEUDO-CÓDIGO
+
+INÍCIO diaSeguinte
+
+	OBTÉM (dia,mes,ano)
+	SE (mes = 4 ou mes = 6 ou mes = 9 ou mes = 11) ENTÃO
+		ultimoDia = 30
+	SENÃO
+		SE (mes = 2)
+			ultimoDia = 28
+		SENÃO
+			ultimoDia = 31
+		FIMSE
+	FIMSE
+	SE (dia = ultimoDia e mes = 12) ENTÃO
+			dia <- 1
+			mes <- 1
+			ano <- ano + 1
+	SENÃO
+		SE (dia = ultimoDia) ENTÃO
+				dia <- 1
+				mes <- mes + 1
+		SENÃO
+				dia <- dia + 1
+		FIMSE
+	FIMSE
+	MOSTRA (dia,mes,ano)
+	
+FIM diaSeguinte

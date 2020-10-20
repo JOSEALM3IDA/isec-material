@@ -1,0 +1,41 @@
+-> Desenvolva um algoritmo que indique se um determinado número inteiro positivo N é perfeito. 
+O algoritmo deve também mostrar o valor de todos os divisores de N. 
+Nota: Considera-se que um número N é perfeito se a soma de todos os seus divisores, inferiores a N, for igual ao próprio N.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+N (inteiro): numero N
+
+RESULTADOS PRETENDIDOS:
+divisor (inteiro): divisores de N
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pedir N
+Obter divisores de N (experimentar todos os valores de 1 a N)
+Somar os divisores de N. Se a soma for igual a N, N é perfeito.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO divisores
+
+	divisor = 1
+	soma = 0
+	OBTÉM (N)
+	FAZER
+		SE ( N % divisor == 0) ENTÃO
+			MOSTRA(divisor)
+		FIM SE
+		soma <- soma + divisor
+		divisor <- divisor + 1
+	ENQUANTO (divisor <= N)
+	
+	SE (soma == N)
+		MOSTRA("PERFEITO")
+	FIM SE
+	
+FIM divisores

@@ -1,0 +1,50 @@
+-> Desenvolva um programa que determine qual o número máximo de uma sequência de
+números inteiros não negativos introduzidos pelo utilizador (utilize o valor zero para assinalar
+o fim da sequência). Além de indicar o número máximo, o programa deve especificar em que
+posição da sequência o máximo apareceu e quantos números tinha a sequência.
+
+Exemplo: para a sequência de inteiros 2 5 3 6 8 1 2 0, o programa deverá escrever:
+Maximo: 8 Surgiu na posicao: 5 Tamanho da sequencia: 7
+
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+num (inteiro): numero da sequencia
+
+RESULTADOS PRETENDIDOS:
+maiorNum(inteiro): maior numero
+pos (inteiro): posicao do maior numero
+tamanho (inteiro): tamanho da sequencia
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pede uma sequencia de numeros.
+A partir de cada numero fornecido:
+
+Se for 0, termina e apresenta o valor maximo, a sua posicao e o tamanho da sequencia.
+Se for diferente de 0 soma 1 ao contador e vai comparar com o maior numero lido até lá.
+Se o numero lido for maior que o maior numero, atribui o valor do numero lido ao maior numero.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO sequencia
+
+	FAZER 
+		OBTÉM (num)
+		
+		SE(num != 0)
+			tamanho <- tamanho + 1
+		FIM SE
+		SE(num > maiorNum)
+			pos <- tamanho;
+			maiorNum <- num
+		FIM SE
+	ENQUANTO (num != 0)
+	
+	MOSTRA(maiorNum,pos,tamanho)
+	
+FIM sequencia

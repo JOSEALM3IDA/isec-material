@@ -1,0 +1,31 @@
+a) yeet
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+v (vetor de inteiros): Vetor de N números inteiros à escolha do utilizado
+
+RESULTADOS PRETENDIDOS:
+media (real): Media dos N elementos do vetor
+
+CONHECIMENTO REQUERIDO:
+N = 5: tamanho do vetor
+
+ESTRATÉGIA:
+Obter N valores inteiros e guardá-los no vetor.
+Percorrer os N elementos e ir somando o seu valores.
+Calcular a média dividindo a soma por N e mostrá-la.
+
+PSEUDO-CÓDIGO
+
+INÍCIO programa
+	i <- 0
+	media <- 0
+	ENQUANTO (i<N) FAZER
+		OBTEM (v[i])
+		media <- media + v[i]
+		i <- i + 1
+	FIM ENQUANTO
+	media <- media/N
+	MOSTRA(media)
+FIM programa

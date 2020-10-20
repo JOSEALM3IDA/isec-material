@@ -1,0 +1,40 @@
+-> Suponha que pretende calcular a nota final da disciplina de Introdução à Programação, que é obtida com base em dois testes intercalares e 
+um exame final. Desenvolva o algoritmo, considerando que os testes e o exame foram cotados para um total de vinte valores, em que cada um dos 
+dois testes vale 2 valores e o exame vale 16 valores.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+nTeste1 (real): nota do primeiro teste
+nTeste2 (real): nota do segundo teste
+nExame (real): nota do exame
+
+RESULTADOS PRETENDIDOS:
+nFinal (real): nota final da disciplina
+
+CONHECIMENTO REQUERIDO:
+nTeste1 <- nTeste1/10
+nTeste2 <- nTeste2/10
+nExame <- 16*nExame/20
+nFinal <- nTeste1+nTeste2+nExame
+
+ESTRATÉGIA:
+-Pedir a nota dos testes e do exame ao utilizado e registá-la
+-Calcular a nota dos testes 1 e 2 para 2 valores e a nota do exame para 16 valores
+-Calcular a nota final da disciplina
+-Apresentar o resultado
+
+
+PSEUDOCÓDIGO
+
+INÍCIO notaIP
+
+	OBTÉM (nTeste1,nTeste2,nExame)
+	nTeste1 <- nTeste1/10
+	nTeste2 <- nTeste2/10
+	nExame <- 16*nExame/20
+	nFinal <- nTeste1+nTeste2+nExame
+	
+	MOSTRA (nFinal)
+	
+FIM notaIP

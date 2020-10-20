@@ -1,0 +1,35 @@
+-> Elabore um algoritmo que obtenha um número inteiro e que calcule a soma dos seus dígitos.
+(Sugestão: os dígitos de um número inteiro são obtidos efectuando sucessivas divisões por 10.)
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+numero (inteiro): numero inteiro
+
+RESULTADOS PRETENDIDOS:
+soma (inteiro): soma dos digitos do numero
+
+CONHECIMENTO REQUERIDO:
+------
+
+ESTRATÉGIA:
+Pedir o numero inteiro. 
+Calcular o resto de divisoes inteiras sucessivas por 10 e somar os restos (digitos do numero). Quando valor for 0, parar.
+Mostrar a soma
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO somadigitos
+	resto = 0
+	soma = 0
+	OBTÉM (numero)
+	FAZER
+		resto <- numero%10
+		soma <- soma + resto
+		numero <- numero/10
+	ENQUANTO (numero != 0)
+	
+	MOSTRA (soma)
+	
+FIM somadigitos

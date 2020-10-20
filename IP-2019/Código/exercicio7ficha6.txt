@@ -1,0 +1,39 @@
+a) yeet
+
+ESPECIFICAÇÃO DA FUNÇÃO
+
+DADOS DE ENTRADA:
+v (vetor de inteiros) - Vetor de números inteiros
+tam (inteiro) - Tamanho do vetor
+
+RESULTADOS PRETENDIDOS:
+pos (inteiro) - posição (indice) do maior valor do vetor
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Receber v e tam.
+Encontrar o maior elemento do vetor e guardar a sua posição em pos: considerar 1º elemento como sendo o maior e inicializar pos com 0.
+Percorrer restantes elementos do vetor e sempre que um desses elementos for maior ou igual ao maior valor considerado, atualizar maior valor
+com elemento atual e atualizar pos com posição de elemento atual.
+Devolver pos.
+
+b) yeet
+
+ESPECIFICAÇÃO DA FUNÇÃO
+
+DADOS DE ENTRADA:
+v (vetor de inteiros) - Vetor de inteiros cujos elementos se querem deslocar
+tam (inteiro) - Tamanho do vetor
+
+RESULTADOS PRETENDIDOS:
+v (vetor de inteiros) - Vetor com os valores deslocaados uma posição para a direita
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Receber v e tam
+Guardar o último valor do vetor e transpor o pénultimo valor para o lugar do último.
+Transpor cada valor para uma posição à direita e, por fim, atribuir o valor do ex-último indice ao primeiro novo indice.

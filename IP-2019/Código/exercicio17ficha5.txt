@@ -1,0 +1,27 @@
+a) yeet
+
+ESPECIFICAÇÃO DA FUNCAO
+
+DADOS DE ENTRADA:
+ch (char): um dos caracteres da palavra introduzida pelo utilizador
+
+RESULTADOS PRETENDIDOS:
+CH (char): cada um dos caracteres da palavra mas em maiuscula
+num (inteiro): numero de letras da palavra
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pede uma palavra ao utilizador.
+Percorre todos os caracteres da palavra, transforma-os em maiuscula e devolve-o.
+Em cada caracter percorrido, incrementa num.
+Quando ler um '\n' (enter) acaba.
+Devolve num-1.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO palavra
+
+FIM FUNCAO palavra

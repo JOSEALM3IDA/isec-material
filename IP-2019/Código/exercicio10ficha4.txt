@@ -1,0 +1,48 @@
+-> Desenvolva um programa que leia um conjunto de números reais introduzidos pelo utilizador.
+Espera-se que o utilizador introduza os números por ordem crescente. A leitura deve terminar
+quando esta regra for violada. No final da introdução, o programa deve indicar a soma e a
+média dos números correctamente introduzidos.
+
+Exemplo: para a sequência de números -2.4 -1.5 3 7.8 12.2 8.9, o programa deverá escrever:
+Soma: 19.1
+Media: 3.82
+Nota: repare que o numero 8.9 não é considerado, uma vez que nao está na ordem correta
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+num (real): nice
+
+RESULTADOS PRETENDIDOS:
+soma (real): nice
+media (real): nice
+
+CONHECIMENTO REQUERIDO:
+media = soma / i
+
+ESTRATÉGIA:
+nice
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO crescente
+	i <- 0
+	soma <- 0
+	media <- 0
+	
+	OBTÉM (num)
+	
+	ENQUANTO
+		soma <- soma + num
+		i <- i + 1
+		
+		numAnterior <- num
+		OBTÉM (num)
+	ENQUANTO (num >= numAnterior)
+	
+	media <- soma / i
+	
+	MOSTRA(soma,media)
+	
+FIM crescente

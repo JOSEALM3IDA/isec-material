@@ -1,0 +1,60 @@
+-> Desenvolva um programa que simule o funcionamento de uma caixa registadora de um
+supermercado. Considere que existem produtos de dois tipos: alimentares e não alimentares.
+O programa deve receber como entrada o preço e o tipo de um conjunto de produtos. A
+introdução termina quando surgir um preço nulo ou negativo. Os preços introduzidos estão
+sujeitos a uma taxa de IVA de 6% para os produtos alimentares e de 23% para os produtos
+não alimentares. Para cada cliente deve ser emitido um talão com a seguinte informação:
+número de produtos alimentares, número de produtos não alimentares, número total de
+produtos, preço sem IVA e preço com IVA (com duas casas decimais).
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+preco (real): preco do produto
+tipoProduto (char): tipo do produto (alimentar ou nao alimentar)
+
+RESULTADOS PRETENDIDOS:
+numAlimentares (inteiro)
+numNaoAlimentares (inteiro)
+precoTotal (real)
+precoTotalIVA (real)
+
+CONHECIMENTO REQUERIDO:
+ivaAlimentar = 0.06: taxa de iva para produtos alimentares
+ivaNaoAlimentar = 0.23:  taxa de iva para produtos nao alimentares
+
+ESTRATÉGIA:
+Vai obtendo tipo de produto e o preço enquanto este último for positivo.
+Consoante o tipo for alimentar ou não alimentar, incrementa contador respetivo e soma o preço lido ao preço
+total sem IVA e o preço lido, multiplicado pela respetiva taxa, ao preco total com IVA
+No fim, mostra ao utilizador o nº de produtos alimentares e não alimentares, o nº total de produtos, bem como o
+preço total com e sem IVA.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO fatura
+
+	FAZER
+		OBTÉM (preco)
+		SE (preco > 0)
+			OBTÉM (tipoProduto)
+			CASO tipoProduto
+				QUANDO A
+					numAlimentares <- numAlimentares + 1
+					precoTotal <- precoTotal + preco
+					preco <- preco * ivaAlimentar
+					precoTotalIVA <- precoTotalIVA * preco
+				QUANDO N
+					numNaoAlimentares <- numNaoAlimentares + 1
+					precoTotal <- precoTotal + preco
+					preco <- preco * ivaNaoAlimentar
+					precoTotalIVA <- precoTotalIVA * preco
+			FIM CASO
+		FIM SE
+	ENQUANTO (preco > 0)
+	numProdutos <- numAlimentares + numNaoAlimentares
+	
+	MOSTRA (numNaoAlimentares, precoTotal, precoTotalIVA, numAlimentares, numProdutos)
+	
+FIM fatura

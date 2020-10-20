@@ -1,0 +1,16 @@
+a) yeet
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+frase (string) - Frase introduzida pelo utilizador
+
+RESULTADOS PRETENDIDOS:
+Mostrar frase com os caracteres por ordem inversa
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Obtem frase do utilizador
+Posiciona índice no último caracter da frase e vai mostrando os caracteres até chegar ao primeiro.

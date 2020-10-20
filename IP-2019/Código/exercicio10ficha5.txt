@@ -1,0 +1,99 @@
+a) Cubo de um número
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+num (inteiro): numero cujo cubo é pretendido
+
+RESULTADOS PRETENDIDOS:
+cubo (inteiro): cubo de num
+
+CONHECIMENTO REQUERIDO:
+cubo = num * num * num
+
+ESTRATÉGIA:
+Pegar no número e multiplica-lo 3 vezes por si mesmo
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO cubo
+RECEBE (num)
+	cubo <- num * num * num
+	DEVOLVE cubo
+FIM FUNCAO cubo
+
+
+
+
+
+
+b) Pedir um numero ao utilizador e devolve-lo
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+num (inteiro): numero introduzido
+
+RESULTADOS PRETENDIDOS:
+num (inteiro): mesmo numero
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pegar no número e verificar se está dentro do intervalo 100 a 999. Se sim, devolve-lo, se não, obter novo numero.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO devolver
+RECEBE ()
+	FAZER
+		OBTEM(num)
+		DEVOLVE (num)
+	ENQUANTO(num<100 OU num>999)
+FIM FUNCAO devolver
+
+
+
+
+
+
+c) Propriedade
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+num (inteiro): numero introduzido
+
+RESULTADOS PRETENDIDOS:
+Devolver 1 (se a propriedade se verificar) ou 0 (se não)
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pegar no número e verificar se a soma dos seus dígitos é igual ao proprio número.
+Se sim devolver 1, se não, devolver 0.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO propriedade
+RECEBE (num)
+	k <- 0
+	soma <- 0
+	x <- num
+	ENQUANTO (k<3) FAZER
+		resto <- resto(x/10)
+		soma <- soma + cubo(resto)
+		x <- divisao inteira(x/10)
+		k <- k + 1
+	FIM ENQUANTO
+	SE (soma = num)
+		DEVOLVE 1
+	SENÃO
+		DEVOLVE 0
+	FIMSE
+FIM FUNCAO propriedade

@@ -1,0 +1,41 @@
+-> Escreva um algoritmo que calcule o número de votantes de um município, tendo por base o número de votos brancos, nulos e válidos.
+Deve também calcular e escrever a percentagem que cada tipo de voto representa em relação ao total de votantes.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+numeroValidos (real): numero de votos validos
+numeroBrancos (real): numero de votos em brancos
+numeroNulos (real: numero de votos nulos
+
+RESULTADOS PRETENDIDOS:
+numeroVotantes (real): numero total de votantes
+percentagemValidos (real): percentagem de votos validos
+percentagemBrancos (real): percentagem de votos em brancos
+percentagemNulos (real): percentagem de votos nulos
+
+CONHECIMENTO REQUERIDO:
+numeroVotantes <- numeroValidos + numeroBrancos + numeroNulos
+percentagemValidos <- 100 * numeroValidos / numeroVotantes
+percentagemBrancos <- 100 * numeroBrancos / numeroVotantes
+percentagemNulos <- 100 * numeroNulos / numeroVotantes
+
+ESTRATÉGIA:
+- Pedir ao utilizador o número de votos válidos, em branco, e nulos
+- Calcular o numero total de votantes
+- Calcular a percentagem de votos validos, brancos e nulos
+- Mostrar o numero total de votantes e as percentagens dos votos validos, brancos, e nulos
+
+PSEUDOCÓDIGO
+
+INÍCIO votosNumeroPercentagem
+
+	OBTÉM (numeroValidos,numeroBrancos,numeroNulos)
+	numeroVotantes <- numeroValidos + numeroBrancos + numeroNulos
+	percentagemValidos <- 100 * numeroValidos / numeroVotantes
+	percentagemBrancos <- 100 * numeroBrancos / numeroVotantes
+	percentagemNulos <- 100 * numeroNulos / numeroVotantes
+	
+	MOSTRA (numeroVotantes,percentagemValidos,percentagemBrancos,percentagemNulos)
+	
+FIM votosNumeroPercentagem

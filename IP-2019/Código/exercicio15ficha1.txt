@@ -1,0 +1,43 @@
+-> Escreva um algoritmo para ler o número de lados de um polígono regular, e a medida do lado. Deve ainda calcular e imprimir a seguinte informação:
+	•Se o número de lados for igual a 3 escrever TRIÂNGULO e o valor do seu perímetro.
+	•Se o número de lados for igual a 4 escrever QUADRADO e o valor da sua área.
+	•Se o número de lados for igual a 5 escrever PENTÁGONO. 
+OBS: Considere que o utilizador só introduz os valores 3, 4 ou 5.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+nLados (inteiros): numero de lados do poligono
+mLados (real): medida dos lados do poligono
+
+RESULTADOS PRETENDIDOS:
+perimArea (real): perimetro no caso de ser um triangulo / area no caso de ser um quadrado
+Mostrar tipo do poligono ao utilizador (TRIANGULO, QUADRADO, PENTAGONO)
+
+CONHECIMENTO REQUERIDO:
+perimArea <- 3*mLados (caso seja um triangulo) / perimArea <- mLados*mLados (caso seja um quadrado)
+
+ESTRATÉGIA:
+Pedir nº de lados e medida do lado ao utilizador.
+Se for um triangulo, calcular o seu perimetro e mostrar ao utilizador, juntamente com a indicação de TRIANGULO.
+Se for um quadrado, calcular a sua area e mostrar ao utilizador, juntamente com a indicação de QUADRADO.
+Se for um pentagono, mostrar ao utilizador a indicação de PENTAGONO.
+
+
+PSEUDOCÓDIGO
+
+INÍCIO poligonoTeste
+
+	OBTÉM (nLados, mLados)
+	SE (nLados = 3) ENTÃO
+		perimArea <- 3*mLados
+		MOSTRA ("TRIANGULO", perimArea)
+	SENÃO 
+		SE (nLados = 4) ENTÃO
+			perimArea <- mLados*mLados
+			Mostra ("QUADRADO", perimArea)
+		SENÃO
+			MOSTRA ("PENTAGONO")
+		FIMSE
+	FIMSE
+FIM poligonoTeste

@@ -1,0 +1,47 @@
+-> yeet
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+inf,sup(inteiro) - limites
+n(inteiro) - numero que se pretende testar
+
+RESULTADOS PRETENDIDOS:
+estado(inteiro): 1 se inf<=n<=sup, 0 caso contrario
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Receber nf, sup e n
+Verificar se o número n está entre os limites inf e sup
+Devolver 1 se o número estiver dentro dos limites, ou 0, caso contrário
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO main
+
+	OBTEM(limI,limS)
+	FAZ
+		OBTEM(n)
+		SE (CHAMA verificaLimites(num,limS,limI) = 1) ENTÃO
+			ESCREVE("DENTRO")
+		SENÃO
+			ESCREVE("FORA")
+		ESCREVE("Continuar?")
+		OBTEM S
+	ENQUANTO (op='S' OU op='s')
+	
+	MOSTRA
+	
+FIM main
+
+INICIO FUNCAO verificaLimites(n,sup,inf)
+RECEBE (n,sup,inf)
+	SE(n <= sup E n >= inf) ENTÃO
+		DEVOLVE 1
+	SENÃO
+		DEVOLVE 0
+FIM FUNCAO verificaLimites
+	

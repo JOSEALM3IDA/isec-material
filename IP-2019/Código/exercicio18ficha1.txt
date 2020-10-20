@@ -1,0 +1,56 @@
+-> Elabore um algoritmo que recebe as coordenadas de um ponto (x, y), em que x é a abcissa e y a ordenada (valores inteiros), 
+e efectue as seguintes tarefas:
+•Verifique se o ponto está na origem dos eixos (0,0);
+•Verifique se o ponto está sobre algum dos dois eixos;
+•Indique se a abcissa e a ordenada são positivas ou negativas.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+x (inteiro): valor de x
+y (inteiro): valor de y
+
+RESULTADOS PRETENDIDOS:
+Indicar ao utilizador se o ponto está na origem, sobre um dos eixos ou a qual quadrante pertence.
+
+CONHECIMENTO REQUERIDO:
+-
+
+ESTRATÉGIA:
+Pede as coordenadas do ponto e verifica a localização do ponto.
+Indica ao utilizador se é a origem, se está sobre um dos eixos ou a qual quadrante a que pertence.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO coordenadas
+
+	OBTÉM (x,y)
+	SE (x > 0 e y > 0) ENTÃO
+		MOSTRA("O ponto pertence ao primeiro quadrante")
+	SENÃO
+		SE (x < 0 e y > 0) ENTÃO
+			MOSTRA("O ponto pertence ao segundo quadrante")
+		SENÃO
+			SE (x < 0 e y < 0) ENTÃO
+				MOSTRA("O ponto pertence ao terceiro quadrante")
+			SENÃO
+				SE (x > 0 e y < 0) ENTÃO
+					MOSTRA("O ponto pertence ao quarto quadrante")
+				SENÃO
+					SE (y = 0) ENTÃO
+						MOSTRA("O ponto pertence ao eixo dos xx")
+					SENÃO
+						Se (x = 0) ENTÃO
+							MOSTRA("O ponto pertence ao eixo dos yy")
+						SENÃO 
+							SE (x = 0 e y = 0)
+								MOSTRA("O ponto é a origem")
+						FIMSE
+					FIMSE
+				FIMSE
+			FIMSE
+		FIMSE
+	FIMSE
+
+FIM coordenadas

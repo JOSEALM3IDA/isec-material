@@ -1,0 +1,36 @@
+-> Descrição do problema
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+base (real) - base da potência
+expoente (inteiro) - valor do expoente
+
+RESULTADOS PRETENDIDOS:
+potencia (real) - resultado da base elevada ao expoente
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Obter base e expoente.
+Calcular potencia multiplicando a base por si própria "expoente vezes".
+Mostrar potencia.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO potencia
+
+	OBTÉM (base,expoente)
+	potencia - 1
+	contador - 1
+	
+	ENQUANTO (contador <= expoente) FAZER
+		potencia <- potencia * base
+		contador <- contador + 1
+	FIM ENQUANTO
+	
+	MOSTRA (potencia)
+	
+FIM potencia

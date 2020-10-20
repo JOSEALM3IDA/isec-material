@@ -1,0 +1,40 @@
+-> Desenvolva o algoritmo de um programa que efectue a leitura de um número inteiro positivo e, caso este seja par, proceda à sua divisão por 
+2, caso contrário, efectue a sua multiplicação por 3 e adicione 1 unidade. O procedimento deve ser repetido até ser lido o 1. O programa 
+deverá imprimir cada um dos valores intermédios e no final deverá indicar o nº de operações efectuadas.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+numero (inteiro): numero inteiro positivo inserido pelo utilizador
+
+RESULTADOS PRETENDIDOS:
+numero (inteiro): valores intermedios resultantes da divisao por 2 dos numeros par ou da multiplicaçao por 3 e soma de 1 dos numeros impares
+operacoes (inteiro): numero de operacoes efetuadas
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pedir o valor de numero, verificar se é par (dividir por 2) ou impar(multiplicar por 3 e somar 1), e repetir até ser lido 1
+Ir apresentando todos os valores intermedios de numero 
+
+PSEUDO-CÓDIGO
+
+INÍCIO parimpar
+
+	operacoes <- 0
+	FAZER
+		OBTÉM (numero)
+	ENQUANTO (numero <= 0)
+	FAZER
+		SE (numero%2 == 0) ENTÃO
+			numero <- numero / 2
+		SENÃO
+			numero <- 3*numero + 1
+		FIM SE
+		operacoes <- operacoes + 1
+		MOSTRA (numero)
+	ENQUANTO (numero =/= 1)
+	MOSTRA (operacoes)
+	
+FIM parimpar

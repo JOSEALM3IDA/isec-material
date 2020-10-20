@@ -1,0 +1,49 @@
+-> yeet
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+linhas(inteiro): numero entre 2 e 9
+
+RESULTADOS PRETENDIDOS:
+Mostrar um triangulo invertido formado por numeros
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Recebe linhas
+Escreve numeros de 1 até linhas e de linhas-1 até 1. Muda de linha.
+Escreve 1 espaço, escreve número de 1 até linhas-2 e de linhas-3 até 1.
+Escreve 2 espaços, escreve números de 1 até linhas-2 e de linhas-3 até 1. Muda de linha.
+E assim, sucessivamente, até chegar à linha "linhas"
+
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO main
+
+	
+FIM main
+
+INICIO FUNCAO triangulo
+RECEBE (n)
+	esp <- 0
+	ENQUANTO (n>=1) FAZER
+		j <- 1
+		ENQUANTO (j<=esp) FAZER
+			MOSTRA(" ")
+			j <- j + 1
+		FIM ENQUANTO
+		j <- 1
+		ENQUANTO (j<=n) FAZER
+			MOSTRA(j)
+			j <- j + 1
+		FIM ENQUANTO
+		j <- n-1
+		ENQUANTO (j>=1) FAZER
+			MOSTRA("")
+			
+			fuck nao copiei,desculpa
+FIM FUNCAO triangulo

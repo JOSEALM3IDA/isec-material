@@ -1,0 +1,30 @@
+-> Calcular a média das notas de dois testes de um aluno
+
+ANALISE
+
+DADOS DE ENTRADA:
+nota1 (real): nota do teste 1
+nota2 (real): nota do teste 2
+
+RESULTADOS PRETENDIDOS:
+media (real): media das duas notas
+
+CONHECIMENTO REQUERIDO:
+media <- (nota1 + nota2)/2
+
+ESTRATÉGIA:
+- Pedir as notas dos 2 testes ao utilizador
+- Calcular média usando fórmula
+- Mostra valor da média ao utilizador
+
+
+PSEUDOCÓDIGO
+
+INÍCIO CalculaMedia
+
+	OBTÉM (nota1,nota2)
+	media <- (nota1 + nota2)/2
+	
+	MOSTRA (media)
+	
+FIM CalculaMedia

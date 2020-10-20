@@ -1,0 +1,41 @@
+a) yeet
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+n (inteiro) - numero de valores da sequencia (parametro de entrada)
+num (inteiro) - cada numero da sequencia (obtido do utilizador)
+
+RESULTADOS PRETENDIDOS:
+conta (inteiro) - n de vezes q o valor maximo surgiu (parametro saida)
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Vai pedindo n numeros
+Considera que maior valor é o 1º numero da sequencia
+Para cada um dos restates (n-1) numeros da sequencia, compara-o com o maior valor e, se for superior, considera-o como novo maior valor 
+e volta a colocar o conta a 1.
+Senão, se for igual ao maior valor, incrementa o contador.
+Devolve o valor do contador.
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO maior
+RECEBE n
+	i <- 1
+	ENQUANTO (i<= n) FAZER
+		OBTEM(num)
+		SE (i = 1 OU num>max) ENTÃO
+			max <- num
+			conta <- 1
+		SENÃO 
+			SE (num = max) ENTÃO
+				conta <- conta + 1
+			FIM SE
+		FIM SE
+		i <- i + 1
+	FIM ENQUANTO
+DEVOLVE conta
+FIM FUNCAO maior

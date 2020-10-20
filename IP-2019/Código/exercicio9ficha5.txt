@@ -1,0 +1,35 @@
+-> Descriçao do problema
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+x1,x2(reais): numeros reais positivos
+
+RESULTADOS PRETENDIDOS:
+mediaInteira(inteiro): numero inteiro que mais se aproxima da media entre x1 e x2
+
+CONHECIMENTO REQUERIDO:
+formula da media
+
+ESTRATÉGIA:
+Recebe x1 e x2 e calcula a sua média aritmética.
+Se a parte decimal de media for inferior a 0.5 atribui a mediaInteira a parte inteira da média, senão, atribui-lhe
+a parte inteira da média +1.
+Devolve mediaInteira.
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO arredondar
+RECEBE (x1,x2)
+
+	media <- (x1+x2)/2
+	
+	mediaInteira <- divisao inteira ((x1+x2)/2)
+	
+	SE (media-mediainteira >= 0.5) ENTÃO
+		mediaInteira <- mediaInteira +1
+	FIMSE
+	
+	DEVOLVE (mediaInteira)
+	
+FIM FUNCAO arrendondar

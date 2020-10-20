@@ -1,0 +1,31 @@
+-> Desenvolva um programa que imprima, em várias linhas, os 25 primeiros múltiplos de um dado número inteiro introduzido pelo utilizador. 
+Cada uma das linhas escritas deve conter 5 múltiplos do número especificado.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+num (inteiro): numero inteiro inserido pelo utilizador
+contador (inteiro): contador do while
+
+RESULTADOS PRETENDIDOS:
+multiplo(inteiro): multiplos do numero inserido
+
+CONHECIMENTO REQUERIDO:
+multiplo <- num x (2 a 6)
+
+ESTRATÉGIA:
+Pedir o numero inteiro ao utilizador
+Multiplicar esse numero de 2 ate 6, e mostrar ao utilizador.
+
+PSEUDO-CÓDIGO
+
+INÍCIO multiplos
+
+	OBTÉM (num)
+	ENQUANTO (contador <= 6) FAZER
+		multiplo <- num x contador
+		contador <- contador + 1
+		MOSTRA (multiplo)
+	FIM ENQUANTO
+	
+FIM multiplos

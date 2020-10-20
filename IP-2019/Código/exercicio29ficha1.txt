@@ -1,0 +1,46 @@
+-> Desenvolva um algoritmo para ler um número indeterminado de dados, contendo cada um o peso de um indivíduo.
+O último dado que não entrará nos cálculos, contém um valor negativo. O algoritmo deve calcular e imprimir:
+•A média aritmética das pessoas que possuem mais de 60 Kg.
+•O peso da pessoa mais pesada que integra o grupo de indivíduos commenos de 60 Kg.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+peso(real) - Peso de uma pessoa
+
+RESULTADOS PRETENDIDOS:
+media (real) - Media dos pesos das pessoas com mais de 60 Kg
+maiorpeso(real)  - Valor do peso maior entre todas as pessoas abaixo de 60 Kg
+
+CONHECIMENTO REQUERIDO:
+-----
+
+ESTRATÉGIA:
+Obter o peso das pessoas. Enquanto for positivo, vai contabilizando o numero de pessoas que tem peso maior que 60 kg, vai somando todos
+os pesos maiores que 60 kg e vai atualizar o maior peso registado até ao momento de menos de 60 kg.
+Calcula média dos valores acima de 60
+Mostra valores de media e do maiorpeso.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO pesos
+	media <- 0
+	contador <- 0
+	maiorpeso <- 0
+	FAZER
+		OBTÉM (peso)
+		SE (peso > 60) ENTÃO
+			media <- media + peso
+			contador <- contador + 1
+		SENÃO
+			SE (peso < 60) ENTÃO
+				SE (maiorpeso < peso) ENTÃO
+					maiorpeso <- peso
+				FIM SE
+			FIM SE
+		FIM SE
+	ENQUANTO (peso >= 0)
+	media <- media / contador
+	MOSTRA (media, maiorpeso)
+FIM pesos

@@ -1,0 +1,100 @@
+ESPECIFICAÇÃO DA FUNÇAO PedeAposta:
+
+DADOS DE ENTRADA:
+jogador (inteiro): numero do jogador (parametro entrada)
+
+RESULTADOS PRETENDIDOS:
+ap (inteiro): aposta feita pelo jogador (parametro saida)
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Pedir a aposta do jogador e devolve-la
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO PedeAposta
+RECEBE (jogador)
+	OBTEM(ap)
+DEVOLVE (ap)
+FIM FUNCAO devolver
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+ESPECIFICAÇÃO DA FUNÇAO Compara:
+
+DADOS DE ENTRADA:
+a,b(inteiro): Números a comparar (parametros entrada)
+
+RESULTADOR PRETENDIDOS:
+res: -1 se a<b
+	  0 se a=b
+	  1 se a>b
+	  
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Compara os números e devolve o valor correspondente (res)
+
+PSEUDO-CÓDIGO
+INICIO FUNÇÃO Compara
+RECEBE (a,b)
+	SE (a<b)ENTÃO
+		res <- -1
+	SENÃO
+		SE (a = b) ENTÃO
+			res <- 0
+		SENÃO 
+			res <- 1
+		FIM SE
+	FIM SE
+DEVOLVE (res)
+FIM FUNÇÃO Compara
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+ESPECIFICAÇÃO DO PROGRAMA
+
+DADOS DE ENTRADA:
+aposta (inteiro): apostas dos jogadores (obtidas à vez)
+
+RESULTADOS PRETENDIDOS:
+Mensagem que indica se o valor da aposta está acima ou abaixo do pretendido, ou se o jogador acertou.
+	
+CONHECIMENTO REQUERIDO:
+MAX = 500 : Limite máximo para o número a adivinhar
+
+ESTRATÉGIA:
+Gerar nº aleatório
+Ir pedindo alternadamente a aposta a cada jogador, chamando a função PedeAposta, e verificar se está abaixo, se está acima ou se coincide
+com o nº gerado, chamando a função Compara.
+Com base no resultado emitir mensagem de aviso no ecrã.
+Terminar quando algum jogador acerta.
+
+PSEUDO-CÓDIGO
+INÍCIO Programa
+	alvo <- numero aleatório
+	j <- 1
+	FAZER
+		aposta <- CHAMA FUNÇÃO PedeAposta(j)
+		r <- CHAMA FUNÇÃO Compara(alvo,aposta)
+		SE (r = -1) ENTÃO
+			MOSTRA ("Valor abaixo do numero certo!")
+		SENÃO
+			SE (r = 1) ENTÃO
+				MOSTRA("Valor abaixo do numero certo!")
+			SENÃO
+				MOSTRA ("Acertou!")
+			FIM SE
+		FIM SE
+		SE (j = 1) ENTÃO
+			j <- 2
+		SENÃO
+			j <- 1
+		FIM SE
+	ENQUANTO (r =/= 0)
+FIM PROGRAMA

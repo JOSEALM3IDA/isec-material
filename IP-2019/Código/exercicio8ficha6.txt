@@ -1,0 +1,21 @@
+a) yeet
+
+ESPECIFICAÇÃO DA FUNÇÃO
+
+DADOS DE ENTRADA:
+v (vetor de inteiros) - Vetor de inteiros ordenados em pirâmide
+dim (inteiro) - Tamanho do vetor
+
+RESULTADOS PRETENDIDOS:
+Mostrar os valores no ecrã por ordem decrescente.
+
+CONHECIMENTO REQUERIDO:
+---
+
+ESTRATÉGIA:
+Recebe v e dim.
+Procurar o maior elemento do vetor e mostrá-lo.
+Comparar os valores à esquerda e à direita do maior. Se o da esquerda for maior, mostrá-lo e avançar uma posição para a esquerda. Senão, 
+mostrar o valor da direita e avançar uma posição para a direita. Repetir comparação até que um dos extremos do vetor seja atingido.
+Se o extremo da esquerda for atingido em primeiro lugar, mostrar os restantes valores da direita (incrementando índice). Senão, mostrar os
+restantes valores da esquerda (decrementando índice).

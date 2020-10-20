@@ -1,0 +1,73 @@
+-> Desenvolva uma função que devolva o número de divisores de um valor inteiro positivo, passado como argumento. Escreva o algoritmo de 
+um programa que leia uma sequência de números inteiros. Sempre que nessa sequência surgir um número primo, deve ser escrita no monitor a 
+seguinte mensagem: “O número que introduziu é primo!”. O programa termina quando for introduzido um número negativo ou nulo.
+
+ESPECIFICAÇÃO DA FUNCAO
+
+DADOS DE ENTRADA:
+n (inteiro): numero inteiro (parametro de entrada)
+
+RESULTADOS PRETENDIDOS:
+conta (inteiro): numero de divisores de n (parametro de saida)
+
+CONHECIMENTO REQUERIDO:
+----
+
+ESTRATÉGIA:
+Recebe n
+Verifica se o resto da divisão de n por cada número entre 1 e n é zero e, sempre que for, incrementa o contador
+Devolve valor do contador
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO FUNCAO divisores
+
+	RECEBE (n)
+	conta <- 0
+	i <- 1
+	ENQUANTO (i<=n) FAZER
+		SE (n%i = 0) ENTÃO
+			conta <- conta + 1
+		FIM SE
+		i <- i + 1
+	FIM ENQUANTO
+	DEVOLVE (conta)
+	
+FIM FUNCAO divisores
+
+
+
+
+
+
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+n (inteiro): Cada um dos números à escolha do utilizador.
+
+RESULTADOS PRETENDIDOS:
+Mensagem a indicar se o número é primo.
+
+CONHECIMENTO REQUERIDO:
+----
+
+ESTRATÉGIA:
+Vai obtendo numeros inteiros enquanto estes forem positivos e, para cada um, calcula o seu nº de divisores recorrendo à função divisores.
+Se nº divisores for igual a 2, escreve mensagem a indicar que o número é primo.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO programa
+	FAZER
+		OBTEM(n)
+		SE(n>0)ENTÃO
+			nDiv <- CHAMA divisores(n)
+			SE (nDiv = 2) ENTAO
+				MOSTRA("O numero que introduziu é primo")
+			FIM SE
+		FIM SE
+	ENQUANTO(n>0)
+FIM programa

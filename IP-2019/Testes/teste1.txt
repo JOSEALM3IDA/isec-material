@@ -1,0 +1,5 @@
+Teste - 27 nov
+- 5 valores
+  Análise (25%)
+  Pseudocodigo (50%)
+  Codigo (25%)

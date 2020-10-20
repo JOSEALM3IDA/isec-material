@@ -1,0 +1,40 @@
+-> Construa um algoritmo para ler dois valores e seleccione uma das seguintes operações a ser executada
+(1. Adição,  2. Subtracção,  3. Divisão,  4. Multiplicação). 
+O  Algoritmo deve calcular e escrever o resultado dessa operação com base nos dois valores lidos.
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+x (float): valor 1
+y (float): valor 2
+a (inteiro): variável de caso
+
+RESULTADOS PRETENDIDOS:
+Apresentar o resultado da operação escolhida com base nos dois valores inseridos.
+
+CONHECIMENTO REQUERIDO:
+-
+
+ESTRATÉGIA:
+Pedir o valor 1 e 2. Pedir a variável de caso consoante a operação escolhida pelo utilizador.
+Efetuar a operação pretendida e apresentar o resultado.
+
+
+PSEUDO-CÓDIGO
+
+INÍCIO calculadora
+
+	OBTÉM(x,y,a)
+	CASO a
+		QUANDO 1
+			x <- x + y
+		QUANDO 2
+			x <- x - y
+		QUANDO 3
+			x <- x / y
+		QUANDO 4
+			x <- x * y
+	FIM CASO
+	MOSTRA(x)
+	
+FIM calculadora

@@ -1,0 +1,33 @@
+-> Elabore um algoritmo que calcule a área e o perímetro de um círculo. Deverá fazer a especificação do problema, o pseudocódigo e o programa
+
+ESPECIFICAÇÃO DO PROBLEMA
+
+DADOS DE ENTRADA:
+raio (real): raio do círculo
+
+RESULTADOS PRETENDIDOS:
+area (real): area do circulo
+perimetro (real): perimetro do circulo
+
+CONHECIMENTO REQUERIDO:
+PI=3.1416: valor de pi
+area <- PI.raio.raio
+perimetro <- 2.PI.raio
+
+ESTRATÉGIA:
+- Pede raio do circulo ao utilizador
+- Calcura area e perimetro usando as formulas
+- Mostra valores da area e do perimetro
+
+
+PSEUDOCÓDIGO
+
+INÍCIO CalculaAreaPerimetro
+
+	OBTÉM (raio)
+	area <- PI.raio.raio
+	perimetro <- 2.PI.raio
+	
+	MOSTRA (area,perimetro)
+	
+FIM CalculaAreaPerimetro
