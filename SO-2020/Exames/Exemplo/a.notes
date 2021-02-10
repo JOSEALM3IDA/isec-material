@@ -1,9 +1,0 @@
-
-By: Ricardo Calvão
-
-Pratica:
-
-1.a:
-// nao estou a ter em conta os ficheiros poderem ter espaços
-ls / -Rl 2> logErr.txt | grep '^d' | rev | cut -f 1 -d ' ' | rev > listaDir.txt
-
