@@ -1,0 +1,15 @@
+^ -> Encontrar ola no inicio da linha:
+grep -E "^ola" myfich.txt
+$ -> Encontrar ola no fim da linha:
+grep -E “ola$" myfich.txt
+.. -> Encontrar qualquer palavra que tenha “la” no inicio, meio ou fim:
+grep -E “..la" myfich.txt
+[] -> Encontrar palavra que tenha ola e ole :
+grep -E “ol[a]e" myfich.txt
+[^] -> Encontrar tudo exceto Ola (mostra ole, oli)
+grep -E “Ol[^a]" myfich.txt
+“^[A-Z]“ -> linhas que comecem por maiúsculas
+“([A-Za-z ]*)“ -> encontrar apenas letras e espaços dentro de ()
+“^[A-Z].*\.$“ -> encontrar linha que começa por uma letra maiúscula e termina com um . (o \. é para procurar pelo . E não por qualquer caracter)
+grep -E "[AEIOUaeiou]{3}“ -> as {} permitem encontrar repetições (neste caso 3 vogais seguidas)
+grep -E "[[:alpha:]]{16,20}" -> encontrar palavras que tenham entre 16 e 20 characteres

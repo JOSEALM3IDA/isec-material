@@ -1,0 +1,4 @@
+PuTTY:
+	Host Name / IP address: localhost
+	Port: 6000
+	Connection type: raw

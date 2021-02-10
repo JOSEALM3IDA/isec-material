@@ -1,0 +1,6 @@
+cria territorio 3
+cria territorio 4
+cria territorio 0
+cria nada 4
+cria territorio 2
+cria territorio 6

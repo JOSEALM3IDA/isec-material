@@ -1,0 +1,21 @@
+
+By: Ricardo Calvão
+
+Ex 5 da teorica:
+https://pastebin.com/Z66ni97a
+
+_____________________________________________
+
+Pratica:
+
+a.
+cat /etc/passwd | cut -f 1,5 -d : | grep 'Lopes$' | sort
+
+b.
+versao 1:
+ls /etc -Al | grep '^[^d]' | tr -s ' ' | cut -f 3 -d ' '| uniq | wc -l
+
+versao 2:
+find /etc -maxdepth 1 -not -type d -printf '%u\n' | uniq | wc -l
+
+Na b como diz ficheiros, assumi que são ficheiros regulares e todos os outros tipos excepto directorias só para ser cocó. Não sei se é o mais correto.

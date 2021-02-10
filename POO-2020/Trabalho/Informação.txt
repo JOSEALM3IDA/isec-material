@@ -1,0 +1,26 @@
+Como decidir se um conceito deverá ser considerado classe ou apenas um atributo de uma classe?
+- Se esse elemento for composto por mais que uma variável
+- Se existam comportamentos autónomos desse conceito
+
+Qual a classe que deve criar um determinado objecto?
+- De um modo geral, a classe que tem com esse objecto uma relação de composição.
+- Se o mundo deixa de existir, logo os territórios tambem o deixam. Logo, há uma relação de composição entre território e mundo.
+
+Com que critério devem ser atribuídas responsabilidades às classes?
+- Uma responsabilidade deve ser atribuída à classe que tem a informação necessaria para a realizar (ENCAPSULAMENTO)
+
+Deve uma classe abranger em pormenor muitas e variadas funcionalidades?
+- Uma  classe  deve  ter  um  número  de  métodos  relativamente  pequeno  com  funcionalidade muito relacionada – deve ter alta Coesão.
+
+Devem ser incluídas no mesmo método as funcionalidades de fazer uma acção e retornar informação correspondente?
+- Não: de um modo geral, deve ser adoptado o princípio de Command-Query Separation (um método pode ser um comando ou uma query, mas nunca ambos).
+- Command: executa uma ação (podendo alterar a informação dos objetos)
+- Query: executa uma consulta (sem fazer alteração)
+
+
+Classes a implementar:
+- Interface: módulo que implementa a interação com o utilizador (menus, comandos, leitura de teclado e escrita para o ecrã)
+- Lógica da aplicação: módulo que implementa a gestão da informação, os algoritmos, recebendo os dados necessarios do interface e retornando-lhe os resultados
+- Notas: As classes que fazem parte da lógica não devem depender do interface; As classes do interface não devem conter lógica da aplicação. Recebem ordens do utilizador, delegam a sua execução no módulo da lógica e consultam este módulo para mostrar a informação necessária
+
+

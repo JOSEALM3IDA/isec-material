@@ -1,0 +1,92 @@
+1.
+CREATE TABLE emp2(
+	nemp NUMBER(4) PRIMARY KEY,        // <- O oracle não lhe dá um nome
+	nemp NUMBER(4) CONSTRAINT emp_nemp_fk PRIMARY KEY,  // <- O oracle já dá um nome
+	ndep NUMBER(2),
+	emp_nemp NUMBER(4),
+	encar NUMBER(4),
+	nome VARCHAR(20) NOT NULL,
+	funcao VARCHAR(12),
+	data_entrada date,
+	salario NUMBER(7) CONSTRAINT emp_sal_ck CHECK (sal > 70000),
+	premios NUMBER(4),
+	CONSTRAINT emp_ndep_fk FOREIGN KEY (ndep) REFERENCES dep(ndep),
+	CONSTRAINT emp_encar_fk FOREIGN KEY (encar) REFERENCES emp(nemp),
+	CONSTRAINT emp_nome_ck CHECK (nome = UPPER(nome)));
+
+2.
+INSERT INTO emp2
+	VALUES(5555, 40, NULL, NULL, 'CHICO FININHO', 'Cantor', SYSDATE, 100000, NULL);
+
+3.
+INSERT INTO emp2
+	AS SELECT nemp, ndep, emp_nemp, encar, UPPER(nome) nome_e, funcao, data_entrada, GREATEST(sal, 70001) sal_e, premios
+	FROM emp
+	WHERE nemp not in (1902, 1369);
+	
+4.
+DELETE FROM emp2
+	WHERE nemp = 1654;
+
+5.
+DELETE FROM emp2
+	WHERE sal < (select avg(sal) 
+		     from emp2 e2 
+		     where emp2.ndep = e2.ndep);
+
+6.
+
+7.
+CREATE TABLE Projetos (
+	nproj number(7),
+	nome varchar2(20) NOT NULL,
+	descricao varchar2(60) NOT NULL,
+	CONSTRAINT proj_nproj_pk PRIMARY KEY(nproj),
+	CONSTRAINT proj_nome_uk UNIQUE(nome));
+
+8.
+CREATE OR REPLACE seq_nproj
+	START WITH 500
+	INCREMENT BY 10
+	NOCYCLE;
+
+9.
+INSERT INTO Projetos
+	VALUES(sq_nproj.nextval, 'Horários', 'BD para controlo dos horários do ISEC');
+INSERT INTO Projetos
+	VALUES(sq_nproj.nextval, 'Escondução', 'Base de dados para uma escola de condução');
+INSERT INTO Projetos
+	VALUES(sq_nproj.nextval, 'ORCAP', 'Orçamentos programa');
+
+10.
+CREATE TABLE emp2
+	SELECT nemp, ndep, emp_nemp, encar, upper(nome), nome_e, funcao, data_entrada
+		GREATEST(sal, 70001) SAL_E, premios;
+
+11.
+ALTER TABLE emp2
+	ADD CONSTRAINT emp2_nemp_pk PRIMARY KEY (nemp)
+	ADD CONSTRAINT emp2_nome_e_ck CHECK (nome_e = upper(nome_e))
+	ADD CONSTRAINT emp2_sal_e_ck CHECK (sal_e > 70000)
+	ADD CONSTRAINT emp2_encar_fk FOREIGN KEY (encar)
+		REFERENCES emp2 (nemp);
+
+12.
+CREATE OR REPLACE emp2_number
+	START WITH 1
+	INCREMENT BY 10
+	NOCYCLE;
+
+13. 
+14. 
+15. 
+16.
+CREATE VIEW emp_dep
+	AS SELECT e.nemp, e.nome, e.sal, e.premios, en.nome, d.nome
+	   FROM emp e, emp en, dep d
+	   WHERE e.encar = en.nemp
+	   AND e.ndep = d.ndep;
+17.
+18.
+19.
+20.

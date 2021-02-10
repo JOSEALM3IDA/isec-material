@@ -1,0 +1,7 @@
+cria planicie 5
+modifica ouro 5
+conquista planicie1
+modifica prod 3
+toma terr planicie2
+cria castelo 3
+toma tec Bolsa de Valores

@@ -1,0 +1,131 @@
+Posição do primeiro 0:
+1: Classe A; Privados: 10.0.0.0 - 10.255.255.255; Default mask: 255.0.0.0 (/8)
+2: Classe B; Privados: 172.16.0.0 - 172.31.255.255; Default mask: 255.255.0.0 (/16)
+3: Classe C; Privados: 192.168.0.0 - 192.168.255.255; Default mask: 255.255.255.0 (/24)
+4: Classe D;
+5: Classe E;
+
+TCP/IP
+Objetivo genérico: Transporte de dados entre máquinas por uma network (como por exemplo a internet).
+
+Ports providenciam um serviço de multiplexagem que permite a comunicação de múltiplas aplicações através de um mesmo endereço.
+
+Dois protocolos existentes: 
+TCP - O protocolo TCP (orientado a ligação) visa garantir a entrega correta e fiável dos dados, ou seja, dados sem erros, ordenados e não duplicados, através de diversas confirmações, incluindo o estabelecer da ligação no início da "conversa", timeouts, reordenação, etc.
+UDP - O protocolo UDP (não orientado a ligação) não garante a entrega correta e fiável dos dados. É superior ao TCP quando não é exigida uma total fiabilidade dos dados, pois tem uma menor carga protocolar.
+
+No protocolo TCP, o controlo de fluxo por janela deslizante funciona da seguinte forma, considerando um tamanho de janela de n bytes (capacidade do menor buffer envolvido): O cliente que pretende enviar a data, envia n bytes. Quando o recetor recebe esses n bytes, envia uma confirmação ao remetente, que envia novamente n bytes e espera novamente pela confirmação do recetor. E assim se vai prosseguindo, até que toda a informação esteja transferida.
+
+
+Pares entrançados (Twister pair)
+Não isolados (UTP)
+Isolados (STP)
+Ligações ponto a ponto
+Flexível, fácil instalação
+10Base-T = Ethernet + UTP (unshielded twisted pair) + 10Mbps 
+
+Cabos Coaxiais
+Geralmente para topologia em BUS
+10Base-2 = Ethernet + cabo fino (thin, flexível, 0.25 polegadas) + 10Mbps
+10Base-5 = Ehternet + cabo grosso (thick, 0.5 polegadas) + 10Mbps
+
+
+Fibra ótica:
+Ligações ponto a ponto (anel e estrela)
+Maior largura de banda
+Imunidade a interferências electromagnéticas
+Maior segurança de informação
+100Base-Fx = Ethernet + Fibra Ótica + 100Mbps
+
+
+Token Ring (testemunho): 
+Anel (topologia física e lógica)
+ou 
+Estrela (física) e anel (lógica)
+
+Token Bus:
+Bus (física) e anel (lógica)
+
+
+CSMA/CD:
+Aplicável em topologia bus e estrela
+Acessos assíncronos com possibilidade de ocorrência de colisões
+Maior simplicidade devido à ausência de funções de gestão e ao ser caráter distribuído
+Torna difícil a realização de mecanismos para gestao de prioridades e suporte de requisitos de QoS
+Usado em redes do tipo Ethernet, a tecnologia de redes locais mais comun na atualidade
+
+
+Bus
+Em cada instante, apenas pode transmitir para um único dispositivo
+
+Hub
+Semelhante à situação do bus. Qualquer sinal que seja recebido numa porta é reenviado pelas restantes. Multiport-repeater. "Concentra um bus num unico ponto central". Opera apenas no nível físico, não interpretando os quadros
+
+Pontes
+Com base nos endereços de origem, a ponte vai aprendendo, de um modo dinâmico, de que lado se encontram as máquinas. Quando o destino faz parte da tabela, os quadros apenas são reencaminhados se necessário. Quando o destino não é conhecido ou é do tipo difusão/multicast, os quadros são sempre reencaminhados.
+Expansão de domínios de difusão, segmentação de domínios de colisão
+Só reencaminham quadros sem erros: entre 64 e 1518 bytes, FCS correto, sinal físico não corrompido. Restantes são descartados
+
+Switch (multiport bridge) - opera no data link
+Se não conhece o destino, reencaminha para todas as portas com excessao da origem.
+Comunicação full duplex + ausência de colisões = aumento do débito efetivo
+
+HALF-DUPLEX: Ou escutam ou enviam num determinado instante
+FULL-DUPLEX: Escutam e transmitem ao mesmo tempo
+
+Ethernet 10Mbps "Legacy Ethernet"
+10Base-5 (Bus, cabo coaxial grosso, conector AUI, half-duplex); 10Base-2 (Bus, cabo coaxial fino, conector BNC, half-duplex); 10Base-T (Hub ou switch, STP ou UTP, Conectores RJ-45, Half-duplex ou Full-duplex)
+CSMA/CD
+
+Ethernet 100Mbps "Fast Ethernet (1995)"
+Full-duplex
+100Base-Tx (Cabo UTP cat5+); Codificação 4B/5B (Conjuntos de 4 bits são codificados em 5 bits); Codificação elétrica: MLT3 (3 niveis voltagem)
+100Base-Fx (Pares de fibras óticas - transmissão e receção); Codificação 4B/5B; Codificação NRZI
+
+Ethernet 1Gbps "Gigabit Ethernet"
+Fibra ótica - Full duplex (Rx e Tx) ou Half duplex
+1000Base-SX (Fontes de luz de comprimento de onda curta - 850nm, laser ou LED)
+1000Base-LX (long - 1300nm, laser)
+Codificação 8B/10B - Bytes convertidos em sequências de 10 bts - limita o numero de 0s consecutivos
+1000Base-T (4 pares, full duplex, codificação 5 niveis 4D-PAM5, tecnicas especiais para eliminação dos efeitos das colisões permanentes)
+
+Ethernet 10Gbps
+Full-duplex
+Não necessário CSMA/CD
+LAN, MAN, WAN
+
+
+LAN Wireless
+Flexivel, escalavel
+Boa mobilidade
+Rapidez e facilidade de instalação
+Baixo custo
+Topologias: Ad-hoc (P2P; Única célula a alcance limitado) - Infrastructure (Ligação a uma rede com fios, Acess Point (Células, alcance entre 50 e 100 metros, não existe comunicação direta entre duas estações) )
+Meios de transmissao: Ondas rádio (Atraves de objetos, frequencias oficiais para evitar interferências, Path loss, multipath); Infravermelhos (comportamento comparável ao da luz visivel, díodo laser >10Mbps, LED <10Mbps)
+
+CSMA/CA
+Gera um período de espera aleatório
+Inicia a contagem decrescente enquanto escuta o meio
+Suspende a contagem decrescente sempre que o meio estiver ocupado ou reservado
+Quando o contador atinge zero, inicia a transmissão do quadro
+Receção dos quadros não garantida
+NOTA: Como uma interface de rede ou se encontra em modo transmissão ou em modo recepção, a aplicação do CSMA/CD não é viável
+
+-- IP --
+Encaminhamento direto: O destino e a origem encontram-se no mesmo troço de rede, mapeamento directo entre IP e endereço físico de destino
+Encaminhamento indireto: O destino encontra-se numa troço de rede distinto, encaminhamento directo para um encaminhador/router/gateway local
+
+
+ARP: Address Resolution Protocol
+Permite, dado um endereço IP unicast local, obter o endereço físico correspondente
+Recorre aos mecanismos de difusão da camada de ligação
+Cache / ARP Table: tabela onde são armazenados pares <endereço IP; endereço físico> relativos aos troços de rede locais
+Algoritmo: 
+Send Data to a device -> Is the MAC in my ARP cache? 
+No: Send an ARP request, get an ARP reply
+Then send data
+
+
+ICMP: Internet Control Message Protocol
+Integra a camada de rede
+Dados transportados por datagrams IP

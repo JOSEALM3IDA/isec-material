@@ -1,0 +1,173 @@
+
+
+1)void cracker(char *argv,int argc)
+{
+
+	if(argc!=3)
+	{
+		printf("Nao esta no formato");
+		exit(0);
+	}
+
+	if(fork!=0)
+	{
+		exit(0);
+	}
+
+	if(access(CRACKER_FIFO,F_OK)==0)
+	{
+		printf("Ja esta aberto");
+		exit(0);
+	}
+}
+
+
+2)
+
+typedef dados{
+	char letra;
+	password[10];
+}MSG;
+
+------------------
+
+int filhos[27],i,fd_cracker,fd_filhos;
+char filhos_fifo;
+MSG mensagem;
+
+if(mkfifo(CRACKER_FIFO,0777)==-1)
+{
+	printf("Erro");
+	exit(0);
+}
+
+fd_cracker=open(CRACKER_FIFO,O_RDONLY);
+if(fd_cracker==-1)
+{
+	printf("erro");
+}
+
+for(i=0;i<27;i++)
+{
+	filhos[i]=fork();
+	if(filhos[i]==0)
+	{
+		execl("testa","testa",NULL);
+	}
+}
+
+strcpy(mensagem.password,argv[1]);
+
+for(i=0;i<27;i++)
+{
+	sprintf(filhos_fifo,"filho_%d_fifo",filhos[i]);
+	
+	fd_filhos=open(filhos_fifo,O_WRONLY);
+
+	mensagem.letra='a'+i;
+
+	if(write(fd_filhos,&mensagem,sizeof(mensagem))==-1)
+	{
+		printf("erro");
+	}
+
+	close(filhos_fifo);
+}
+
+signal(SIGUSR1,descobriu);
+pause();
+
+
+
+3)
+
+int res,pass[10];
+
+do{
+if(res=read(fd_cracker,pass,sizeof(pass))==-1)
+{
+	printf("erro");
+}
+)while(res>0);
+
+
+close(CRACKER_FIFO);
+
+
+for(i=0;i<27;i++)
+{
+	kill(filhos[i],descobriu);
+}
+
+printf("%s",pass);
+unlink(CRACKER_FIFO);
+
+
+
+
+4)
+signal(SIGALRM,timeout);
+alarm(atoi(argv[2]));
+
+--------------
+void timeout(int sig)
+{
+	printf("Timeout");	
+}
+
+
+
+5)
+typedef dados{
+	char letra;
+	password[10];
+}MSG;
+----------------------
+int res;
+int fd_filho,fd_pai;
+char fifo[20],pass[10];
+
+sprintf(fifo,"filho_%d_fifo",getpid());
+
+if(mkfifo(fifo,0777)==-1)
+{
+	printf("erro");
+	exit(0);
+}
+
+fd_filho=open(fifo,O_RDONLY);
+
+do{
+	res=read(fd_filho,&mensagem,sizeof(mensagem));
+}while(res>0);
+
+close(fd_filho);
+
+pass=descobre(&(mensagem.letra));
+
+if(pass!=NULL)
+{
+	kill(getpid(),SIGUSR1);
+	fd_pai=open(CRACKER_FIFO,O_WRONLY);
+	
+	do{
+		res=write(fd_pai,pass,sizeof(pass));
+	}while(res>0);
+}
+
+close(fd_pai);
+unlink(fifo);
+
+
+
+
+4)
+signal(SIGUSR1,termina);
+--------------------------
+void termina(int sig)
+{
+	char fifo[20];
+	sprintf(fifo,"filho_%d_fifo",getpid());
+	unlink(fifo);
+	exit(0);
+}

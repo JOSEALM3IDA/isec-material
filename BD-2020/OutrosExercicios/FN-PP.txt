@@ -1,0 +1,49 @@
+Um trabalhador só está numa residência que só tem 1 gerente.
+Um trabalhador tem várias aptidões que quero descrever
+Quero classificar a aptidão para cada trabalhador
+
+TRABALHADORES <nome, idade, residencia, gerente, morada, aptidao1, aptidao2,..., desc1, desc2, ..., class1, class2, ...>
+
+1FN
+PK: nome, porque um trabalhador só está numa residência que só tem 1 gerente
+
+nome -> (idade, residencia, gerente, morada)
+aptidao -> desc
+nome + aptidao -> class
+residencia -> (morada, gerente)
+
+Não está na 1FN porque o atributo APTIDAO pode ser 1 ou N e não é do tipo simples (quando muito seria um array, o que não é permitido nos sistemas relacionais e com a desvantagem de se ter um número limitado de aptidões)
+
+Para ter valores atómicos teríamos de considerar a relação:
+TRABALHADORES <(nome), idade, residencia, gerente, morada, (aptidao), desc, class>
+
+Se considerarmos que queremos registar os trabalhadores dos quais ainda não sa bemos qual é a sua aptidão, não está na 1NF porque teríamos nulos.
+
+Para estar na 1NF teríamos duas relações:
+TRABALHADORES <(nome), idade, residencia, gerente, morada>
+APTIDOES <(nome, aptidao), desc, class> nome FK TRABALHADORES
+
+
+
+2FN?
+Não. Na tabela APTIDOES vemos que a descrição da aptidão não depende do trabalhador mas só de APTIDAO que é parte da chave. Por isso temos de dividir esta tabela em duas:
+APTIDOES <(aptidao), descricao>
+APT_TRAB <(nome, aptidao), class> aptidao FK APTIDOES, nome FK TRABALHADORES
+e tambem
+TRABALHADORES <(nome), idade, residencia, gerente, morada)
+
+
+3FN?
+Na tabela TRABALHADORES o gerente e a morada dependem da residencia que não é chave. Logo vamos colocar estes atributos noutra relação para alcançar a 3NF, obtendo:
+RESIDENCIAS <(residencia), gerente, endereco)
+TRABALHADORES <(nome), idade, residencia> residencia FK RESIDENCIAS
+e tambem
+APTIDOES <(aptidao), descricao>
+APT_TRAB <(nome, aptidao), class> aptidao FK APTIDOES, nome FK TRABALHADORES
+
+
+BCNF
+RESIDENCIAS: Já está na BCNF porque a chave primária é simples
+TRABALHADORES: Já está na BCNF porque a chave primária é simples
+APTIDOES: Já está na BCNF porque a chave primária é simples
+APT_TRAB: Já está na BCNF pois apenas há uma chave candidata que é a primária

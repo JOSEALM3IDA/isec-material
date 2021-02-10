@@ -1,0 +1,17 @@
+1. who | wc -l
+2. who | cut -d " " -f 1 | uniq | wc -l
+3. who | grep so1 | wc -l
+4. ls /tmp | wc -l
+5. ls -laF /bin/ | grep "^\S*x\S*" | wc -l
+6. ls -la /dev/ | grep -E "^c|^b" | wc -l
+7. facultativo
+8. facultativo
+9. ls -la /etc | grep "rw-r-----" | wc -l > conta
+10. echo -e "exemplo\nfim" > fich.txt
+11. facultativo
+12. ls -a ~ | grep "^\.p" > /tmp/ficheiros
+13. obrigatorio
+14. obrigatorio
+15. obrigatorio
+16. facultativo
+17. facultativo

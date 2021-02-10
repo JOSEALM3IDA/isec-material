@@ -1,0 +1,35 @@
+Proprietário pode possuir mais que um veículo
+Veículo pode ser propriedade de mais do que um proprietário
+Veículos identificados pela matrícula, caracterizados pela marca, modelo, cor
+Proprietários identificados pelo número de contribuinte, caracterizados pelo nome, morada, data de nascimento e sexo
+Veículos possuem obrigatoriamente um motor, que é identificado pelo número de motor e caracterizado pela cilindrada e tipo de combustivel
+
+SISTEMA <matricula, marca, modelo, cor, contribuinte, nome, morada, data_nasc, sexo, n_motor, cilindrada, tipo_combustivel>
+
+1FN (valores atómicos e não nulos?):
+PK: matricula + contribuinte, pois o veículo pode ser possuído por mais que um proprietario e um proprietario pode possuir mais que um veiculo. O motor faz obrigatoriamente parte do veiculo, portanto não faz necessariamente parte da chave, sendo n_motor uma CK
+-> Valores atómicos
+Assumindo que não são inseridos proprietários que não possuam veículos nem veículos sem proprietários neste sistema, não há determinantes nulos.
+-> Não há nulos
+
+Dependências funcionais:
+matricula -> (marca, modelo, cor, n_motor, cilindrada, tipo_combustivel)
+contribuinte -> (nome, morada, data_nasc, sexo)
+
+
+2FN
+Como há atributos que não dependem da totalidade da chave, temos que extrair os mesmos para outras tabelas (PROPRIETARIOS e VEICULOS):
+PROPRIETARIOS <(contribuinte), nome, morada, data_nasc, sexo>
+VEICULOS <(matricula), marca, modelo, cor, |n_motor|, cilindrada, tipo_combustivel>
+SISTEMA <(matricula, contribuinte)>, matricula FK VEICULOS, contribuinte FK PROPRIETARIOS
+
+
+3FN
+Todas as tabelas estão na 2FN e os atributos não chave são independentes mutuamente e são completamente dependentes da chave primária. Logo, as tabelas estão na 3FN.
+
+
+BCNF
+Determinantes: matricula, contribuinte, n_motor
+PROPRIETARIOS: Está na BCNF, pois a chave é simples.
+VEICULOS: Está na BCNF, pois a chave é simples.
+SISTEMA: Está na BCNF pois todos os determinantes são chaves candidatas.

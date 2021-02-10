@@ -1,0 +1,39 @@
+Obrigatório que os alunos se inscrevam em todos os exames que pretendam ir
+codigo exame unico e sequencial
+codigo disciplina unico
+
+INSCRICOES <n_aluno, bi, nome_aluno, morada, telefone, cod_disc, nome_disc, ano_curso, cod_curso, nome_curso, cod_exame, data_exame, chamada, ano_letivo, data_inscricao>
+
+1FN (valores atómicos e não nulos?)
+CK: BI + cod_exame
+PK: n_aluno + cod_exame, pois o código de exame é único e sequencial e a cada exame podem ir vários alunos, mas um aluno não pode repetir o mesmo exame
+-> Valores atómicos
+Considerando que só registo alunos quando se inscrevem num exame e só registo disciplinas quando há 1 exame dessa disciplina e alunos inscritos, dado que a base de dados é para gerir as inscrições nos exames.
+-> Não há nulos 
+
+Dependências funcionais:
+n_aluno + cod_exame -> (data_inscricao)
+n_aluno -> (bi, nome_aluno, morada, telefone)
+cod_exame -> (data_exame, chamada, ano_letivo, cod_disc, nome_disc, ano_curso, cod_curso)
+cod_disc -> (nome_disc, ano_curso, cod_curso)
+cod_curso -> (nome_curso)
+
+
+2FN
+Há vários atributos que são dependentes apenas de parte da chave. Assim, temos de extrair os mesmos para outras tabelas (ALUNOS e EXAMES):
+ALUNOS <(n_aluno), |bi|, nome_aluno, morada, telefone>
+EXAMES <(cod_exame), data_exame, chamada, ano_letivo, cod_disc, nome_disc, ano_curso, cod_curso, nome_curso>
+INSCRICOES <(cod_exame, n_aluno), data_inscricao>
+Assim, as relações estão na 2FN.
+
+
+3FN
+Nem todos os atributos são independentes entre si, portanto temos de os extrair para outras tabelas (DISCIPLINA e CURSO):
+ALUNOS <(n_aluno), |bi|, nome_aluno, morada, telefone>
+EXAMES <(cod_exame), data_exame, chamada, ano_letivo>
+DISCIPLINA <(cod_disc), nome_disc, ano_curso>
+CURSO <(cod_curso), nome_curso>
+INSCRICOES <(cod_exame, n_aluno), data_inscricao>
+
+
+BCNF

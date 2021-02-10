@@ -1,0 +1,108 @@
+  <h3><b>Tema</b></h3>
+  <p><em><b>Sistema de Entregas de Comida/Objetos Diversos</b></em>
+  </p>
+  <br>
+  <p></p>
+  <h3><b>Identificação dos Autores</b></h3>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Nº Aluno</th>
+        <th scope="col">Prática</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>xxxxxxxxxx</td>
+        <td>P4</td>
+        <td>ianmooone</td>
+        <td>xxxxxxxxx@isec.pt</td>
+      </tr>
+      <tr>
+        <td>xxxxxxxxxx</td>
+        <td>P2</td>
+        <td>TheForgotten</td>
+        <td>axxxxxxxxxx@isec.pt</td>
+      </tr>
+      <tr>
+        <td>xxxxxxxxxx</td>
+        <td>P6</td>
+        <td>JOSEALM3IDA</td>
+        <td>xxxxxxxxxxx@isec.pt</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <h3>Distribuição do esforço</h3>
+  <p>A comunicação é maioritariamente efetuada pelo serviço "Discord" e, para o trabalho em si, é usado o source control "GitHub" para podermos estar sempre sincronizados e acompanhar as mudanças que cada um faz.</p>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Tarefa</th>
+        <th scope="col">ianmooone</th>
+        <th scope="col">TheForgotten</th>
+        <th scope="col">JOSEALM3IDA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Análise da situação atual</td>
+        <td style="text-align:center;">33.33%</td>
+        <td style="text-align:center;">33.33%</td>
+        <td style="text-align:center;">33.33%</td>
+      </tr>
+      <tr>
+        <td>tarefa 2 ...</td>
+        <td style="text-align:center;">33.33%</td>
+        <td style="text-align:center;">33.33%</td>
+        <td style="text-align:center;">33.33%</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <br>
+  <h3><b>Objectivo</b></h3>
+  <p>&nbsp;O objetivo deste projeto é a implementação de um sistema que permita efetuar, de forma automatizada, a gestão de entregas de comida/objetos diversos. Esse sistema deve conter a lista de lojas aderentes ao sistema de entregas, assim como toda a informação sobre empregados e clientes, hora e local de entrega, objetos/comida disponível para encomenda, etc.
+  </p>
+  <br>
+  <h3><b>Situação Actual</b></h3>
+  <p>&nbsp;Atualmente, as bases de dados usadas para sistemas semelhantes não são eficientes e não sustentam um elevado e súbito fluxo de clientes. Com o avanço das tecnologias, é agora possível a atualização dos sistemas, criando uma base de dados que supere vários dos problemas de implementação atuais.</p>
+  <p><b><br></b>
+  </p>
+
+  <h3><b>Problemas Encontrados/Possíveis Melhorias</b></h3>
+  <p>&nbsp;Um dos problemas atuais é que os sistemas não são eficientes o suficiente para habilitar o rápido crescimento dos mesmos, isto é, com o exponencial crescimento fluxo de clientes e consequente uso intensivo do sistema (como, por exemplo, numa situação de quarentena), o mínimo erro de implementação das rudimentares bases de dados torna-as rapidamente obsoletas.</p>
+  <p>&nbsp;Para além disto, devido ao facto de estarem extremamente desatualizadas, torna-se difícil o desenvolvimento de novas aplicações para interagir com as mesmas, o que se pode resolver, em grande parte, com a atualização da base de dados para uma arquitetura mais recente.</p>
+  <p>&nbsp;Com a base de dados atual, o processamento de cada pedido é, por vezes, demorado pois é realizado manualmente devido ao facto de, como foi dito anteriormente, estas serem extremamente rudimentares. Com a automatização e desenvolvimento usando a nova arquitetura, este problema será totalmente erradicado.</p>
+  <p>&nbsp;Outra falha crassa na corrente base de dados é a dificuldade na interação cliente-estafeta. Com a nossa proposta, este problema seria resolvido pois seria possível o desenvolvimento de aplicações que comunicassem o pedido do cliente diretamente ao entregador, eliminando, assim, o intermediário, que não só pode cometer erros como também atrasa o processo.</p>
+  <br>
+  <h3><b>Descrição da Solução Proposta</b></h3>
+  <p>&nbsp;A solução passa por criar uma base de dados, fazendo recurso às ferramentas disponíveis atualmente, que possa ser usada por várias aplicações, de forma simples e intuitiva, pemitindo assim a automatização e uma experiência mais amigável ao utilizador comum, com acesso, da parte do cliente, por exemplo, à sua lista de encomendas terminadas ou em curso.</p> 
+  <p>&nbsp;Deve ser também capaz de dar ao estafeta um rápido e fácil acesso às encomendas ainda não respondidas e aos veículos disponíveis para a sua realização.</p>
+  <p>&nbsp;A nossa base de dados vai conter, pelo menos, uma lista de lojas aderentes, de clientes, de estafetas, de encomendas realizadas ou em curso e de veículos disponíveis aos estafetas.</p>
+  <p>&nbsp;Para utilizar esta base de dados deve ser criada uma aplicação que, dependedo de quem está a aceder, mostre informação relevante. Por exemplo, se for o cliente a aceder esta deve mostrar uma lista:
+    <ul>
+      <li>Das encomendas realizadas por este, com a data e a hora exata das mesmas;</li>
+      <li>Com os estafetas disponíveis para entrega e o local onde se encontram atualmente;</li>
+      <li>Com as lojas de onde pode encomendar e que produtos estas têm disponíveis, organizada por produtos por loja ou loja por produtos.</li>
+    </ul>
+    &nbsp;No caso de ser um estafeta a aceder à aplicação esta deve mostrar uma lista:
+    <ul>
+      <li>Das encomendas que já entregou;</li>
+      <li>Das encomendas que estão neste momento à espera de estafeta, com informação do local onde tem que ir para buscar o(s) produto(s) e onde tem que os entregar e a melhor rota a seguir;</li>
+      <li>Dos veículos disponíveis para uso.</li>
+    </ul>
+  </p>
+  <br>
+  <h3><b>Anexo: Lista de Termos Técnicos</b></h3>
+  <p>&nbsp;Como já foi dito anteriormente, todos os termos técnicos utilizados no documento devem ser descritos. Como termos técnicos podem ser entendidos os termos que tem a ver com informática e aqueles que tem a ver com o ambiente especifico sobre o qual
+    o sistema vai funcionar (por exemplo termo médicos).</p>

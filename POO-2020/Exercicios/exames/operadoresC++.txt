@@ -1,0 +1,25 @@
+offtopic importante: a função erase elimina o elemento do iterador e retorna o iterador pro prox elemento
+
+Dentro:
++=	ClassName& operator+=(algo a somar)
+-= 	ClassName& operator-=(algo a subtrair)
+/= 	ClassName& operator/=(algo a dividir)
+*= 	ClassName& operator*=(algo a multiplicar)
+++obj	ClassName& operator++()
+obj++ 	const ClassName operator++(int)
+=	ClassName& operator=(const ClassName& o2) -- Verificar self assignment, apagar mem dinamica em o1, igualar tudo e copiar mem dinamica. return *this
+obj<<	ClassName& operator<<(algo para adicionar)
+
+Fora:
+==	bool operator==(const ClassName o1, const ClassName o2)
+!=	bool operator!=(const ClassName o1, const ClassName o2)
+>=	bool operator>=(const ClassName o1, const ClassName o2)
+<=	bool operator<=(const ClassName o1, const ClassName o2)
+>	bool operator<(const ClassName o1, const ClassName o2)
+<	bool operator>(const ClassName o1, const ClassName o2)
+cout<<	ostream& operator<<(ostream& out, const ClassName& o)
+cin>>	istream& operator>>(istream& is, ClassName& o) -- ler de is como se fosse o stdin, retornar is
+*	ClassName operator*(const ClassName& o1, const ClassName& o2)
+/	ClassName operator/(const ClassName& o1, const ClassName& o2)
++	ClassName operator+(const ClassName& o1, const ClassName& o2)
+-	ClassName operator-(const ClassName& o1, const ClassName& o2)

@@ -1,0 +1,50 @@
+Números de conta: únicos dentro de cada agência (contas diferentes em agências diferentes podem ter o mesmo número)
+Cada cliente pode ter várias contas numa mesma agência do banco e uma conta pode ser partilhada por mais que um cliente (conta conjunta)
+
+5. A tabela não está em qualquer forma normal, pois tem campos nulos, ou seja, não está na 1FN.
+
+BANCO <n_conta, cod_agencia, nome, tipo, saldo, morada, tel, data_nasc>
+
+1FN (valores atómicos e não nulos?):
+Primary key: n_conta + cod_agencia + nome, porque agências diferentes podem ter o mesmo número de conta e porque existem contas conjuntas.
+-> Valores Atómicos
+Como não se registam contas que não são de um cliente e um cliente só é registado quando abre uma conta, então não há nulos.
+Telefone pode ter nulos, mas não determinada nada (nada depende dele).
+-> Não há nulos
+
+Dependências Funcionais:
+BANCO
+n_conta + cod_agencia -> (tipo, saldo)
+nome -> (morada, tel, data_nasc)
+
+
+2FN:
+BANCO não está na 2FN, porque existem atributos não chave que dependem apenas de parte da chave (primária ou candidata).
+Projeções:
+CLIENTE <(nome), morada, data_nasc, tel>
+CONTA <(n_conta, cod_ag), tipo, saldo>
+BANCO <(n_conta, cod_ag, nome)>, n_conta + cod_ag FK conta, nome FK cliente
+
+Depêndencias funcionais (não era preciso fazer):
+CLIENTE
+nome -> (morada, tel, data_nasc)
+
+CONTA
+n_conta + cod_agencia -> (tipo, saldo)
+
+BANCO
+sem dependências
+
+
+3FN:
+Estão todas na 3FN, porque estão na 2FN e os atributos não chave são independentes.
+
+
+BCNF:
+CLIENTE só tem 1 chave simples -> estando na 3FN, está na BCNF
+CONTA E BANCO só têm 1 CK que é a PK -> estando na 3FN, estão na BCNF
+
+Tabelas finais na BCNF:
+CLIENTE <(nome), morada, data_nasc, tel>
+CONTA <(n_conta, cod_ag), tipo, saldo>
+BANCO <(n_conta, cod_ag, nome)>, n_conta + cod_ag FK conta, nome FK cliente
