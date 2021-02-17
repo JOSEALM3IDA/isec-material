@@ -1,0 +1,87 @@
+EN 18/19
+
+1. Direita (MD) -> Esquerda (ME) -> Cima (MC) -> Baixo (MB)
+  a) Determinista -> O próximo estado do ambiente é sempre determinado a partir do atual e das ações do agente
+     Não episódico -> A experiência do agente não é dividida, sendo que as suas ações não afetam o futuro
+     Discreto -> Ações do agente são distintas umas das outras
+     Estático -> O ambiente não muda enquanto o agente toma decisão
+  b) Sim, embora mais dificilmente pois este não precisa de memorizar por onde passou e assim pode voltar a deslocar-se para locais onde já esteve.
+  c) A afirmação é incorreta, pois um os ambientes deterministas e episódicos são ainda mais simples pois o agente não tem de se preocupar com as consequências futuras das suas ações.
+
+2.
+  a) H1 é admissível, pois o custo esperado dado pela heurística é sempre menor ou igual do que o custo real. O mesmo não acontece com H2, pois temos, por exemplo, o caso do valor esperado de A (5) ser maior que o real (4), tendo em conta o caminho A -> C -> E.
+  b) A: B - C - D
+     A -> B
+     B: D
+     B -> D
+     D: E
+     D -> E
+
+     Solução final: A -> B -> D -> E
+     Custo final: 12
+
+  c) Usando H1, pois é a heurística admissível, algo exigido pelo método A* de modo a garantir a solução ótima.
+  A: B (f = g + h = 12) - C (f = g + h = 4) - D (f = g + h = 3)    NosAExpandir [D(3) C(4) B(12)]
+  A -> D
+  D: E (f = g + h = (1 + 4) + 0 =  5)	NosAExpandir [C(4) E(5) B(12)]
+  Volta para C pois está primeiro na lista de nós a expandir
+  A -> C
+  C: E (f = g + h = 4) 	NosAExpandir [E(4) B(12)]
+  C -> E
+  E é o objetivo / estado final.
+
+  Solução final: A -> C -> E
+  Custo final: 4
+
+  d) O algoritmo A* garante sempre a solução ótima, caso a heurística seja admissível. Como a heurística usada é admissível, obtemos então a melhor solução possível (A -> C -> E) para o problema dado. O mesmo não acontece com a pesquisa em profundidade, que nos dá a solução que encontra expandido os nós por, neste caso, ordem alfabética, e não usando uma heurística. No entanto, o algoritmo A* tem um custo computacional maior, pois necessita de manter em memória mais nós, e também um custo temporal maior pois há mais cálculos a fazer.
+
+
+3.
+  a) [o1 o2 o3 o4 o5 o6 o7 o8 o9], onde o1, o2, ... o9 pertencente a [1, n], onde n é o contentor onde está o objeto e o índice do vetor é o (número do objeto - 1)
+  Solução pedida: [1 1 1 1 2 2 3 3 3]
+  Solução ótima: [1 1 1 3 3 2 2 2 2] peso dos contentores = 25
+  
+  b) A solução de avaliação pode passar por calcular o peso ideal dos contentores - que será o quociente da soma dos pesos pelo número de contentores - e calcular a soma do módulo das diferenças entre o peso atual de cada contentor e esse peso ideal. Ou seja, quanto mais perto seja este valor de 0, melhor a qualidade da solução.
+
+  c) Recombinação uniforme:
+     Pai: [1 1 1 1 2 2 3 3 3]
+     Mae: [1 1 1 3 3 2 2 2 2]
+     Fil: [1 1 1 3 2 2 3 2 3]
+     Fil: [1 1 1 1 3 2 2 3 2]
+
+  d) Operador de mutação: troca de um elemento (aleatorio) de um contentor para outro (tambem aleatorio)
+     [1 1 1 1 2 2 3 3 3] -> [1 1 1 2 2 2 3 3 3]
+     [1 1 1 3 3 2 2 2 2] -> [1 3 1 3 3 2 2 2 2]
+ 
+  e) Sim. Por exemplo, pode ser usado o algoritmo de pesquisa local para gerar as soluções iniciais, para melhorar a melhor solução de cada geração, a melhor solução final ou até mesmo melhorar soluções aleatórias da geração, com uma probabilidade de o fazer associada. Isto poderia trazer, dependendo do algoritmo de pesquisa local escolhido e d fator sorte, melhor resultados.
+
+  f) Operador de vizinhança: Trocar, por exemplo, um elemento aleatório de um contentor para outro (tambem aleatorio)
+
+     Solução inicial: [1 1 1 1 2 2 3 3 3] (peso(c1) = 45, peso(c2) = 15, peso(c3) = 15, fitness = |45 - 25| + |15 - 25| + |15 - 25| = 40) 
+
+     Primeira iteração:
+     Vizinhança: escolher o objeto 4 e colocá-lo no contentor 2
+     -> [1 1 1 2 2 2 3 3 3] (peso(c1) = 25, peso(c2) = 35, peso(c3) = 15, fitness = |25 - 25| + |35 - 25| + |15 - 25| = 20)
+     Como este vizinho é melhor, o trepa-colinas first-choice aceita-o e passa à próxima iteração.
+
+     Segunda iteração:
+     Vizinhança: escolher o objeto 1 e colocá-lo no contentor 3
+     -> [3 1 1 2 2 2 3 3 3] (peso(c1) = 15, peso(c2) = 35, peso(c3) = 25, fitness = |15 - 25| + |35 - 25| + |25 - 25| = 20)
+     Como o vizinho não é melhor e assumindo que o trepa-colinas não está a aceitar soluções de qualidade igual, passa ao próximo vizinho:
+     Escolher o objeto 6 e colocá-lo no contentor 3
+     -> [1 1 1 2 2 3 3 3 3] (peso(c1) = 25, peso(c2) = 25, peso(c3) = 25, fitness = |25 - 25| + |25 - 25| + |25 - 25| = 0)
+     Como este vizinho é melhor, o trepa-colinas first-choice aceita-o e passa à próxima iteração, pois este não sabe que atingiu a solução ótima, a menos que indicássemos que fitness 0 significa solução ótima, fazendo disso uma condição de paragem.
+
+
+4.
+  a) MAX deve jogar para C, pois este garante que mesmo na pior das situações, este tem o melhor score possível (4).
+  b) ...
+  c) A afirmação é incorreta, pois, comparativamente ao minimax, o alpha-beta pruning tem de garantir a mesma solução final, tendo apenas potenciais vantagens computacionais e temporais.
+  d) A escolha entre B e C é feita pelo MAX. Logo:
+     B: E = 0.5 * min(2,5) + 0.5 * min(3,4) = 1 + 1.5 = 2.5
+     C: E = 0.5 * 1 + 0.5 * min(3,4) = 0.5 + 1.5 = 2
+
+     Assim, o jogador MAX deve jogar para B.
+
+     
+     

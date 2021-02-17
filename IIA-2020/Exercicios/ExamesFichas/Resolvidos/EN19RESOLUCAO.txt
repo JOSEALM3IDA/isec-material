@@ -1,0 +1,87 @@
+EN 19
+
+1.
+  a) Não episódico - a a eperiências do agente não estão divididas, ou seja, as escolhas no presente têm consequências no futuro;
+     Discreto - origina ações perfeitamente distintas umas das outras;
+     Estático - O ambiente não muda enquanto o agente toma a decisão;
+     Determinista - É possível prever totalmente o estado seguinte do ambiente a partir do atual e da ação feita pelo agente
+  b) 
+Ordem: MC, MD, MB, ME
+Gerar vizinhos até encontrar um melhor:
+A (h = 4) -> MC -> B (h = 5)
+          -> MD -> C (h = 3)
+C tem distancia menor, ou seja, é melhor, portanto o agente toma a ação MD, movendo-se uma casa para a direita
+Gerar vizinhos até encontrar um melhor:
+C (h = 3) -> MC (impossivel)
+          -> MD (impossivel)
+          -> MB -> D (h = 4)
+          -> ME -> A (h = 5)
+O trepa colinas não encontrou nenhum vizinho melhor - atingiu um máximo local.
+
+Assim, o algoritmo não pode ser usado para guiar o agente para a casa final.
+
+  c) A afirmação está correta, pois a pesquisa Tabu aceita soluções piores, o que permite a saída do máximo local onde o trepa-colinas ficou preso, indo, por exemplo, para baixo.
+
+
+2. f(B) = g(B) + h(B) <=> 12 = g(B) + 8 <=> g(B) = 4
+a)
+  A -> B = 4
+  A -> C = 2
+  A -> D = 1
+  D -> E = 4
+  C -> E = 2
+
+  Solução encontrada: A -> C -> E
+
+b)
+  (A) h(B) = 8; h(C) = 2; h(D) = 2;
+->(C) h(E) = 0;
+->(E)
+
+Solução final: A -> C -> E
+Custo final: 4
+
+c) Mesma qualidade, menor custo computacional (sôfrega), neste caso.
+
+
+3.
+  a)
+     f(x1) = 6 + 4 - (4 + 1) + 0 + 5 - (0 + 0) = 10
+     f(x2) = 8 + 7 - (7 + 8) + 0 + 6 - (6 + 0) = 0
+     f(x3) = 2 + 3 - (0 + 1) + 0 + 1 - (5 + 5) = -5
+     f(x4) = 4 + 1 - (0 + 5) + 2 + 5 - (0 + 2) = 5
+
+  b) q = [9 9 0 0 9 9 0 0] 
+     f(q) = 36
+
+  c)
+    X1 = f(x1) = 10
+    X2 = f(x1) + f(x2) = 10
+    X3 = f(x1) + f(x2) + f(x3) = 5
+    X4 = f(x1) + f(x2) + f(x3) + f(x4) = 10
+
+    Normalizar:
+    X1 = 2/7
+    X2 = 2/7
+    X3 = 1/7
+    X4 = 2/7
+    
+
+  d)
+    x1 e x2
+    [6 4 4 1 0 5 0 0] e [8 7 7 8 0 6 6 0]
+    Pontos b e f
+    [6 4 | 4 1 0 5 | 0 0] e [8 7 | 7 8 0 6 | 6 0]
+    
+    offspring:
+    x5 = [6 4 | 7 8 0 6 | 0 0]
+    x6 = [8 7 | 4 1 0 5 | 6 0]
+
+  e) Não, pois o valor 9 nunca apareceria nos genes da população.
+
+4.
+  a) Joga para B
+  b) Segundo ramo de C, Segundo e Terceiro ramo de D não são avaliados
+  c) Como são ambos nós MIN: 
+      	para B: E = 0.4 * 1 + 0.6 * 4 = 0.4 + 2.4 = 2.8
+	para C: E = 0.5 * 4 + 0.5 * 6 = 2 + 3 = 5
