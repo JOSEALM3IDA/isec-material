@@ -1,0 +1,30 @@
+PK - Número mínimo de atributos únicos não nulos que identifica cada linha da tabela
+As dependências funcionais representam relacionamentos de muitos para um. 
+
+1FN (valores atómicos e não nulos?)
+Uma relação está na primeira forma normal (1NF) se e só se todos os domínios simples subjacentes contém somente valores atómicos, isto é todos os atributos são de tipo simples e não houver nulos nos determinantes.
+Uma relação que esteja somente na 1NF tem uma estrutura indesejável por várias razões.
+Necessário fazer dependências funcionais.
+
+Como chegar à 1FN:
+Definir bem a PK. Se estiver bem definida, todos os valores são atómicos.
+Se houverem nulos, separam-se os atributos para outra tabela
+
+
+2FN
+Uma  relação  está  na 2NF quando estiver na 1NF e todos os atributos que não são chave são completamente dependentes da totalidade da chave (PK ou CK) (Se a chave primária é simples, todas relações que estão na 1FN estão na 2FN)
+
+Como chegar à 2FN:
+Extrair para outra tabela os atributos que dependem apenas de parte da chave primária.
+
+3FN
+Uma relação  está  na 3NF se e só se está na 2NF e todo o atributo que não é chave é  dependente da chave primária não transitivamente.
+
+Como chegar à 3FN:
+Extrair para outra tabela os atributos que dependam não da chave primária mas de outro atributo qualquer.
+
+Boyce Codd BCNF
+Uma relação está na BCNF se todos os determinantes são chaves candidatas OU todos os (atributos) determinantes são candidatos a chaves primárias ou são chaves primárias.
+
+Determinante: é um atributo do qual o outro é funcionalmente dependente completamente (atributos de onde parte uma seta)
+ATALHO: Só vale a pena ver a BCNF se as chaves forem compostas e se houver mais que uma chave candidata e se forem sobrepostas (ter pelo menos um atributo em comum) (SE FALHAR UMA DESTAS CONDIÇÕES, SE ESTIVER NA 3ª ESTÁ NA BCNF) 
