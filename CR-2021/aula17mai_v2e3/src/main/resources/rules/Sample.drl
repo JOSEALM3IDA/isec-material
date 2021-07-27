@@ -1,0 +1,89 @@
+package com.sample
+
+import com.sample.Paciente;
+import com.sample.Sintoma;
+ 
+rule "Exantema 1"
+salience 100
+    when
+        $s1: Sintoma(sintoma == "febre", $id1: idPaciente)
+        $s2: Sintoma(sintoma == "manchas", $id2: idPaciente)
+        $s3: Sintoma(sintoma == "dores", $id3: idPaciente)
+        $p: Paciente(diagnostico == "", idade >= 15, id == $id1, id == $id2, id == $s3.getIdPaciente())
+    then
+    	insert(new Diagnostico ($p.getId(), $p.getNome(), "Exantema 1"));
+    	retract($p);
+
+end
+
+rule "Exantema 2"
+salience 90
+    when
+        $s1: Sintoma(sintoma == "febre", $id1: idPaciente)
+        $s2: Sintoma(sintoma == "manchas", $id2: idPaciente)
+        $p: Paciente(diagnostico == "", idade < 15, id == $id1, id == $id2)
+    then
+    	$p.setDiagnostico("Exantema 2");
+    	update($p);
+
+end
+
+rule "Gripe"
+salience 80
+    when
+        $s1: Sintoma(sintoma == "febre", $id1: idPaciente)
+        $s2: Sintoma(sintoma == "dores", $id2: idPaciente)
+        $p: Paciente(diagnostico == "", id == $id1, id == $id2)
+    then
+    	$p.setDiagnostico("Gripe");
+    	update($p);
+
+end
+
+rule "Resfriado"
+salience 70
+    when
+        $s1: Sintoma(sintoma == "febre", $id1: idPaciente)
+        $p: Paciente(diagnostico == "", id == $id1)
+    then
+    	$p.setDiagnostico("Resfriado");
+    	update($p);
+
+end
+
+
+rule "Sem sintomas"
+salience 50
+    when
+        $p: Paciente(diagnostico == "")
+        forall($s: Sintoma(idPaciente != $p.getId()))
+    then
+    	$p.setDiagnostico("Sem sintomas");
+    	update($p);
+
+end
+
+rule "Imprime diagnosticos"
+salience 1
+    when
+        $p: Paciente(diagnostico != "")
+    then
+    	System.out.println("Paciente " + $p.getNome() + " diagnosticado com " + $p.getDiagnostico());
+
+end
+
+rule "Sintomas sem correspondencia"
+salience 40
+	when
+		$p: Paciente()
+	then
+		insert(new Diagnostico($p.getId(), $p.getNome(), "Sintomas sem correspondencia"));
+		retract($p);
+end
+
+rule "Inserir mais factos"
+salience 110
+	when
+	then
+		insert new 
+end

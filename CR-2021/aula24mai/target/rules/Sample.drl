@@ -1,0 +1,61 @@
+package com.sample
+ 
+import com.sample.Alarme;
+import com.sample.Fogo;
+import com.sample.Divisao;
+import com.sample.Aspersor;
+ 
+rule "Se há fogo liga aspersor"
+salience 50
+    when
+    	$d: Divisao()
+    	$f: Fogo(divisao == $d)
+    	$a: Aspersor(divisao == $d, ligado == false)
+	then
+		$a.setLigado(true);
+		update($a);
+		System.out.println("Aspersor ligado na divisão " + $d.getNome());
+		retract($f);
+		System.out.println("Fogo extinto na divisão " + $d.getNome());
+end
+
+rule "Fogo apagado numa divisão, desligar aspersor"
+salience 40
+	when
+		$d: Divisao()
+		$a: Aspersor(divisao == $d, ligado == true)
+		not Fogo(divisao == $d)
+	then
+		$a.setLigado(false);
+		update($a);
+		System.out.println("Aspersor desligado na divisão " + $d.getNome());
+	
+end
+
+rule "Liga Alarme se há fogo"
+salience 100
+	when
+		exists Fogo()
+	then
+		insertLogical(new Alarme());
+		System.out.println("Alarme ligado");
+end
+
+rule "Desliga alarme se não há fogos"
+salience 10
+	when
+		not Fogo()
+		$a: Alarme()
+	then
+		retract($a);
+		System.out.println("Alarme desligado");
+end
+
+rule "Tudo OK"
+salience 1
+	when
+		not Alarme()
+		not Aspersor(ligado == true)
+	then
+		System.out.println("Tudo OK");
+end

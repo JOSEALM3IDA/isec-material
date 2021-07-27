@@ -1,0 +1,44 @@
+package com.sample
+ 
+import com.sample.Pessoa;
+import com.sample.Comida;
+ 
+rule "Permite Crédito"
+    when
+    	$c: Comida()
+        $p: Pessoa(idade >= 18, comidaPref == $c.getComida(), $c.getCalorias() <= 500, rendimento >= 1000)
+    then
+        System.out.println("Credito permitido para " + $p.getNome());
+end
+
+rule "Nega Crédito"
+    when
+        $p: Pessoa($nome: nome, idade < 18)
+    then
+        System.out.println("Credito negado para " + $nome);
+end
+
+rule "Nega Crédito 2"
+    when
+    	$c: Comida()
+        $p: Pessoa(idade >= 18, comidaPref == $c.getComida(), $c.getCalorias() > 500)
+    then
+        System.out.println("Credito negado para " + $p.getNome());
+end
+
+rule "Nega Crédito 3"
+    when
+    	$c: Comida()
+        $p: Pessoa(idade >= 18, comidaPref == $c.getComida(), $c.getCalorias() <= 500, rendimento < 1000)
+    then
+        System.out.println("Credito negado para " + $p.getNome());
+end
+
+rule "Não sabe"
+	when
+		$p: Pessoa(idade >= 18)
+		forall(Comida(comida != $p.getComidaPref()))
+	then
+		System.out.println("Informação insuficiente sobre alimentação de " + $p.getNome());
+end
+

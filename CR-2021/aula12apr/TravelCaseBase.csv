@@ -1,0 +1,1026 @@
+JourneyCode,HolidayType,Price,NumberOfPersons,Region,Transportation,Duration,Season,Accommodation,Hotel
+1,Bathing,2498,2,Egypt,Plane,14,April,TwoStars,Hotel White House - Egypt
+2,Bathing,3066,3,Egypt,Plane,21,May,TwoStars,Hotel White House - Egypt
+3,Active,2778,2,Egypt,Plane,14,June,TwoStars,Hotel Geisum - Egypt
+4,Bathing,3195,3,Egypt,Plane,7,July,ThreeStars,Hotel Al Mashrabia - Egypt
+5,Bathing,3158,2,Egypt,Plane,14,September,ThreeStars,Hotel Al Mashrabia - Egypt
+6,Active,3318,2,Egypt,Plane,14,October,ThreeStars,Hotel Al Mashrabia - Egypt
+7,Bathing,2458,2,Egypt,Plane,14,June,FourStars,Hotel Winter Palace - Egypt
+8,Active,2649,3,Egypt,Plane,7,July,FourStars,Hotel Winter Palace - Egypt
+9,Education,4638,2,Egypt,Plane,21,April,FourStars,Anlage Arabia Beach - Egypt
+10,Education,3738,2,Egypt,Plane,14,October,FourStars,Anlage Arabia Beach - Egypt
+11,City,1978,2,Cairo,Plane,7,April,ThreeStars,Hotel Victoria - Cairo
+12,City,1898,2,Cairo,Plane,7,May,ThreeStars,Hotel Victoria - Cairo
+13,City,2158,2,Cairo,Plane,14,June,ThreeStars,Hotel Victoria - Cairo
+14,City,1898,2,Cairo,Plane,7,September,ThreeStars,Hotel Victoria - Cairo
+15,City,1154,1,Cairo,Plane,7,October,ThreeStars,Hotel New Marwa Palace - Cairo
+16,City,2308,2,Cairo,Plane,7,April,ThreeStars,Hotel New Marwa Palace - Cairo
+17,City,2658,2,Cairo,Plane,7,May,ThreeStars,Hotel New Marwa Palace - Cairo
+18,City,1269,1,Cairo,Plane,14,July,ThreeStars,Hotel New Marwa Palace - Cairo
+19,City,2608,2,Cairo,Plane,7,May,FiveStars,Hotel Moevenpick - Cairo
+20,City,2468,2,Cairo,Plane,7,August,FiveStars,Hotel Moevenpick - Cairo
+21,Recreation,1568,2,Belgium,Car,14,May,TwoStars,Hotel Ostend - Belgium
+22,Active,798,3,Belgium,Car,7,June,TwoStars,Hotel Ostend - Belgium
+23,Recreation,978,3,Belgium,Car,7,July,ThreeStars,Acces Hotel Mercure - Belgium
+24,Recreation,978,2,Belgium,Car,7,August,ThreeStars,Acces Hotel Mercure - Belgium
+25,Active,1448,3,Belgium,Car,14,September,HolidayFlat,H.Flat - Belgium
+26,Recreation,1638,4,Belgium,Car,14,June,HolidayFlat,H.Flat - Belgium
+27,Recreation,1079,4,Belgium,Car,7,July,HolidayFlat,H.Flat - Belgium
+28,Bathing,499,4,Belgium,Car,3,August,HolidayFlat,H.Flat - Belgium
+29,Bathing,399,6,Belgium,Car,3,September,HolidayFlat,H.Flat - Belgium
+30,Recreation,1928,2,Belgium,Train,14,July,ThreeStars,Acces Hotel Mercure - Belgium
+31,Bathing,1598,2,Bulgaria,Plane,14,June,TwoStars,Hotel Amfibia - Sunny Beach
+32,Bathing,2043,3,Bulgaria,Plane,14,July,TwoStars,Hotel Hemus - Sunny Beach
+33,Bathing,1658,4,Bulgaria,Plane,7,August,TwoStars,Hotel Raliza - Albena
+34,Bathing,1558,2,Bulgaria,Plane,7,July,ThreeStars,Hotel Phoenix - Sunny Beach
+35,Active,1718,2,Bulgaria,Plane,14,June,ThreeStars,Hotel Nessebar - Sunny Beach
+36,Bathing,1383,3,Bulgaria,Plane,7,August,ThreeStars,Hotel Gergana - Albena
+37,Bathing,3628,4,Bulgaria,Plane,21,August,ThreeStars,Hotel Orlav - Albena
+38,Active,2739,3,Bulgaria,Plane,14,July,FourStars,Hotel Burgas - Sunny Beach
+39,Bathing,2399,2,Bulgaria,Plane,14,September,FourStars,Grandhotel Varna - Albena
+40,Bathing,2273,3,Bornholm,Car,14,August,HolidayFlat,H.Flat Bornholm
+41,Bathing,1729,5,Bornholm,Car,7,July,HolidayFlat,H.Flat Bornholm
+42,Bathing,1389,4,Bornholm,Car,7,July,HolidayFlat,H.Flat Bornholm
+43,Recreation,968,6,Bornholm,Car,14,April,HolidayFlat,H.Flat Bornholm
+44,Recreation,489,6,Bornholm,Car,7,May,HolidayFlat,H.Flat Bornholm
+45,Recreation,489,6,Bornholm,Car,7,September,HolidayFlat,H.Flat Bornholm
+46,Bathing,2838,4,Fano,Car,14,July,HolidayFlat,H.Flat Fano
+47,Bathing,1399,6,Fano,Car,7,August,HolidayFlat,H.Flat Fano
+48,Recreation,958,6,Fano,Car,14,September,HolidayFlat,H.Flat Fano
+49,Recreation,579,3,Fano,Car,7,June,HolidayFlat,H.Flat Romo
+50,Recreation,789,5,Fano,Car,7,May,HolidayFlat,H.Flat Romo
+51,Recreation,2839,10,Fano,Car,7,July,HolidayFlat,H.Flat Romo
+52,Bathing,629,6,Lolland,Car,7,August,HolidayFlat,H.Flat Lolland
+53,Bathing,1598,4,Lolland,Car,14,July,HolidayFlat,H.Flat Lolland
+54,Recreation,429,8,Lolland,Car,7,September,HolidayFlat,H.Flat Lolland
+55,Recreation,648,2,Allgaeu,Car,7,June,TwoStars,Gasthaus Meier - Allgaeu
+56,Wandering,972,4,Allgaeu,Car,7,July,TwoStars,Gasthaus Alpenland - Allgaeu
+57,Recreation,1060,3,Allgaeu,Car,7,August,ThreeStars,Hotel Alpspitz - Allgaeu
+58,Wandering,2110,3,Allgaeu,Train,14,July,ThreeStars,Hotel Alpspitz - Allgaeu
+59,Active,1835,2,Allgaeu,Car,14,June,FiveStars,Hofgut Kuernach - Allgaeu
+60,Wandering,951,2,Allgaeu,Car,7,September,FiveStars,Hofgut Kuernach - Allgaeu
+61,Recreation,794,4,Allgaeu,Train,7,August,HolidayFlat,H.Flat - Allgaeu
+62,Active,814,6,Allgaeu,Car,7,July,HolidayFlat,H.Flat - Allgaeu
+63,Wandering,1568,4,Allgaeu,Car,14,June,HolidayFlat,H.Flat - Allgaeu
+64,Wandering,644,4,Allgaeu,Car,7,July,HolidayFlat,H.Flat - Allgaeu
+65,Recreation,648,2,Alps,Car,7,June,TwoStars,Pension Blueml - Upper Bavaria
+66,Wandering,2232,3,Alps,Car,14,July,TwoStars,Pension Blueml - Upper Bavaria
+67,Recreation,2082,4,Alps,Car,7,August,ThreeStars,Hotel Chiemgauer Hof - Upper Bavaria
+68,Recreation,5185,3,Alps,Car,21,June,ThreeStars,Hotel Chiemgauer Hof - Upper Bavaria
+69,Active,2368,2,Alps,Train,14,September,ThreeStars,Hotel Chiemgauer Hof - Upper Bavaria
+70,Recreation,3758,2,Alps,Car,21,July,FourStars,Hotel Zur Post - Upper Bavaria
+71,Recreation,3135,3,Alps,Car,14,August,FourStars,Hotel Zur Post - Upper Bavaria
+72,Wandering,3762,4,Alps,Car,14,July,FourStars,Hotel Zur Post - Upper Bavaria
+73,Recreation,1254,4,Alps,Car,7,June,HolidayFlat,H.Flat Upper Bavaria
+74,Recreation,814,6,Alps,Train,7,August,HolidayFlat,H.Flat Upper Bavaria
+75,Recreation,1361,2,Bavaria,Car,14,September,HolidayFlat,H.Flat Upper Bavaria
+76,Recreation,1618,4,Bavaria,Car,14,May,HolidayFlat,H.Flat Upper Bavaria
+77,Recreation,1728,2,Bavaria,Train,14,July,HolidayFlat,H.Flat Upper Bavaria
+78,Wandering,609,3,Bavaria,Car,7,June,HolidayFlat,H.Flat Upper Bavaria
+79,Wandering,1069,6,Bavaria,Car,7,August,HolidayFlat,H.Flat Upper Bavaria
+80,Wandering,684,4,Bavaria,Car,7,September,HolidayFlat,H.Flat Upper Bavaria
+81,Active,1328,4,Bavaria,Train,14,May,HolidayFlat,H.Flat Upper Bavaria
+82,Active,779,2,Bavaria,Car,7,June,HolidayFlat,H.Flat Upper Bavaria
+83,Active,1639,5,Bavaria,Car,7,July,HolidayFlat,H.Flat Upper Bavaria
+84,Wandering,944,8,Bavaria,Car,7,August,HolidayFlat,H.Flat Upper Bavaria
+85,Wandering,758,2,ErzGebirge,Car,7,June,TwoStars,Wolfsgruener Schloss - Erz Gebirge
+86,Wandering,758,3,ErzGebirge,Car,7,July,TwoStars,Wolfsgruener Schloss - Erz Gebirge
+87,Recreation,1885,4,ErzGebirge,Car,14,August,TwoStars,Wolfsgruener Schloss - Erz Gebirge
+88,Recreation,758,3,ErzGebirge,Car,7,September,TwoStars,Wolfsgruener Schloss - Erz Gebirge
+89,Wandering,1828,2,ErzGebirge,Car,14,May,ThreeStars,Hotel Am Fichtelberg - Erz Gebirge
+90,Wandering,918,2,ErzGebirge,Train,7,July,ThreeStars,Hotel Am Fichtelberg - Erz Gebirge
+91,Wandering,2738,3,ErzGebirge,Car,21,June,ThreeStars,Hotel Am Fichtelberg - Erz Gebirge
+92,Recreation,1828,3,ErzGebirge,Car,14,September,ThreeStars,Sporthotel - Erz Gebirge
+93,Recreation,918,2,ErzGebirge,Car,7,May,ThreeStars,Sporthotel - Erz Gebirge
+94,Wandering,1580,4,ErzGebirge,Train,7,August,FourStars,Kur- und Sporthotel - Erz Gebirge
+95,Wandering,958,2,ErzGebirge,Car,7,July,FourStars,Kur- und Sporthotel - Erz Gebirge
+96,Wandering,2385,3,ErzGebirge,Car,14,June,FourStars,Kur- und Sporthotel - Erz Gebirge
+97,Recreation,1372,3,ErzGebirge,Car,7,August,FourStars,Hotel Panorama - Erz Gebirge
+98,Recreation,2188,2,ErzGebirge,Car,14,September,FourStars,Hotel Panorama - Erz Gebirge
+99,Active,1098,2,ErzGebirge,Car,7,August,FourStars,Hotel Panorama - Erz Gebirge
+100,Recreation,478,2,Harz,Car,7,May,TwoStars,Hotel Brockenscheideck - Harz
+101,Wandering,948,2,Harz,Train,14,June,TwoStars,Hotel Brockenscheideck - Harz
+102,Recreation,1072,3,Harz,Car,7,July,ThreeStars,Hotel Waldfrieden - Harz
+103,Recreation,1501,4,Harz,Car,7,August,ThreeStars,Hotel Waldfrieden - Harz
+104,Recreation,1868,2,Harz,Car,14,September,ThreeStars,Hotel Waldfrieden - Harz
+105,Wandering,1172,3,Harz,Car,7,May,ThreeStars,Hotel Waldfrieden - Harz
+106,Recreation,1888,2,Harz,Car,7,June,FiveStars,Hotel Maritim - Harz
+107,Recreation,1888,3,Harz,Train,7,July,FiveStars,Hotel Maritim - Harz
+108,Wandering,3768,2,Harz,Car,14,May,FiveStars,Hotel Maritim - Harz
+109,Recreation,484,2,Harz,Car,7,August,HolidayFlat,H.Flat Harz
+110,Recreation,374,4,Harz,Car,7,September,HolidayFlat,H.Flat Harz
+111,Recreation,589,3,Harz,Car,7,June,HolidayFlat,H.Flat Harz
+112,Wandering,719,4,Harz,Train,7,July,HolidayFlat,H.Flat Harz
+113,Wandering,1248,4,Harz,Car,14,August,HolidayFlat,H.Flat Harz
+114,Bathing,398,2,NorthSea,Car,7,July,OneStar,Pension Murra - North Sea
+115,Recreation,398,2,NorthSea,Car,7,June,OneStar,Pension Murra - North Sea
+116,Bathing,1348,3,NorthSea,Car,7,July,TwoStars,Pension Nina - North Sea
+117,Bathing,1348,2,NorthSea,Car,7,August,TwoStars,Pension Nina - North Sea
+118,Recreation,3228,2,NorthSea,Car,14,May,TwoStars,Hotel Silbermoeve - North Sea
+119,Recreation,1618,2,NorthSea,Train,7,September,TwoStars,Hotel Silbermoeve - North Sea
+120,Bathing,719,4,NorthSea,Car,7,August,HolidayFlat,H.Flat North Sea
+121,Bathing,669,6,NorthSea,Car,7,July,HolidayFlat,H.Flat North Sea
+122,Bathing,2108,4,NorthSea,Car,14,August,HolidayFlat,H.Flat North Sea
+123,Recreation,579,4,NorthSea,Train,7,June,HolidayFlat,H.Flat North Sea
+124,Recreation,664,5,NorthSea,Car,7,July,HolidayFlat,H.Flat North Sea
+125,Recreation,1138,4,NorthSea,Car,14,August,HolidayFlat,H.Flat North Sea
+126,Active,2198,3,NorthSea,Car,14,September,HolidayFlat,H.Flat North Sea
+127,Recreation,1044,6,NorthSea,Train,7,June,HolidayFlat,H.Flat North Sea
+128,Active,719,3,NorthSea,Car,7,August,HolidayFlat,H.Flat Sylt
+129,Bathing,1828,2,BalticSea,Car,14,July,TwoStars,Hotel Stoertebeker - Zingst
+130,Bathing,918,3,BalticSea,Car,7,August,TwoStars,Hotel Stoertebeker - Zingst
+131,Recreation,918,2,BalticSea,Car,7,June,TwoStars,Hotel Am Leuchtturm - Warnemuende
+132,Recreation,1147,3,BalticSea,Train,7,September,TwoStars,Hotel Am Leuchtturm - Warnemuende
+133,Bathing,1047,3,BalticSea,Car,7,July,ThreeStars,Hotel Baltic - Usedom
+134,Bathing,2472,4,BalticSea,Car,14,August,ThreeStars,Hotel Baltic - Usedom
+135,Recreation,2226,3,BalticSea,Car,14,June,ThreeStars,NobisHotel - Ruegen
+136,Bathing,1438,2,BalticSea,Car,7,August,FourStars,Ostseehotel - Wustrow
+137,Active,1797,3,BalticSea,Car,7,July,FourStars,Ostseehotel - Wustrow
+138,Bathing,1044,4,BalticSea,Train,7,August,HolidayFlat,H.Flat Baltic Sea
+139,Bathing,639,2,BalticSea,Car,7,August,HolidayFlat,H.Flat Fehmarn
+140,Bathing,1818,2,BalticSea,Car,14,July,HolidayFlat,H.Flat - Ruegen
+141,Recreation,539,4,BalticSea,Car,7,June,HolidayFlat,H.Flat Baltic Sea
+142,Recreation,709,6,BalticSea,Car,7,May,HolidayFlat,H.Flat Baltic Sea
+143,Active,994,4,BalticSea,Train,14,July,HolidayFlat,H.Flat Baltic Sea
+144,Wandering,547,3,BlackForest,Car,7,May,TwoStars,Hotel Hirschen - Black Forest
+145,Recreation,868,2,BlackForest,Car,14,June,TwoStars,Hotel Hirschen - Black Forest
+146,Wandering,907,3,BlackForest,Car,7,July,ThreeStars,Hotel Waldwinkel - Black Forest
+147,Wandering,698,2,BlackForest,Car,14,August,ThreeStars,Hotel Waldwinkel - Black Forest
+148,Wandering,738,2,BlackForest,Train,7,September,ThreeStars,Berghotel Kandel - Black Forest
+149,Recreation,922,3,BlackForest,Car,7,August,ThreeStars,Berghotel Kandel - Black Forest
+150,Wandering,3732,4,BlackForest,Car,14,July,FourStars,Kurhotel - Black Forest
+151,Recreation,1138,2,BlackForest,Car,7,June,FourStars,Kurhotel - Black Forest
+152,Wandering,449,2,BlackForest,Train,7,May,HolidayFlat,H.Flat Black Forest
+153,Wandering,459,5,BlackForest,Car,7,June,HolidayFlat,H.Flat Black Forest
+154,Wandering,1039,3,BlackForest,Car,7,July,HolidayFlat,H.Flat Black Forest
+155,Wandering,2538,3,BlackForest,Car,14,August,HolidayFlat,H.Flat Black Forest
+156,Recreation,1313,2,BlackForest,Car,14,September,HolidayFlat,H.Flat Black Forest
+157,Recreation,904,6,BlackForest,Car,7,October,HolidayFlat,H.Flat Black Forest
+158,Recreation,984,7,BlackForest,Train,7,July,HolidayFlat,H.Flat Black Forest
+159,Recreation,638,2,Thuringia,Car,7,May,ThreeStars,Berghotel Oberhof - Thuringia
+160,Recreation,922,3,Thuringia,Car,7,August,ThreeStars,Berghotel Oberhof - Thuringia
+161,Active,998,2,Thuringia,Car,7,June,ThreeStars,Hotel Finsterbergen - Thuringia
+162,Wandering,2588,3,Thuringia,Car,14,July,ThreeStars,Hotel Finsterbergen - Thuringia
+163,Wandering,1377,4,Thuringia,Train,7,August,FourStars,Hotel Rennsteig - Thuringia
+164,Recreation,918,2,Thuringia,Car,7,September,FourStars,Hotel Rennsteig - Thuringia
+165,Active,2285,3,Thuringia,Car,14,August,FourStars,Hotel Rennsteig - Thuringia
+166,Recreation,2668,2,Thuringia,Car,14,October,FourStars,Hotel Panorama - Thuringia
+167,Active,1497,3,Thuringia,Car,7,August,FourStars,Hotel Panorama - Thuringia
+168,Active,2388,3,Thuringia,Car,14,August,FourStars,Hotel Panorama - Thuringia
+169,Recreation,589,4,Thuringia,Car,7,July,HolidayFlat,H.Flat Thuringia
+170,Recreation,1128,4,Thuringia,Train,14,June,HolidayFlat,H.Flat Thuringia
+171,Recreation,589,4,Thuringia,Car,7,May,HolidayFlat,H.Flat Thuringia
+172,Recreation,1148,4,Thuringia,Car,14,July,HolidayFlat,H.Flat Thuringia
+173,Wandering,574,4,Thuringia,Car,7,August,HolidayFlat,H.Flat Thuringia
+174,Bathing,858,4,Atlantic,Car,14,May,HolidayFlat,H.Flat Atlantik - France
+175,Bathing,2078,4,Atlantic,Car,14,June,HolidayFlat,H.Flat Atlantik - France
+176,Bathing,4718,7,Atlantic,Car,14,July,HolidayFlat,H.Flat Atlantik - France
+177,Bathing,1698,4,Atlantic,Car,14,August,HolidayFlat,H.Flat Atlantik - France
+178,Bathing,649,6,Atlantic,Car,7,September,HolidayFlat,H.Flat Atlantik - France
+179,Bathing,394,3,Atlantic,Car,7,June,HolidayFlat,H.Flat Atlantik - France
+180,Bathing,1289,5,Atlantic,Car,7,July,HolidayFlat,H.Flat Atlantik - France
+181,Bathing,879,4,Atlantic,Car,7,August,HolidayFlat,H.Flat Atlantik - France
+182,Bathing,1347,3,Atlantic,Car,21,May,HolidayFlat,H.Flat Atlantik - France
+183,Active,838,5,Atlantic,Car,14,June,HolidayFlat,H.Flat Atlantik - France
+184,Active,1938,6,Atlantic,Car,14,July,HolidayFlat,H.Flat Atlantik - France
+185,Active,849,6,Atlantic,Car,7,August,HolidayFlat,H.Flat Atlantik - France
+186,Active,1204,8,Atlantic,Car,7,June,HolidayFlat,H.Flat Atlantik - France
+187,Recreation,2878,8,Atlantic,Car,14,July,HolidayFlat,H.Flat Atlantik - France
+188,Recreation,2187,2,Atlantic,Car,21,August,HolidayFlat,H.Flat Atlantik - France
+189,Bathing,519,2,CotedAzur,Car,7,April,HolidayFlat,H.Flat Cote d'Azur
+190,Bathing,479,3,CotedAzur,Car,7,May,HolidayFlat,H.Flat Cote d'Azur
+191,Bathing,829,7,CotedAzur,Car,7,June,HolidayFlat,H.Flat Cote d'Azur
+192,Bathing,1089,5,CotedAzur,Car,7,July,HolidayFlat,H.Flat Cote d'Azur
+193,Bathing,1029,5,CotedAzur,Car,7,August,HolidayFlat,H.Flat Cote d'Azur
+194,Bathing,799,6,CotedAzur,Car,7,September,HolidayFlat,H.Flat Cote d'Azur
+195,Bathing,449,4,CotedAzur,Train,7,October,HolidayFlat,H.Flat Cote d'Azur
+196,Bathing,1198,4,CotedAzur,Car,14,May,HolidayFlat,H.Flat Cote d'Azur
+197,Bathing,1108,4,CotedAzur,Train,14,June,HolidayFlat,H.Flat Cote d'Azur
+198,Bathing,4458,7,CotedAzur,Car,14,July,HolidayFlat,H.Flat Cote d'Azur
+199,Active,2678,3,CotedAzur,Car,14,August,HolidayFlat,H.Flat Cote d'Azur
+200,Active,1598,4,CotedAzur,Car,14,September,HolidayFlat,H.Flat Cote d'Azur
+201,Active,589,6,CotedAzur,Car,7,May,HolidayFlat,H.Flat Cote d'Azur
+202,Recreation,449,2,CotedAzur,Train,7,June,HolidayFlat,H.Flat Cote d'Azur
+203,Recreation,1838,3,CotedAzur,Car,14,July,HolidayFlat,H.Flat Cote d'Azur
+204,Bathing,1539,2,Corsica,Plane,14,May,OneStar,Caravan La Pinede
+205,Bathing,2469,3,Corsica,Plane,14,June,OneStar,Hotel L'Esquinade
+206,Bathing,5269,4,Corsica,Plane,14,July,TwoStars,Feriendorf Vallicella
+207,Bathing,2249,3,Corsica,Plane,21,June,TwoStars,Mobilhomes La Pinede
+208,Bathing,1898,2,Corsica,Plane,7,August,TwoStars,Hotel Funtana Marina
+209,Bathing,3522,4,Corsica,Plane,7,July,TwoStars,Feriendorf Vallicella
+210,Bathing,3459,3,Corsica,Plane,14,August,ThreeStars,Calvi-Hotel
+211,Bathing,2539,2,Corsica,Plane,14,September,ThreeStars,Studios Le Rocher
+212,Bathing,5659,3,Corsica,Plane,21,July,ThreeStars,Hotel Pineto
+213,Bathing,3298,2,Corsica,Plane,14,June,ThreeStars,Hotel Orizonte
+214,Active,2718,2,Corsica,Plane,14,September,ThreeStars,Grand Hotel
+215,Active,5678,3,Corsica,Plane,21,August,ThreeStars,Grand Hotel
+216,Active,2038,2,Corsica,Plane,14,June,TwoStars,Mobilhomes La Pinede
+217,Wandering,634,1,Corsica,Plane,7,April,TwoStars,Mobilhomes La Pinede
+218,Wandering,2578,2,Corsica,Plane,14,May,ThreeStars,Grand Hotel
+219,Bathing,659,4,Normandy,Car,7,June,HolidayFlat,H.Flat Normandy
+220,Bathing,709,2,Normandy,Car,7,July,HolidayFlat,H.Flat Normandy
+221,Active,809,4,Normandy,Car,7,August,HolidayFlat,H.Flat Normandy
+222,Active,1418,2,Normandy,Car,14,August,HolidayFlat,H.Flat Normandy
+223,Recreation,1618,4,Normandy,Car,14,July,HolidayFlat,H.Flat Normandy
+224,Bathing,689,4,Brittany,Car,7,June,HolidayFlat,H.Flat Brittany
+225,Bathing,1549,7,Brittany,Car,7,July,HolidayFlat,H.Flat Brittany
+226,Bathing,1064,5,Brittany,Car,7,August,HolidayFlat,H.Flat Brittany
+227,Bathing,519,4,Brittany,Car,7,September,HolidayFlat,H.Flat Brittany
+228,Active,1219,6,Brittany,Car,7,August,HolidayFlat,H.Flat Brittany
+229,Active,889,4,Brittany,Car,7,July,HolidayFlat,H.Flat Brittany
+230,Active,1268,4,Brittany,Car,14,June,HolidayFlat,H.Flat Brittany
+231,Recreation,2108,5,Brittany,Car,14,July,HolidayFlat,H.Flat Brittany
+232,Recreation,1258,4,Brittany,Car,14,August,HolidayFlat,H.Flat Brittany
+233,Recreation,1797,4,Brittany,Car,21,June,HolidayFlat,H.Flat Brittany
+234,Bathing,3485,3,Attica,Plane,14,May,FourStars,Hotel Golden Coast - Attica
+235,Bathing,2038,2,Attica,Plane,14,April,TwoStars,Hotel Calamos Beach - Attica
+236,Bathing,3129,4,Attica,Plane,7,September,ThreeStars,Hotel Kalypso Club - Attica
+237,Bathing,2518,2,Attica,Plane,14,June,ThreeStars,Hotel Menexelis - Attica
+238,Bathing,3215,3,Attica,Plane,14,July,ThreeStars,Hotel Miramare - Attica
+239,Bathing,4002,3,Attica,Plane,21,September,FourStars,Hotel Holidays in Evia - Attica
+240,Bathing,3216,4,Attica,Plane,7,August,ThreeStars,Hotel Menexelis - Attica
+241,Bathing,1149,1,Attica,Plane,14,June,TwoStars,Hotel Calamos Beach - Attica
+242,Bathing,3658,2,Attica,Plane,14,July,FourStars,Hotel Golden Coast - Attica
+243,Bathing,3458,2,Attica,Plane,21,August,ThreeStars,Hotel Menexelis - Attica
+244,Bathing,2742,3,Attica,Plane,14,July,TwoStars,Hotel Calamos Beach - Attica
+245,Recreation,2258,2,Attica,Plane,7,June,FourStars,Hotel Golden Coast - Attica
+246,Recreation,1169,1,Attica,Plane,14,September,ThreeStars,Hotel Miramare - Attica
+247,Recreation,3215,3,Attica,Plane,14,August,ThreeStars,Hotel Miramare - Attica
+248,Recreation,3378,2,Attica,Plane,21,May,FourStars,Hotel Golden Coast - Attica
+249,Bathing,2787,3,Chalkidiki,Plane,14,July,TwoStars,Hotel Sermyli - Chalkidiki
+250,Bathing,4673,4,Chalkidiki,Plane,14,August,ThreeStars,Hotel Portes Beach - Chalkidiki
+251,Bathing,2898,2,Chalkidiki,Plane,21,September,ThreeStars,Hotel Mendi - Chalkidiki
+252,Bathing,2538,2,Chalkidiki,Plane,14,June,ThreeStars,Hotel Olympico - Chalkidiki
+253,Bathing,2427,3,Chalkidiki,Plane,7,July,ThreeStars,Hotel Olympico - Chalkidiki
+254,Recreation,2358,2,Chalkidiki,Plane,14,May,ThreeStars,Hotel Olympico - Chalkidiki
+255,Recreation,2898,2,Chalkidiki,Plane,21,September,ThreeStars,Hotel Mendi - Chalkidiki
+256,Recreation,2398,2,Chalkidiki,Plane,14,June,ThreeStars,Hotel Mendi - Chalkidiki
+257,Active,3718,3,Chalkidiki,Plane,14,July,FourStars,Hotel Sani Beach - Chalkidiki
+258,Active,3299,3,Chalkidiki,Plane,7,August,FourStars,Hotel Sani Beach - Chalkidik
+259,Active,3318,2,Chalkidiki,Plane,14,June,FourStars,Hotel Sani Beach - Chalkidik
+260,Recreation,5329,4,Chalkidiki,Plane,14,July,FourStars,Hotel Athos Palace - Chalkidiki
+261,Recreation,3258,2,Chalkidiki,Plane,21,May,FourStars,Hotel Athos Palace - Chalkidiki
+262,Recreation,3038,2,Chalkidiki,Plane,14,September,FourStars,Hotel Athos Palace - Chalkidiki
+263,Education,2738,2,Chalkidiki,Plane,21,October,FourStars,Hotel Athos Palace - Chalkidiki
+264,Bathing,2831,3,Corfu,Plane,14,June,TwoStars,Hotel Iliada - Corfu
+265,Bathing,3644,4,Corfu,Plane,14,July,TwoStars,Hotel Iliada - Corfu
+266,Bathing,3258,2,Corfu,Plane,21,September,ThreeStars,Hotel Belvedere - Corfu
+267,Bathing,3793,3,Corfu,Plane,14,August,ThreeStars,Hotel Belvedere - Corfu
+268,Bathing,2779,3,Corfu,Plane,7,August,ThreeStars,Hotel Belvedere - Corfu
+269,Bathing,2698,2,Corfu,Plane,14,June,ThreeStars,Hotel Coral - Corfu
+270,Bathing,3649,3,Corfu,Plane,21,September,ThreeStars,Hotel Coral - Corfu
+271,Bathing,3078,2,Corfu,Plane,14,July,ThreeStars,Hotel Coral - Corfu
+272,Bathing,3198,2,Corfu,Plane,14,September,ThreeStars,Hotel Mirabell - Corfu
+273,Active,3758,2,Corfu,Plane,21,June,ThreeStars,Hotel Mirabell - Corfu
+274,Active,3198,3,Corfu,Plane,14,August,ThreeStars,Hotel Mirabell - Corfu
+275,Active,2158,2,Corfu,Plane,7,July,FourStars,Hotel Regency - Corfu
+276,Recreation,3418,2,Corfu,Plane,21,June,FourStars,Hotel Regency - Corfu
+277,Recreation,3038,2,Corfu,Plane,14,September,FourStars,Hotel Kerkyra Golf - Corfu
+278,Recreation,2043,3,Corfu,Plane,7,May,FourStars,Hotel Kerkyra Golf - Corfu
+279,Bathing,2498,2,Crete,Plane,14,June,TwoStars,Hotel Oceanis - Crete
+280,Bathing,2417,3,Crete,Plane,14,July,TwoStars,Hotel Ilios - Crete
+281,Active,2825,4,Crete,Plane,7,August,TwoStars,Hotel Oceanis - Crete
+282,Bathing,3498,2,Crete,Plane,14,September,ThreeStars,Hotel Creta Beach - Crete
+283,Bathing,4198,2,Crete,Plane,21,June,ThreeStars,Hotel Creta Beach - Crete
+284,Bathing,3847,3,Crete,Plane,14,August,ThreeStars,Hotel Creta Beach - Crete
+285,Bathing,3175,4,Crete,Plane,7,July,ThreeStars,Hotel Gortyna - Crete
+286,Active,3038,2,Crete,Plane,14,September,ThreeStars,Hotel Gortyna - Crete
+287,Active,2758,2,Crete,Plane,14,June,ThreeStars,Hotel Gortyna - Crete
+288,Bathing,3198,2,Crete,Plane,14,June,FourStars,Hotel Fodele Beach - Crete
+289,Bathing,2298,2,Crete,Plane,7,May,FourStars,Hotel Fodele Beach - Crete
+290,Bathing,6609,3,Crete,Plane,21,July,FourStars,Hotel Bali Paradise - Crete
+291,Active,4068,3,Crete,Plane,14,August,FourStars,Hotel Bali Paradise - Crete
+292,Active,4463,3,Crete,Plane,21,June,FourStars,Hotel Europa Beach - Crete
+293,Education,3038,2,Crete,Plane,14,May,FourStars,Hotel Europa Beach - Crete
+294,Bathing,2263,3,Rhodes,Plane,14,May,TwoStars,Studios Argiro - Rhodes
+295,Bathing,2428,2,Rhodes,Plane,21,June,TwoStars,Studios Argiro - Rhodes
+296,Bathing,2263,3,Rhodes,Plane,7,July,ThreeStars,Hotel Dafni - Rhodes
+297,Bathing,3553,4,Rhodes,Plane,14,August,ThreeStars,Hotel Dafni - Rhodes
+298,Bathing,2791,3,Rhodes,Plane,14,July,ThreeStars,Hotel Dafni - Rhodes
+299,Recreation,1968,2,Rhodes,Plane,7,May,ThreeStars,Hotel Kalithea Sun - Rhodes
+300,Active,2758,2,Rhodes,Plane,14,June,ThreeStars,Hotel Kalithea Sun - Rhodes
+301,Active,4364,3,Rhodes,Plane,21,July,ThreeStars,Hotel Kalithea Sun - Rhodes
+302,Education,2478,2,Rhodes,Plane,14,October,ThreeStars,Hotel Kalithea Sun - Rhodes
+303,Bathing,3869,3,Rhodes,Plane,14,July,FourStars,Hotel Columbia Resort - Rhodes
+304,Bathing,3958,2,Rhodes,Plane,21,September,FourStars,Hotel Columbia Resort - Rhodes
+305,Bathing,4925,4,Rhodes,Plane,14,August,FourStars,Hotel Columbia Resort - Rhodes
+306,Active,3498,2,Rhodes,Plane,14,July,FourStars,Hotel Paradise Beach - Rhodes
+307,Recreation,2298,2,Rhodes,Plane,7,June,FourStars,Hotel Paradise Beach - Rhodes
+308,Education,3098,2,Rhodes,Plane,14,September,FourStars,Hotel Paradise Beach - Rhodes
+309,Education,2068,4,England,Car,14,June,HolidayFlat,H.Flat England
+310,Language,3582,6,England,Car,21,July,HolidayFlat,H.Flat England
+311,Language,2398,8,England,Car,14,August,HolidayFlat,H.Flat England
+312,Recreation,2298,7,England,Car,14,September,HolidayFlat,H.Flat England
+313,Recreation,3297,6,England,Car,21,July,HolidayFlat,H.Flat England
+314,Education,3208,8,Ireland,Car,14,August,HolidayFlat,H.Flat Ireland
+315,Language,2592,6,Ireland,Car,21,June,HolidayFlat,H.Flat Ireland
+316,Language,2048,7,Ireland,Car,14,July,HolidayFlat,H.Flat Ireland
+317,Recreation,2388,4,Ireland,Car,14,August,HolidayFlat,H.Flat Ireland
+318,Recreation,2457,8,Ireland,Car,21,September,HolidayFlat,H.Flat Ireland
+319,Education,2458,3,Scotland,Car,14,June,HolidayFlat,H.Flat Scotland
+320,Language,3282,2,Scotland,Car,21,July,HolidayFlat,H.Flat Scotland
+321,Language,3878,6,Scotland,Car,14,August,HolidayFlat,H.Flat Scotland
+322,Recreation,2738,2,Scotland,Car,14,September,HolidayFlat,H.Flat Scotland
+323,Recreation,2248,2,Scotland,Car,21,July,HolidayFlat,H.Flat Scotland
+324,Education,1808,5,Wales,Car,14,June,HolidayFlat,H.Flat Wales
+325,Language,3732,5,Wales,Car,21,July,HolidayFlat,H.Flat Wales
+326,Language,2628,6,Wales,Car,14,August,HolidayFlat,H.Flat Wales
+327,Recreation,1888,6,Wales,Car,14,September,HolidayFlat,H.Flat Wales
+328,Recreation,3297,6,Wales,Car,21,July,HolidayFlat,H.Flat Wales
+329,Bathing,1408,6,NorthSea,Car,14,June,HolidayFlat,H.Flat North Sea - Holland
+330,Bathing,649,5,NorthSea,Car,7,July,HolidayFlat,H.Flat North Sea - Holland
+331,Bathing,1478,3,NorthSea,Car,14,August,HolidayFlat,H.Flat North Sea - Holland
+332,Active,1598,4,NorthSea,Car,14,July,HolidayFlat,H.Flat North Sea - Holland
+333,Recreation,559,6,NorthSea,Train,7,August,HolidayFlat,H.Flat North Sea - Holland
+334,Recreation,1198,3,NorthSea,Train,14,September,HolidayFlat,H.Flat North Sea - Holland
+335,Active,514,5,NorthSea,Coach,7,June,HolidayFlat,H.Flat North Sea - Holland
+336,Bathing,474,5,NorthSea,Car,3,June,HolidayFlat,H.Flat North Sea - Holland
+337,Bathing,539,4,NorthSea,Car,3,May,HolidayFlat,H.Flat North Sea - Holland
+338,Bathing,329,6,NorthSea,Car,3,June,HolidayFlat,H.Flat North Sea - Holland
+339,Active,3280,4,Holland,Car,14,April,HolidayFlat,Park Gran Dorado - Holland
+340,Active,790,2,Holland,Train,7,May,HolidayFlat,Park Gran Dorado - Holland
+341,Active,2620,4,Holland,Train,14,June,HolidayFlat,Park Gran Dorado - Holland
+342,Active,1900,5,Holland,Train,14,October,HolidayFlat,Park Gran Dorado - Holland
+343,Recreation,2760,4,Holland,Train,14,July,HolidayFlat,Park Gran Dorado - Holland
+344,Recreation,1580,6,Holland,Coach,7,August,HolidayFlat,Park Gran Dorado - Holland
+345,Recreation,2468,2,Holland,Coach,14,September,HolidayFlat,Park Gran Dorado - Holland
+346,Recreation,2780,4,Holland,Coach,14,July,HolidayFlat,Park Gran Dorado - Holland
+347,Recreation,485,2,Holland,Coach,3,May,HolidayFlat,Park Gran Dorado - Holland
+348,Recreation,735,4,Holland,Coach,4,June,HolidayFlat,Park Gran Dorado - Holland
+349,Recreation,705,6,Holland,Coach,3,September,HolidayFlat,Park Gran Dorado - Holland
+350,Bathing,1438,2,AdriaticSea,Car,14,June,TwoStars,Hotel Mexico - Adriatic Sea
+351,Bathing,1375,3,AdriaticSea,Car,7,July,TwoStars,Hotel Tropic - Adriatic Sea
+352,Bathing,1547,4,AdriaticSea,Car,14,August,TwoStars,Hotel Mexico - Adriatic Sea
+353,Bathing,1238,2,AdriaticSea,Car,14,September,TwoStars,Hotel Mexico - Adriatic Sea
+354,Bathing,2311,3,AdriaticSea,Car,14,August,TwoStars,Hotel Tropic - Adriatic Sea
+355,Active,1193,3,AdriaticSea,Car,7,July,TwoStars,Hotel Sporting - Adriatic Sea
+356,Recreation,1758,2,AdriaticSea,Car,21,May,TwoStars,Hotel Sporting - Adriatic Sea
+357,Bathing,1678,2,AdriaticSea,Car,14,July,ThreeStars,Hotel Nautilus - Adriatic Sea
+358,Bathing,1349,4,AdriaticSea,Car,7,August,ThreeStars,Hotel Nautilus - Adriatic Sea
+359,Recreation,1278,2,AdriaticSea,Car,14,June,ThreeStars,Hotel Nautilus - Adriatic Sea
+360,Bathing,679,6,AdriaticSea,Car,7,June,HolidayFlat,H.Flat Adriatic Sea
+361,Bathing,699,4,AdriaticSea,Car,7,July,HolidayFlat,H.Flat Adriatic Sea
+362,Bathing,1139,5,AdriaticSea,Car,7,August,HolidayFlat,H.Flat Adriatic Sea
+363,Bathing,439,6,AdriaticSea,Car,14,September,HolidayFlat,H.Flat Adriatic Sea
+364,Bathing,598,2,AdriaticSea,Car,14,May,HolidayFlat,H.Flat Adriatic Sea
+365,Bathing,1538,3,AdriaticSea,Car,14,July,HolidayFlat,H.Flat Adriatic Sea
+366,Active,998,4,AdriaticSea,Car,14,June,HolidayFlat,H.Flat Adriatic Sea
+367,Active,1359,8,AdriaticSea,Car,7,August,HolidayFlat,H.Flat Adriatic Sea
+368,Recreation,798,3,AdriaticSea,Car,14,September,HolidayFlat,H.Flat Adriatic Sea
+369,Recreation,399,6,AdriaticSea,Car,7,June,HolidayFlat,H.Flat Adriatic Sea
+370,Recreation,1608,2,LakeGarda,Car,14,May,TwoStars,Hotel Palme - Lake Garda
+371,Recreation,1838,2,LakeGarda,Car,14,June,TwoStars,Hotel Marco Polo - Lake Garda
+372,Recreation,1593,4,LakeGarda,Car,7,July,TwoStars,Hotel Palme - Lake Garda
+373,Bathing,2897,3,LakeGarda,Car,14,August,ThreeStars,Hotel Excelsior Bay - Lake Garda
+374,Active,1098,2,LakeGarda,Car,7,September,ThreeStars,Hotel Excelsior Bay - Lake Garda
+375,Active,2897,3,LakeGarda,Car,14,June,ThreeStars,Hotel Royal - Lake Garda
+376,Wandering,5497,3,LakeGarda,Car,21,July,ThreeStars,Hotel Royal - Lake Garda
+377,Recreation,2118,2,LakeGarda,Car,14,September,FourStars,Hotel Olimpo - Lake Garda
+378,Recreation,3138,2,LakeGarda,Car,21,May,FourStars,Hotel Olimpo - Lake Garda
+379,Wandering,3678,3,LakeGarda,Car,14,July,FourStars,Hotel Leonardo - Lake Garda
+380,Recreation,798,4,LakeGarda,Car,14,May,HolidayFlat,H.Flat Gardasee - Italy
+381,Recreation,1398,5,LakeGarda,Car,14,June,HolidayFlat,H.Flat Gardasee - Italy
+382,Recreation,479,6,LakeGarda,Car,7,July,HolidayFlat,H.Flat Gardasee - Italy
+383,Recreation,624,2,LakeGarda,Car,7,August,HolidayFlat,H.Flat Gardasee - Italy
+384,Active,579,3,LakeGarda,Car,7,September,HolidayFlat,H.Flat Gardasee - Italy
+385,Active,884,6,LakeGarda,Car,7,July,HolidayFlat,H.Flat Gardasee - Italy
+386,Active,928,2,LakeGarda,Car,14,June,HolidayFlat,H.Flat Gardasee - Italy
+387,Bathing,1099,3,LakeGarda,Car,7,August,HolidayFlat,H.Flat Gardasee - Italy
+388,Wandering,599,4,LakeGarda,Car,7,September,HolidayFlat,H.Flat Gardasee - Italy
+389,Wandering,1078,2,LakeGarda,Car,14,June,HolidayFlat,H.Flat Gardasee - Italy
+390,Bathing,1178,2,Riviera,Car,14,July,OneStar,Hotel Tritone - Ital. Riviera
+391,Bathing,622,3,Riviera,Car,7,August,OneStar,Hotel Tritone - Ital. Riviera
+392,Recreation,648,2,Riviera,Car,7,April,TwoStars,Hotel Al Sole - Ital. Riviera
+393,Recreation,1508,2,Riviera,Car,14,June,TwoStars,Hotel Al Sole - Ital. Riviera
+394,Bathing,747,3,Riviera,Car,7,September,TwoStars,Hotel La Vela - Ital. Riviera
+395,Bathing,2222,4,Riviera,Car,14,July,TwoStars,Hotel La Vela - Ital. Riviera
+396,Bathing,869,5,Riviera,Car,7,July,HolidayFlat,H.Flat Riviera - Italy
+397,Bathing,484,3,Riviera,Car,7,August,HolidayFlat,H.Flat Riviera - Italy
+398,Bathing,599,2,Riviera,Car,14,September,HolidayFlat,H.Flat Riviera - Italy
+399,Bathing,2678,4,Riviera,Car,14,August,HolidayFlat,H.Flat Riviera - Italy
+400,Bathing,1738,3,Riviera,Car,14,July,HolidayFlat,H.Flat Riviera - Italy
+401,Recreation,429,6,Riviera,Car,7,June,HolidayFlat,H.Flat Riviera - Italy
+402,Recreation,1088,6,Riviera,Car,14,May,HolidayFlat,H.Flat Riviera - Italy
+403,Active,529,4,Riviera,Car,7,June,HolidayFlat,H.Flat Riviera - Italy
+404,Active,1588,2,Riviera,Car,14,July,HolidayFlat,H.Flat Riviera - Italy
+405,Wandering,1258,2,Tyrol,Car,14,June,TwoStars,Pension garni Toni - South Tyrol
+406,Recreation,822,3,Tyrol,Car,7,May,TwoStars,Pension garni Toni - South Tyrol
+407,Wandering,1499,3,Tyrol,Car,14,July,ThreeStars,Hotel Untersteinerhof - South Tyrol
+408,Wandering,718,2,Tyrol,Car,7,September,ThreeStars,Hotel Untersteinerhof - South Tyrol
+409,Recreation,1528,2,Tyrol,Car,14,August,ThreeStars,Gasthof Adler - South Tyrol
+410,Active,798,2,Tyrol,Car,7,July,ThreeStars,Gasthof Adler - South Tyrol
+411,Wandering,1479,3,Tyrol,Car,7,June,FourStars,Posthotel Weisses Roessel - South Tyrol
+412,Wandering,2658,2,Tyrol,Car,14,July,FourStars,Posthotel Weisses Roessel - South Tyrol
+413,Recreation,1997,4,Tyrol,Car,7,September,FourStars,Hotel Nido - South Tyrol
+414,Recreation,2888,2,Tyrol,Car,14,June,FourStars,Hotel Nido - South Tyrol
+415,Wandering,439,4,Tyrol,Car,7,June,HolidayFlat,H.Flat Tirol - Italy
+416,Wandering,319,3,Tyrol,Car,7,July,HolidayFlat,H.Flat Tirol - Italy
+417,Recreation,769,6,Tyrol,Car,7,August,HolidayFlat,H.Flat Tirol - Italy
+418,Recreation,1398,4,Tyrol,Car,14,September,HolidayFlat,H.Flat Tirol - Italy
+419,Active,559,4,Tyrol,Car,7,May,HolidayFlat,H.Flat Tirol - Italy
+420,Language,2039,1,Malta,Plane,21,September,TwoStars,Sprachkurs - Malta
+421,Language,4078,2,Malta,Plane,21,July,TwoStars,Sprachkurs - Malta
+422,Language,1539,1,Malta,Plane,14,August,TwoStars,Sprachkurs - Malta
+423,Bathing,1598,2,Malta,Plane,14,June,TwoStars,Hotel Viking - Malta
+424,Language,2039,1,Malta,Plane,21,September,ThreeStars,Sprachkurs - Malta
+425,Bathing,3637,3,Malta,Plane,14,July,ThreeStars,Hotel Calypso - Malta
+426,Bathing,4476,4,Malta,Plane,14,August,ThreeStars,Hotel Calypso - Malta
+427,Bathing,4729,3,Malta,Plane,21,July,ThreeStars,Hotel Calypso - Malta
+428,Active,3078,2,Malta,Plane,14,September,ThreeStars,Hotel Atlantis - Malta
+429,Recreation,3518,2,Malta,Plane,21,May,ThreeStars,Hotel Atlantis - Malta
+430,Bathing,4147,3,Malta,Plane,14,August,FourStars,Hotel Suncrest - Malta
+431,Bathing,3978,2,Malta,Plane,21,June,FourStars,Hotel Suncrest - Malta
+432,Active,3267,4,Malta,Plane,7,July,FourStars,Hotel Suncrest - Malta
+433,Active,4391,3,Malta,Plane,14,August,FourStars,Hotel Cornucopia - Malta
+434,Recreation,3278,2,Malta,Plane,14,May,FourStars,Hotel Cornucopia - Malta
+435,Wandering,1008,2,Carinthia,Car,14,May,TwoStars,Pension Linde - Carinthia
+436,Wandering,538,3,Carinthia,Car,7,June,TwoStars,Pension Linde - Carinthia
+437,Recreation,1472,3,Carinthia,Car,14,July,TwoStars,Pension Seehof - Carinthia
+438,Recreation,1438,2,Carinthia,Car,21,August,TwoStars,Pension Seehof - Carinthia
+439,Wandering,1498,2,Carinthia,Car,14,September,ThreeStars,Aktivhotel Alte Muehle - Carinthia
+440,Wandering,1326,5,Carinthia,Car,7,August,ThreeStars,Ferienhotel Eichenhof - Carinthia
+441,Wandering,1247,3,Carinthia,Car,7,July,ThreeStars,Ferienhotel Eichenhof - Carinthia
+442,Recreation,1058,2,Carinthia,Car,7,June,ThreeStars,Hotel Ebner - Carinthia
+443,Recreation,1698,2,Carinthia,Car,14,May,ThreeStars,Hotel Ebner - Carinthia
+444,Active,2572,3,Carinthia,Car,14,July,ThreeStars,Aktivhotel Alte Muehle - Carinthia
+445,Wandering,499,4,Carinthia,Car,7,May,HolidayFlat,H.Flat Kaernten
+446,Wandering,1049,6,Carinthia,Car,7,June,HolidayFlat,H.Flat Kaernten
+447,Wandering,779,4,Carinthia,Car,7,July,HolidayFlat,H.Flat Kaernten
+448,Wandering,1858,3,Carinthia,Car,14,August,HolidayFlat,H.Flat Kaernten
+449,Recreation,1149,6,Carinthia,Car,7,September,HolidayFlat,H.Flat Kaernten
+450,Recreation,559,3,Carinthia,Car,7,May,HolidayFlat,H.Flat Kaernten
+451,Recreation,1073,2,Carinthia,Car,14,June,HolidayFlat,H.Flat Kaernten
+452,Recreation,1358,3,Carinthia,Car,14,July,HolidayFlat,H.Flat Kaernten
+453,Active,829,6,Carinthia,Car,7,August,HolidayFlat,H.Flat Kaernten
+454,Active,579,4,Carinthia,Car,7,September,HolidayFlat,H.Flat Kaernten
+455,Wandering,778,2,SalzbergerLand,Car,14,May,TwoStars,Pension Claudia - Salzb. Land
+456,Recreation,418,2,SalzbergerLand,Car,7,June,TwoStars,Pension Claudia - Salzb. Land
+457,Wandering,1572,3,SalzbergerLand,Car,14,July,ThreeStars,Hotel Tauernhof - Salzb. Land
+458,Active,837,4,SalzbergerLand,Car,7,August,ThreeStars,Hotel Tauernhof - Salzb. Land
+459,Wandering,718,2,SalzbergerLand,Car,7,September,ThreeStars,Gasthof Bachschmied - Salzb. Land
+460,Recreation,2038,2,SalzbergerLand,Car,21,May,ThreeStars,Gasthof Bachschmied - Salzb. Land
+461,Wandering,1538,3,SalzbergerLand,Car,14,June,FourStars,Hotel Eschbacher - Salzb. Land
+462,Recreation,2322,3,SalzbergerLand,Car,14,July,FourStars,Hotel Eschbacher - Salzb. Land
+463,Wandering,2127,4,SalzbergerLand,Car,7,August,FourStars,Hotel Norica - Salzb. Land
+464,Active,2627,3,SalzbergerLand,Car,14,September,FourStars,Hotel Norica - Salzb. Land
+465,Wandering,1798,2,SalzbergerLand,Car,7,July,FiveStars,Alpnerresidenz - Salzb. Land
+466,Recreation,1518,2,SalzbergerLand,Car,7,June,FiveStars,Alpnerresidenz - Salzb. Land
+467,Wandering,684,4,SalzbergerLand,Car,7,May,HolidayFlat,H.Flat Salzb. Land
+468,Wandering,729,6,SalzbergerLand,Car,7,June,HolidayFlat,H.Flat Salzb. Land
+469,Wandering,699,4,SalzbergerLand,Car,7,July,HolidayFlat,H.Flat Salzb. Land
+470,Wandering,349,2,SalzbergerLand,Car,14,August,HolidayFlat,H.Flat Salzb. Land
+471,Recreation,354,3,SalzbergerLand,Car,7,September,HolidayFlat,H.Flat Salzb. Land
+472,Recreation,399,2,SalzbergerLand,Car,7,August,HolidayFlat,H.Flat Salzb. Land
+473,Recreation,719,6,SalzbergerLand,Car,7,July,HolidayFlat,H.Flat Salzb. Land
+474,Recreation,1223,4,SalzbergerLand,Car,14,June,HolidayFlat,H.Flat Salzb. Land
+475,Active,484,3,SalzbergerLand,Car,7,July,HolidayFlat,H.Flat Salzb. Land
+476,Active,1228,4,SalzbergerLand,Car,14,June,HolidayFlat,H.Flat Salzb. Land
+477,Wandering,898,2,Styria,Car,14,June,TwoStars,Gasthof Mayer - Styria
+478,Recreation,478,3,Styria,Car,7,May,TwoStars,Gasthof Mayer - Styria
+479,Wandering,2372,3,Styria,Car,14,July,ThreeStars,Hotel Berghof - Styria
+480,Wandering,1227,4,Styria,Car,7,August,ThreeStars,Hotel Berghof - Styria
+481,Active,1578,2,Styria,Car,14,September,ThreeStars,Hotel Berghof - Styria
+482,Wandering,847,3,Styria,Car,7,May,FourStars,Hotel Haeuserl am Wald - Styria
+483,Recreation,678,2,Styria,Car,7,June,FourStars,Hotel Haeuserl am Wald - Styria
+484,Wandering,379,2,Styria,Car,7,July,HolidayFlat,H.Flat Styria
+485,Wandering,369,4,Styria,Car,7,August,HolidayFlat,H.Flat Styria
+486,Wandering,708,2,Styria,Car,14,September,HolidayFlat,H.Flat Styria
+487,Recreation,569,6,Styria,Car,7,August,HolidayFlat,H.Flat Styria
+488,Recreation,379,4,Styria,Car,7,July,HolidayFlat,H.Flat Styria
+489,Recreation,429,4,Styria,Car,7,June,HolidayFlat,H.Flat Styria
+490,Recreation,348,2,Styria,Car,14,May,HolidayFlat,H.Flat Styria
+491,Active,909,4,Styria,Car,7,July,HolidayFlat,H.Flat Styria
+492,Wandering,548,2,Tyrol,Car,7,May,OneStar,Gasthof Edelweiss - Tyrol
+493,Wandering,685,3,Tyrol,Car,7,June,OneStar,Gasthof Edelweiss - Tyrol
+494,Wandering,897,4,Tyrol,Car,7,July,TwoStars,Gasthof Post - Tyrol
+495,Wandering,2322,3,Tyrol,Car,14,August,TwoStars,Pension Tannenhof - Tyrol
+496,Recreation,698,2,Tyrol,Car,7,September,TwoStars,Gasthof Sonne - Tyrol
+497,Wandering,798,2,Tyrol,Car,7,August,ThreeStars,Gasthof Panorama - Tyrol
+498,Wandering,1808,2,Tyrol,Car,14,July,ThreeStars,Gasthof Panorama - Tyrol
+499,Recreation,1972,3,Tyrol,Car,14,June,ThreeStars,Ferienhotel Neuwirt - Tyrol
+500,Active,818,2,Tyrol,Car,7,June,ThreeStars,Ferienhotel Neuwirt - Tyrol
+501,Wandering,738,2,Tyrol,Car,7,May,FourStars,Hotel Wastlhof - Tyrol
+502,Wandering,3267,4,Tyrol,Car,14,July,FourStars,Hotel Klausen - Tyrol
+503,Recreation,1571,5,Tyrol,Car,7,August,FourStars,Hotel Unterwirt - Tyrol
+504,Wandering,1198,2,Tyrol,Car,7,September,FiveStars,Hotel Alpenresidence - Tyrol
+505,Recreation,1847,3,Tyrol,Car,7,July,FiveStars,Hotel Alpenresidence - Tyrol
+506,Active,3098,3,Tyrol,Car,14,August,FiveStars,Aparthotel Hopfgarten
+507,Wandering,449,3,Tyrol,Car,7,May,HolidayFlat,H.Flat Tyrol
+508,Wandering,654,5,Tyrol,Car,7,June,HolidayFlat,H.Flat Tyrol
+509,Wandering,539,4,Tyrol,Car,7,July,HolidayFlat,H.Flat Tyrol
+510,Wandering,609,5,Tyrol,Car,7,August,HolidayFlat,H.Flat Tyrol
+511,Wandering,484,2,Tyrol,Car,7,September,HolidayFlat,H.Flat Tyrol
+512,Wandering,789,6,Tyrol,Car,7,August,HolidayFlat,H.Flat Tyrol
+513,Wandering,838,3,Tyrol,Car,14,July,HolidayFlat,H.Flat Tyrol
+514,Wandering,728,2,Tyrol,Car,14,June,HolidayFlat,H.Flat Tyrol
+515,Recreation,729,5,Tyrol,Car,7,May,HolidayFlat,H.Flat Tyrol
+516,Recreation,849,6,Tyrol,Car,7,June,HolidayFlat,H.Flat Tyrol
+517,Recreation,494,3,Tyrol,Car,7,July,HolidayFlat,H.Flat Tyrol
+518,Recreation,599,5,Tyrol,Car,7,August,HolidayFlat,H.Flat Tyrol
+519,Recreation,688,2,Tyrol,Car,14,September,HolidayFlat,H.Flat Tyrol
+520,Active,789,7,Tyrol,Car,7,June,HolidayFlat,H.Flat Tyrol
+521,Active,1538,4,Tyrol,Car,14,July,HolidayFlat,H.Flat Tyrol
+522,Bathing,2518,2,Algarve,Plane,14,May,TwoStars,Anlage Aldeia - Algarve
+523,Bathing,2562,3,Algarve,Plane,14,June,TwoStars,Anlage Aldeia - Algarve
+524,Active,2371,3,Algarve,Plane,7,July,TwoStars,Anlage Aldeia - Algarve
+525,Bathing,3271,3,Algarve,Plane,21,September,ThreeStars,Hotel Tropico - Algarve
+526,Bathing,3398,2,Algarve,Plane,14,August,ThreeStars,Hotel Tropico - Algarve
+527,Bathing,2998,2,Algarve,Plane,14,June,ThreeStars,Hotel Tropico - Algarve
+528,Bathing,4253,4,Algarve,Plane,7,July,ThreeStars,Hotel California - Algarve
+529,Bathing,3758,2,Algarve,Plane,14,September,ThreeStars,Hotel California - Algarve
+530,Active,4885,3,Algarve,Plane,14,June,ThreeStars,Hotel California - Algarve
+531,Active,3958,2,Algarve,Plane,21,May,ThreeStars,Hotel California - Algarve
+532,Active,2678,2,Algarve,Plane,7,July,ThreeStars,Eurotel Altura - Algarve
+533,Recreation,3078,2,Algarve,Plane,14,April,ThreeStars,Eurotel Altura - Algarve
+534,Recreation,2158,2,Algarve,Plane,7,October,ThreeStars,Eurotel Altura - Algarve
+535,Bathing,3642,3,Algarve,Plane,14,July,FourStars,Hotel Neptuno - Algarve
+536,Active,4533,4,Algarve,Plane,14,August,FourStars,Hotel Neptuno - Algarve
+537,Bathing,3518,2,Madeira,Plane,14,June,TwoStars,Anlage Canico - Madeira
+538,Bathing,3440,3,Madeira,Plane,14,July,TwoStars,Anlage Canico - Madeira
+539,Bathing,4126,3,Madeira,Plane,21,August,TwoStars,Anlage Canico - Madeira
+540,Active,3518,2,Madeira,Plane,14,September,TwoStars,Anlage Canico - Madeira
+541,Bathing,3238,2,Madeira,Plane,14,June,ThreeStars,Hotel Mimosa - Madeira
+542,Bathing,4091,4,Madeira,Plane,7,July,ThreeStars,Hotel Mimosa - Madeira
+543,Bathing,4452,3,Madeira,Plane,21,September,ThreeStars,Hotel Mimosa - Madeira
+544,Active,3598,2,Madeira,Plane,14,August,ThreeStars,Hotel Orca Praia - Madeira
+545,Active,4438,2,Madeira,Plane,21,September,ThreeStars,Hotel Orca Praia - Madeira
+546,Recreation,4318,2,Madeira,Plane,21,May,ThreeStars,Hotel Orca Praia - Madeira
+547,Recreation,3318,2,Madeira,Plane,14,October,ThreeStars,Hotel Orca Praia - Madeira
+548,Bathing,2922,3,Madeira,Plane,7,July,FourStars,Hotel Raga - Madeira
+549,Bathing,5225,4,Madeira,Plane,14,August,FourStars,Hotel Raga - Madeira
+550,Active,3989,2,Madeira,Plane,14,June,FourStars,Hotel Oasis Atlantic - Madeira
+551,Active,3897,3,Madeira,Plane,7,July,FourStars,Hotel Oasis Atlantic - Madeira
+552,Recreation,469,4,Sweden,Car,7,June,HolidayFlat,H.Flat Sweden
+553,Recreation,799,6,Sweden,Car,7,July,HolidayFlat,H.Flat Sweden
+554,Recreation,519,5,Sweden,Car,7,August,HolidayFlat,H.Flat Sweden
+555,Recreation,539,4,Sweden,Car,7,September,HolidayFlat,H.Flat Sweden
+556,Recreation,989,6,Sweden,Car,7,October,HolidayFlat,H.Flat Sweden
+557,Recreation,649,6,Sweden,Car,7,August,HolidayFlat,H.Flat Sweden
+558,Recreation,779,4,Sweden,Car,7,July,HolidayFlat,H.Flat Sweden
+559,Recreation,1578,4,Sweden,Car,14,June,HolidayFlat,H.Flat Sweden
+560,Recreation,1538,4,Sweden,Car,14,July,HolidayFlat,H.Flat Sweden
+561,Recreation,1318,4,Sweden,Car,14,August,HolidayFlat,H.Flat Sweden
+562,Recreation,1178,6,Sweden,Car,14,September,HolidayFlat,H.Flat Sweden
+563,Wandering,639,6,Sweden,Car,7,June,HolidayFlat,H.Flat Sweden
+564,Wandering,799,6,Sweden,Car,7,July,HolidayFlat,H.Flat Sweden
+565,Wandering,789,4,Sweden,Car,7,August,HolidayFlat,H.Flat Sweden
+566,Wandering,938,4,Sweden,Car,14,September,HolidayFlat,H.Flat Sweden
+567,Wandering,764,3,Alps,Car,7,May,HolidayFlat,H.Flat Switzerland
+568,Wandering,494,2,Alps,Car,7,June,HolidayFlat,H.Flat Switzerland
+569,Wandering,989,6,Alps,Car,7,July,HolidayFlat,H.Flat Switzerland
+570,Wandering,799,4,Alps,Car,7,August,HolidayFlat,H.Flat Switzerland
+571,Wandering,839,2,Alps,Car,7,September,HolidayFlat,H.Flat Switzerland
+572,Wandering,799,3,Alps,Car,7,June,HolidayFlat,H.Flat Switzerland
+573,Wandering,779,6,Alps,Car,7,July,HolidayFlat,H.Flat Switzerland
+574,Wandering,529,4,Alps,Car,7,August,HolidayFlat,H.Flat Switzerland
+575,Wandering,858,3,Alps,Car,14,September,HolidayFlat,H.Flat Switzerland
+576,Wandering,1303,4,Alps,Car,14,June,HolidayFlat,H.Flat Switzerland
+577,Wandering,738,6,Alps,Car,14,May,HolidayFlat,H.Flat Switzerland
+578,Wandering,908,2,Alps,Car,14,July,HolidayFlat,H.Flat Switzerland
+579,Recreation,729,3,Alps,Car,7,May,HolidayFlat,H.Flat Switzerland
+580,Recreation,779,6,Alps,Car,7,June,HolidayFlat,H.Flat Switzerland
+581,Recreation,519,4,Alps,Car,7,July,HolidayFlat,H.Flat Switzerland
+582,Recreation,1184,4,Alps,Car,7,August,HolidayFlat,H.Flat Switzerland
+583,Recreation,629,2,Alps,Car,7,September,HolidayFlat,H.Flat Switzerland
+584,Recreation,858,3,Alps,Car,14,June,HolidayFlat,H.Flat Switzerland
+585,Recreation,1298,4,Alps,Car,14,July,HolidayFlat,H.Flat Switzerland
+586,Recreation,1958,6,Alps,Car,14,August,HolidayFlat,H.Flat Switzerland
+587,Bathing,1317,4,CostaBlanca,Car,7,August,TwoStars,Hotel Torre Dorada - Costa Blanca
+588,Bathing,2800,3,CostaBlanca,Car,14,July,ThreeStars,Hotel Galetamar - Costa Blanca
+589,Bathing,1058,2,CostaBlanca,Car,7,August,FourStars,Hotel Roca Esmeralda - Costa Blanca
+590,Bathing,3222,3,CostaBlanca,Car,14,July,FourStars,Hotel Roca Esmeralda - Costa Blanca
+591,Recreation,1014,10,CostaBlanca,Car,7,May,HolidayFlat,H.Flat Costa Blanca
+592,Recreation,539,4,CostaBlanca,Car,14,June,HolidayFlat,H.Flat Costa Blanca
+593,Active,1039,6,CostaBlanca,Car,7,July,HolidayFlat,H.Flat Costa Blanca
+594,Active,678,4,CostaBlanca,Car,14,September,HolidayFlat,H.Flat Costa Blanca
+595,Bathing,1039,8,CostaBlanca,Car,7,June,HolidayFlat,H.Flat Costa Blanca
+596,Bathing,2324,12,CostaBlanca,Car,7,July,HolidayFlat,H.Flat Costa Blanca
+597,Bathing,1229,2,CostaBlanca,Car,7,August,HolidayFlat,H.Flat Costa Blanca
+598,Bathing,789,5,CostaBlanca,Car,7,September,HolidayFlat,H.Flat Costa Blanca
+599,Bathing,649,3,CostaBlanca,Car,7,July,HolidayFlat,H.Flat Costa Blanca
+600,Bathing,1259,3,CostaBlanca,Car,7,August,HolidayFlat,H.Flat Costa Blanca
+601,Bathing,1038,4,CostaBlanca,Car,14,June,HolidayFlat,H.Flat Costa Blanca
+602,Bathing,1798,4,CostaBlanca,Car,14,July,HolidayFlat,H.Flat Costa Blanca
+603,Bathing,2038,8,CostaBlanca,Car,14,September,HolidayFlat,H.Flat Costa Blanca
+604,Bathing,1998,2,CostaBrava,Car,14,June,TwoStars,Hotel La Huerta - Costa Brava
+605,Bathing,2550,3,CostaBrava,Car,14,July,TwoStars,Hotel La Huerta - Costa Brava
+606,Active,2696,3,CostaBrava,Car,21,August,TwoStars,Hotel Mar Eden - Costa Brava
+607,Recreation,1558,2,CostaBrava,Car,7,September,TwoStars,Hotel Mar Eden - Costa Brava
+608,Bathing,2518,2,CostaBrava,Car,14,June,ThreeStars,Hotel Surf Mar - Costa Brava
+609,Bathing,6971,4,CostaBrava,Car,21,August,ThreeStars,Hotel Surf Mar - Costa Brava
+610,Bathing,3099,3,CostaBrava,Car,14,July,ThreeStars,Hotel Surf Mar - Costa Brava
+611,Bathing,1738,2,CostaBrava,Car,7,July,ThreeStars,Hotel Albatros - Costa Brava
+612,Active,2198,2,CostaBrava,Car,14,June,ThreeStars,Hotel Albatros - Costa Brava
+613,Recreation,2360,3,CostaBrava,Car,14,May,ThreeStars,Hotel Albatros - Costa Brava
+614,Bathing,2186,3,CostaBrava,Car,7,July,FourStars,Hotel Olympic Park - Costa Brava
+615,Bathing,2418,2,CostaBrava,Car,14,June,FourStars,Hotel Olympic Park - Costa Brava
+616,Bathing,3737,3,CostaBrava,Car,14,August,FourStars,Hotel Olympic Park - Costa Brava
+617,Active,3048,2,CostaBrava,Car,21,September,FourStars,Golden Hotel Port Salou - Costa Brava
+618,Recreation,3912,4,CostaBrava,Car,14,July,FourStars,Golden Hotel Port Salou - Costa Brava
+619,Bathing,3528,2,Fuerteventura,Plane,14,May,ThreeStars,Hotel Oliva Beach - Fuerteventura
+620,Bathing,4402,3,Fuerteventura,Plane,14,June,ThreeStars,Hotel Oliva Beach - Fuerteventura
+621,Bathing,6357,3,Fuerteventura,Plane,21,July,ThreeStars,Hotel Oliva Beach - Fuerteventura
+622,Bathing,3417,4,Fuerteventura,Plane,14,August,ThreeStars,Appartm. Rio Tropical - Fuerteventura
+623,Active,2598,2,Fuerteventura,Plane,14,September,ThreeStars,Appartm. Rio Tropical - Fuerteventura
+624,Active,2252,3,Fuerteventura,Plane,7,July,ThreeStars,Appartm. Rio Tropical - Fuerteventura
+625,Active,3678,2,Fuerteventura,Plane,14,August,ThreeStars,Hotel Crystal Beach - Fuerteventura
+626,Recreation,3578,2,Fuerteventura,Plane,14,June,ThreeStars,Hotel Crystal Beach - Fuerteventura
+627,Bathing,7161,3,Fuerteventura,Plane,21,June,FourStars,Hotel Rio Ventura - Fuerteventura
+628,Bathing,5709,3,Fuerteventura,Plane,14,July,FourStars,Hotel Rio Ventura - Fuerteventura
+629,Bathing,6369,4,Fuerteventura,Plane,14,August,FourStars,Hotel Rio Ventura - Fuerteventura
+630,Bathing,3188,2,Fuerteventura,Plane,7,June,FourStars,Hotel Rio Ventura - Fuerteventura
+631,Active,3428,2,Fuerteventura,Plane,14,September,FourStars,Hotel Rio Maxarota - Fuerteventura
+632,Active,4602,3,Fuerteventura,Plane,14,July,FourStars,Hotel Rio Maxarota - Fuerteventura
+633,Recreation,3188,2,Fuerteventura,Plane,14,May,FourStars,Hotel Rio Maxarota - Fuerteventura
+634,Bathing,2412,3,GranCanaria,Plane,14,May,TwoStars,Studios Puerto Plata - Gran Canaria
+635,Bathing,3125,3,GranCanaria,Plane,21,July,TwoStars,Studios Puerto Plata - Gran Canaria
+636,Bathing,2378,2,GranCanaria,Plane,14,September,TwoStars,Studios Brisamar - Gran Canaria
+637,Active,3177,4,GranCanaria,Plane,14,August,TwoStars,Studios Brisamar - Gran Canaria
+638,Bathing,2788,2,GranCanaria,Plane,14,May,ThreeStars,Hotel Riosol - Gran Canaria
+639,Bathing,4100,3,GranCanaria,Plane,21,June,ThreeStars,Hotel Riosol - Gran Canaria
+640,Bathing,2723,3,GranCanaria,Plane,7,July,ThreeStars,Hotel Caserio - Gran Canaria
+641,Active,4261,3,GranCanaria,Plane,14,August,ThreeStars,IFA Beach Hotel - Gran Canaria
+642,Active,3778,2,GranCanaria,Plane,21,September,ThreeStars,IFA Beach Hotel - Gran Canaria
+643,Recreation,2508,2,GranCanaria,Plane,7,August,ThreeStars,IFA Beach Hotel - Gran Canaria
+644,Bathing,3258,2,GranCanaria,Plane,14,June,FourStars,Hotel Las Margaritas - Gran Canaria
+645,Bathing,4252,3,GranCanaria,Plane,14,July,FourStars,Hotel Las Margaritas - Gran Canaria
+646,Bathing,3498,2,GranCanaria,Plane,21,September,FourStars,Hotel Caserio - Gran Canaria
+647,Active,2848,2,GranCanaria,Plane,14,May,FourStars,Hotel Caserio - Gran Canaria
+648,Active,3551,3,GranCanaria,Plane,14,August,FourStars,Hotel Caserio - Gran Canaria
+649,Bathing,2078,2,Ibiza,Plane,14,June,TwoStars,Pension Central - Ibiza
+650,Bathing,2498,2,Ibiza,Plane,21,September,TwoStars,Pension Central - Ibiza
+651,Bathing,2427,3,Ibiza,Plane,14,July,TwoStars,Hotel Llevant - Ibiza
+652,Active,2852,4,Ibiza,Plane,14,August,TwoStars,Hotel Llevant - Ibiza
+653,Active,1995,3,Ibiza,Plane,7,July,TwoStars,Hotel Llevant - Ibiza
+654,Bathing,2798,2,Ibiza,Plane,14,June,ThreeStars,Hotel Helios II - Ibiza
+655,Bathing,2878,2,Ibiza,Plane,14,July,ThreeStars,Hotel Helios II - Ibiza
+656,Bathing,3258,2,Ibiza,Plane,21,May,ThreeStars,Hotel Helios II - Ibiza
+657,Bathing,2343,3,Ibiza,Plane,7,August,ThreeStars,Hotel Atlantic - Ibiza
+658,Bathing,3217,3,Ibiza,Plane,14,June,ThreeStars,Hotel Atlantic - Ibiza
+659,Active,4832,4,Ibiza,Plane,14,July,ThreeStars,Hotel Atlantic - Ibiza
+660,Active,3558,2,Ibiza,Plane,21,September,ThreeStars,Hotel Atlantic - Ibiza
+661,Bathing,4398,2,Ibiza,Plane,14,June,FourStars,Club La Mola - Ibiza
+662,Bathing,4958,2,Ibiza,Plane,14,July,FourStars,Club La Mola - Ibiza
+663,Active,2090,3,Ibiza,Plane,7,August,FourStars,Hotel Nereida - Ibiza
+664,Bathing,1558,2,Mallorca,Plane,14,June,OneStar,Pension Marina - Mallorca
+665,Bathing,2397,3,Mallorca,Plane,14,July,OneStar,Pension Marina - Mallorca
+666,Bathing,2481,2,Mallorca,Plane,21,September,OneStar,Pension El Golea - Mallorca
+667,Bathing,1718,2,Mallorca,Plane,14,June,TwoStars,Pension Alcina - Mallorca
+668,Bathing,2410,4,Mallorca,Plane,7,August,TwoStars,Pension Alcina - Mallorca
+669,Recreation,1285,3,Mallorca,Plane,4,May,TwoStars,Hotel Manaus - Mallorca
+670,Active,1798,2,Mallorca,Plane,14,June,TwoStars,Hotel Vaquer - Mallorca
+671,Wandering,1676,3,Mallorca,Plane,7,September,TwoStars,Hotel Vaquer - Mallorca
+672,Bathing,2198,2,Mallorca,Plane,14,June,ThreeStars,Hotel Samu - Mallorca
+673,Bathing,3530,4,Mallorca,Plane,14,July,ThreeStars,Hotel Samu - Mallorca
+674,Bathing,1607,3,Mallorca,Plane,4,August,ThreeStars,Hotel Flamingo - Mallorca
+675,Bathing,3697,3,Mallorca,Plane,14,July,ThreeStars,Hotel Sol Lux - Mallorca
+676,Bathing,1858,2,Mallorca,Plane,7,August,ThreeStars,Hotel Sol Lux - Mallorca
+677,Bathing,2598,3,Mallorca,Plane,14,September,ThreeStars,Hotel Saturno - Mallorca
+678,Active,3058,2,Mallorca,Plane,21,May,ThreeStars,Hotel Saturno - Mallorca
+679,Bathing,1478,2,Mallorca,Plane,4,June,FourStars,Hotel Gran Fiesta - Mallorca
+680,Bathing,3644,4,Mallorca,Plane,7,July,FourStars,Anlage Lago Playa - Mallorca
+681,Bathing,3605,3,Mallorca,Plane,14,August,FourStars,Anlage Lago Playa - Mallorca
+682,Active,2678,2,Mallorca,Plane,14,June,FourStars,Lagotel-Club - Mallorca
+683,Active,1898,2,Mallorca,Plane,7,September,FourStars,Lagotel-Club - Mallorca
+684,Bathing,3417,3,Teneriffe,Plane,14,June,TwoStars,Studios Mare Verde - Teneriffe
+685,Bathing,2698,2,Teneriffe,Plane,21,September,TwoStars,Studios Mare Verde - Teneriffe
+686,Bathing,3837,3,Teneriffe,Plane,14,July,ThreeStars,Appartm. Parque Royal - Teneriffe
+687,Bathing,3507,4,Teneriffe,Plane,14,August,ThreeStars,Appartm. Parque Royal - Teneriffe
+688,Bathing,2278,2,Teneriffe,Plane,14,June,ThreeStars,Appartm. Parque Royal - Teneriffe
+689,Bathing,3194,3,Teneriffe,Plane,14,August,ThreeStars,Hotel Las Pyramides - Teneriffe
+690,Bathing,2858,2,Teneriffe,Plane,14,July,ThreeStars,Hotel Las Pyramides - Teneriffe
+691,Bathing,2068,2,Teneriffe,Plane,7,May,ThreeStars,Hotel Las Pyramides - Teneriffe
+692,Active,3278,2,Teneriffe,Plane,21,June,ThreeStars,Hotel Internacional - Teneriffe
+693,Recreation,2178,2,Teneriffe,Plane,7,October,ThreeStars,Hotel Internacional - Teneriffe
+694,Bathing,4011,3,Teneriffe,Plane,14,August,FourStars,Hotel Sol - Teneriffe
+695,Bathing,4287,3,Teneriffe,Plane,14,July,FourStars,Hotel Sol - Teneriffe
+696,Bathing,2488,2,Teneriffe,Plane,7,June,FourStars,Hotel Sol - Teneriffe
+697,Active,5532,4,Teneriffe,Plane,14,August,FourStars,Hotel Florida - Teneriffe
+698,Active,4810,3,Teneriffe,Plane,21,May,FourStars,Hotel Florida - Teneriffe
+699,Wandering,758,2,GiantMountains,Car,7,May,TwoStars,Hotel Bedrichov - Giant Mountains
+700,Wandering,858,2,GiantMountains,Car,7,June,TwoStars,Hotel Bedrichov - Giant Mountains
+701,Wandering,1118,4,GiantMountains,Car,7,July,TwoStars,Hotel Energetik - Giant Mountains
+702,Wandering,1698,3,GiantMountains,Car,14,August,TwoStars,Hotel Energetik - Giant Mountains
+703,Wandering,1138,2,GiantMountains,Car,14,September,TwoStars,Hotel Karolina - Giant Mountains
+704,Recreation,798,2,GiantMountains,Car,7,August,TwoStars,Hotel Karolina - Giant Mountains
+705,Recreation,678,3,GiantMountains,Car,7,July,TwoStars,Waldhotel Trakce - Giant Mountains
+706,Recreation,938,2,GiantMountains,Car,7,June,ThreeStars,Hotel Arnika - Giant Mountains
+707,Recreation,1498,2,GiantMountains,Car,14,May,ThreeStars,Hotel Arnika - Giant Mountains
+708,Wandering,698,2,GiantMountains,Car,7,June,ThreeStars,Hotel Horal - Giant Mountains
+709,Wandering,1806,3,GiantMountains,Car,14,September,ThreeStars,Hotel Horal - Giant Mountains
+710,Wandering,807,3,GiantMountains,Coach,7,May,TwoStars,Hotel Bedrichov - Giant Mountains
+711,Recreation,2274,4,GiantMountains,Coach,14,June,TwoStars,Hotel Bedrichov - Giant Mountains
+712,Recreation,1185,3,GiantMountains,Train,7,August,ThreeStars,Hotel Horal - Giant Mountains
+713,Wandering,698,2,GiantMountains,Train,7,September,ThreeStars,Hotel Horal - Giant Mountains
+714,Bathing,2178,2,TurkishAegeanSea,Plane,14,June,TwoStars,Hotel Villa Soel - Turk. Aegean Sea
+715,Bathing,2483,3,TurkishAegeanSea,Plane,14,July,TwoStars,Hotel Villa Soel - Turk. Aegean Sea
+716,Bathing,4770,4,TurkishAegeanSea,Plane,21,August,ThreeStars,Hotel Alinda - Turk. Aegean Sea
+717,Active,2578,2,TurkishAegeanSea,Plane,14,September,ThreeStars,Hotel Alinda - Turk. Aegean Sea
+718,Active,3065,3,TurkishAegeanSea,Plane,7,July,ThreeStars,Hotel Turunc - Turk. Aegean Sea
+719,Bathing,2758,2,TurkishAegeanSea,Plane,14,August,ThreeStars,Hotel Turunc - Turk. Aegean Sea
+720,Education,2878,2,TurkishAegeanSea,Plane,14,May,FourStars,Hotel Marti - Turk. Aegean Sea
+721,Bathing,1958,2,TurkishAegeanSea,Plane,14,June,TwoStars,Hotel Talat - Turk. Aegean Sea
+722,Bathing,3171,3,TurkishAegeanSea,Plane,14,July,ThreeStars,Club Pigale - Turk. Aegean Sea
+723,Bathing,2412,3,TurkishAegeanSea,Plane,7,August,ThreeStars,Club Pigale - Turk. Aegean Sea
+724,Bathing,2878,2,TurkishAegeanSea,Plane,14,September,ThreeStars,Hotel Batihan - Turk. Aegean Sea
+725,Education,3278,2,TurkishAegeanSea,Plane,21,May,ThreeStars,Hotel Batihan - Turk. Aegean Sea
+726,Bathing,4313,4,TurkishAegeanSea,Plane,14,August,FourStars,Hotel Biltur - Turk. Aegean Sea
+727,Bathing,3010,3,TurkishAegeanSea,Plane,7,July,FourStars,Hotel Biltur - Turk. Aegean Sea
+728,Active,2918,2,TurkishAegeanSea,Plane,14,June,FourStars,Club Ephesus Princess - Turk. Aegean Sea
+729,Bathing,2298,2,TurkishRiviera,Plane,14,June,TwoStars,Hotel Alaiye - Turk. Riviera
+730,Bathing,2941,3,TurkishRiviera,Plane,14,July,TwoStars,Hotel Alaiye - Turk. Riviera
+731,Active,3160,3,TurkishRiviera,Plane,21,September,TwoStars,Hotel Alaiye - Turk. Riviera
+732,Bathing,4107,4,TurkishRiviera,Plane,14,August,ThreeStars,Hotel Panorama - Turk. Riviera
+733,Bathing,2838,2,TurkishRiviera,Plane,14,July,ThreeStars,Hotel Panorama - Turk. Riviera
+734,Bathing,2738,2,TurkishRiviera,Plane,14,June,ThreeStars,Hotel Panorama - Turk. Riviera
+735,Bathing,2258,2,TurkishRiviera,Plane,7,August,ThreeStars,Hotel Akropol - Turk. Riviera
+736,Bathing,3891,3,TurkishRiviera,Plane,21,June,ThreeStars,Hotel Akropol - Turk. Riviera
+737,Active,3058,2,TurkishRiviera,Plane,14,September,ThreeStars,Hotel Sueral Garden - Turk. Riviera
+738,Education,2698,2,TurkishRiviera,Plane,14,May,ThreeStars,Hotel Sueral Garden - Turk. Riviera
+739,Bathing,3258,2,TurkishRiviera,Plane,14,June,FourStars,Hotel Botanik - Turk. Riviera
+740,Bathing,3325,3,TurkishRiviera,Plane,7,July,FourStars,Hotel Botanik - Turk. Riviera
+741,Bathing,3258,3,TurkishRiviera,Plane,14,September,FourStars,Hotel Botanik - Turk. Riviera
+742,Active,2898,2,TurkishRiviera,Plane,14,May,FourStars,Hotel Sueral - Turk. Riviera
+743,Education,2498,2,TurkishRiviera,Plane,14,October,FourStars,Hotel Sueral - Turk. Riviera
+744,Bathing,2778,3,Tunisia,Plane,14,July,TwoStars,Hotel Solymar - Tunisia
+745,Bathing,1778,2,Tunisia,Plane,14,June,TwoStars,Hotel Solymar - Tunisia
+746,Recreation,2058,2,Tunisia,Plane,14,May,TwoStars,Hotel-Club Ramses - Tunisia
+747,Active,2637,3,Tunisia,Plane,14,September,TwoStars,Hotel-Club Ramses - Tunisia
+748,Bathing,4114,3,Tunisia,Plane,14,June,ThreeStars,Hotel Montazah - Tunisia
+749,Bathing,3464,4,Tunisia,Plane,7,July,ThreeStars,Hotel Montazah - Tunisia
+750,Bathing,3203,3,Tunisia,Plane,14,August,ThreeStars,Hotel-Club Nador - Tunisia
+751,Recreation,2768,2,Tunisia,Plane,21,June,ThreeStars,Hotel-Club Nador - Tunisia
+752,Recreation,2258,2,Tunisia,Plane,14,May,ThreeStars,Hotel Aqua Viva - Tunisia
+753,Active,2964,3,Tunisia,Plane,14,September,ThreeStars,Hotel Aqua Viva - Tunisia
+754,Bathing,2808,2,Tunisia,Plane,14,June,FourStars,Hotel Paradise - Tunisia
+755,Bathing,4773,4,Tunisia,Plane,14,July,FourStars,Hotel Paradise - Tunisia
+756,Recreation,1888,2,Tunisia,Plane,14,May,FourStars,Hotel Royal Golf - Tunisia
+757,Bathing,2228,2,Tunisia,Plane,7,June,FourStars,Hotel Royal Golf - Tunisia
+758,Active,2898,2,Tunisia,Plane,14,August,FourStars,Hotel Jockey Club - Tunisia
+759,Active,2879,3,Tunisia,Plane,14,September,FourStars,Hotel Jockey Club - Tunisia
+760,Bathing,3537,4,Balaton,Car,14,July,ThreeStars,Hotel Marina - Balaton
+761,Bathing,2447,3,Balaton,Car,21,August,ThreeStars,Hotel Marina - Balaton
+762,Bathing,2758,3,Balaton,Car,14,July,FourStars,Hotel Helikon - Balaton
+763,Recreation,2758,2,Balaton,Car,14,June,FourStars,Hotel Helikon - Balaton
+764,Bathing,879,9,Balaton,Car,7,June,HolidayFlat,H.Flat Balaton
+765,Bathing,759,5,Balaton,Car,7,July,HolidayFlat,H.Flat Balaton
+766,Bathing,798,2,Balaton,Car,14,August,HolidayFlat,H.Flat Balaton
+767,Recreation,658,3,Balaton,Car,14,May,HolidayFlat,H.Flat Balaton
+768,Recreation,279,2,Balaton,Car,7,June,HolidayFlat,H.Flat Balaton
+769,Active,1498,7,Balaton,Car,14,September,HolidayFlat,H.Flat Balaton
+770,Recreation,434,2,Belgium,Car,7,November,HolidayFlat,Ferienpark Atlantis - Belgium
+771,Recreation,434,3,Belgium,Car,7,December,HolidayFlat,Ferienpark Atlantis - Belgium
+772,Recreation,739,4,Belgium,Car,14,February,HolidayFlat,Ferienpark Atlantis - Belgium
+773,Active,434,2,Belgium,Car,7,November,HolidayFlat,Ferienpark Atlantis - Belgium
+774,Active,1068,4,Belgium,Car,14,March,HolidayFlat,Ferienpark Atlantis - Belgium
+775,Recreation,314,2,Belgium,Car,3,November,HolidayFlat,Ferienpark Atlantis - Belgium
+776,Active,394,6,Belgium,Car,4,January,HolidayFlat,Ferienpark Atlantis - Belgium
+777,Recreation,649,4,Belgium,Car,7,November,HolidayFlat,SunParks De Haan -Belgium
+778,Active,879,8,Belgium,Car,7,December,HolidayFlat,SunParks De Haan -Belgium
+779,Recreation,719,6,Belgium,Car,7,January,HolidayFlat,SunParks De Haan -Belgium
+780,Active,369,4,Belgium,Car,4,December,HolidayFlat,SunParks De Haan -Belgium
+781,Recreation,849,3,Belgium,Car,7,February,HolidayFlat,SunParks Groendyk - Belgium
+782,Active,649,6,Belgium,Car,7,November,HolidayFlat,SunParks Groendyk - Belgium
+783,Recreation,339,5,Belgium,Car,4,February,HolidayFlat,SunParks Groendyk - Belgium
+784,Recreation,1338,4,Belgium,Car,14,January,HolidayFlat,SunParks Rauwse Meren - Belgium
+785,Active,959,5,Belgium,Car,7,February,HolidayFlat,SunParks Rauwse Meren - Belgium
+786,Active,499,4,Belgium,Car,3,December,HolidayFlat,SunParks Rauwse Meren - Belgium
+787,Recreation,649,4,Belgium,Car,7,March,HolidayFlat,SunParks Vielsalm - Belgium
+788,Active,919,8,Belgium,Car,7,November,HolidayFlat,SunParks Vielsalm - Belgium
+789,Recreation,619,6,Belgium,Car,4,March,HolidayFlat,SunParks Vielsalm - Belgium
+790,Recreation,699,2,Denmark,Car,7,November,HolidayFlat,Ferienpark Lalandia - Denmark
+791,Recreation,699,3,Denmark,Car,7,December,HolidayFlat,Ferienpark Lalandia - Denmark
+792,Active,439,4,Denmark,Car,4,January,HolidayFlat,Ferienpark Lalandia - Denmark
+793,Recreation,639,4,Denmark,Car,7,February,HolidayFlat,Feriencenter Rodhus Klit - Denmark
+794,Active,639,5,Denmark,Car,7,March,HolidayFlat,Feriencenter Rodhus Klit - Denmark
+795,Active,1278,4,Denmark,Car,14,November,HolidayFlat,Feriencenter Rodhus Klit - Denmark
+796,Recreation,629,4,Denmark,Car,7,February,HolidayFlat,Feriencenter Vigso - Denmark
+797,Active,629,6,Denmark,Car,7,January,HolidayFlat,Feriencenter Vigso - Denmark
+798,Recreation,509,4,Denmark,Car,7,March,HolidayFlat,Feriencenter Danland - Denmark
+799,Active,889,8,Denmark,Car,7,February,HolidayFlat,Feriencenter Danland - Denmark
+800,Recreation,579,2,Denmark,Car,7,January,HolidayFlat,H.Flat Ronbjerg Strand - Denmark
+801,Recreation,719,4,Denmark,Car,7,February,HolidayFlat,H.Flat Ronbjerg Strand - Denmark
+802,Active,1638,6,Denmark,Car,14,March,HolidayFlat,H.Flat Ronbjerg Strand - Denmark
+803,Recreation,849,4,Fano,Car,7,January,HolidayFlat,Ferienpark Fano - Denmark
+804,Active,1089,6,Fano,Car,7,March,HolidayFlat,Ferienpark Fano - Denmark
+805,Recreation,499,3,Holland,Car,7,November,HolidayFlat,Ferienpark Port Greve - Holland
+806,Recreation,529,4,Holland,Car,7,December,HolidayFlat,Ferienpark Port Greve - Holland
+807,Active,609,6,Holland,Car,7,February,HolidayFlat,Ferienpark Port Greve - Holland
+808,Recreation,354,4,Holland,Car,3,January,HolidayFlat,Ferienpark Port Greve - Holland
+809,Active,339,2,Holland,Car,4,November,HolidayFlat,Ferienpark Port Greve - Holland
+810,Active,538,2,Poland,Car,7,January,ThreeStars,Hotel Maurizius - Poland
+811,Skiing,822,3,Poland,Car,7,February,ThreeStars,Hotel Maurizius - Poland
+812,Recreation,1076,4,Poland,Car,7,February,ThreeStars,Hotel Maurizius - Poland
+813,Active,1602,3,Poland,Car,14,January,TwoStars,Hotel Anna Maria - Poland
+814,Skiing,558,2,Poland,Car,7,February,TwoStars,Hotel Anna Maria - Poland
+815,Recreation,807,4,Poland,Car,7,March,TwoStars,Hotel Anna Maria - Poland
+816,Active,898,2,Poland,Car,14,January,TwoStars,Hotel Karolinka - Poland
+817,Skiing,478,2,Poland,Car,7,February,TwoStars,Hotel Karolinka - Poland
+818,Recreation,687,3,Poland,Car,7,March,TwoStars,Hotel Karolinka - Poland
+819,Active,319,2,Poland,Car,7,January,TwoStars,Hotel Ametyst - Poland
+820,Skiing,1962,4,Poland,Car,14,February,TwoStars,Hotel Ametyst - Poland
+821,Recreation,329,2,Poland,Car,7,February,TwoStars,Hotel Ametyst - Poland
+822,Active,987,3,Poland,Car,7,February,TwoStars,Hotel Piecuch - Poland
+823,Skiing,638,2,Poland,Car,7,March,TwoStars,Hotel Piecuch - Poland
+824,Recreation,1276,4,Poland,Car,7,January,TwoStars,Hotel Piecuch - Poland
+825,Active,858,2,Slowakei,Car,7,January,TwoStars,Hotel Banik - High Tatra
+826,Skiing,1647,3,Slowakei,Car,7,February,TwoStars,Hotel Banik - High Tatra
+827,Active,1028,2,Slowakei,Car,14,February,ThreeStars,Hotel Fis - High Tatra
+828,Skiing,1098,2,Slowakei,Car,7,March,ThreeStars,Hotel Fis - High Tatra
+829,Skiing,1572,3,Slowakei,Car,7,January,ThreeStars,Hotel Patria - High Tatra
+830,Recreation,1738,2,Slowakei,Car,7,February,ThreeStars,Hotel Patria - High Tatra
+831,Active,3777,3,Slowakei,Car,14,February,ThreeStars,Hotel Panorama - High Tatra
+832,Skiing,1048,2,Slowakei,Car,7,March,ThreeStars,Hotel Panorama - High Tatra
+833,Skiing,598,2,Slowakei,Car,7,January,ThreeStars,Hotel Hutnik - High Tatra
+834,Active,1816,4,Slowakei,Car,7,February,ThreeStars,Hotel Hutnik - High Tatra
+835,Active,2097,3,Slowakei,Car,7,February,ThreeStars,Hotel Slovakia - High Tatra
+836,Recreation,1198,2,Slowakei,Car,7,March,ThreeStars,Hotel Slovakia - High Tatra
+837,Skiing,1257,3,Slowakei,Car,14,March,TwoStars,Hotel Vesel - High Tatra
+838,Recreation,2036,4,Slowakei,Car,7,February,TwoStars,Hotel Vesel - High Tatra
+839,Active,2334,6,Slowakei,Car,14,February,TwoStars,Hotel Zornicka - High Tatra
+840,Skiing,1795,5,Slowakei,Car,7,January,TwoStars,Hotel Zornicka - High Tatra
+841,Active,748,2,Slowakei,Car,7,January,TwoStars,Hotel Sverma - High Tatra
+842,Skiing,1497,3,Slowakei,Car,7,February,TwoStars,Hotel Sverma - High Tatra
+843,Skiing,1272,3,Slowakei,Car,7,February,OneStar,Pension Bjoernson - High Tatra
+844,Skiing,888,2,Slowakei,Car,7,March,OneStar,Pension Bjoernson - High Tatra
+845,Skiing,1152,4,Czechia,Car,7,January,ThreeStars,Hotel Horal - Giant Mountains
+846,Skiing,1414,3,Czechia,Car,7,February,ThreeStars,Hotel Horal - Giant Mountains
+847,Active,798,2,Czechia,Car,14,March,ThreeStars,Hotel Horal - Giant Mountains
+848,Skiing,698,2,Czechia,Car,7,January,ThreeStars,Hotel Montana - Giant Mountains
+849,Active,1372,3,Czechia,Car,7,February,ThreeStars,Hotel Montana - Giant Mountains
+850,Skiing,1737,3,Czechia,Car,7,February,ThreeStars,Hotel Arnika - Giant Mountains
+851,Skiing,998,2,Czechia,Car,7,March,ThreeStars,Hotel Arnika - Giant Mountains
+852,Recreation,1737,3,Czechia,Car,14,January,ThreeStars,Hotel Arnika - Giant Mountains
+853,Skiing,1596,4,Czechia,Car,7,February,TwoStars,Hotel Energetik - Giant Mountains
+854,Active,638,2,Czechia,Car,7,March,TwoStars,Hotel Energetik - Giant Mountains
+855,Skiing,897,3,Czechia,Car,14,February,OneStar,Hotel Central - Giant Mountains
+856,Active,458,2,Czechia,Car,7,January,OneStar,Hotel Central - Giant Mountains
+857,Skiing,698,2,Czechia,Car,7,March,TwoStars,Berghotel Cubat - Giant Mountains
+858,Skiing,1047,3,Czechia,Car,7,February,TwoStars,Berghotel Cubat - Giant Mountains
+859,Active,488,2,Czechia,Car,7,January,OneStar,Pension Trakce - Giant Mountains
+860,Recreation,1096,4,Czechia,Car,7,February,OneStar,Pension Trakce - Giant Mountains
+861,Skiing,458,2,Czechia,Car,7,March,OneStar,Pension Protez - Giant Mountains
+862,Recreation,1180,3,Czechia,Car,14,February,OneStar,Pension Protez - Giant Mountains
+863,Active,892,4,Czechia,Car,7,January,OneStar,Hotel Sirena - Giant Mountains
+864,Skiing,718,2,Czechia,Car,7,February,OneStar,Hotel Sirena - Giant Mountains
+865,Skiing,974,5,Czechia,Car,7,March,HolidayFlat,H.Flat Giant Mountains
+866,Skiing,974,3,Czechia,Car,7,February,HolidayFlat,H.Flat Giant Mountains
+867,Skiing,1108,4,Czechia,Car,14,January,HolidayFlat,H.Flat Adlergebirge
+868,Active,579,6,Czechia,Car,7,March,HolidayFlat,H.Flat Bohemian Forest
+869,Active,664,4,Czechia,Car,7,February,HolidayFlat,H.Flat Bohemian Forest
+870,Active,4332,4,Allgaeu,Car,7,December,FiveStars,Hofgut Kuernach - Allgaeu
+871,Skiing,1868,2,Allgaeu,Car,7,January,FiveStars,Hofgut Kuernach - Allgaeu
+872,Recreation,2428,3,Allgaeu,Car,7,February,FiveStars,Hofgut Kuernach - Allgaeu
+873,Active,1822,3,Allgaeu,Car,14,March,ThreeStars,Hotel Alpenblick - Allgaeu
+874,Skiing,1458,2,Allgaeu,Car,7,February,ThreeStars,Hotel Alpenblick - Allgaeu
+875,Skiing,1822,3,Allgaeu,Car,7,January,ThreeStars,Hotel Alpenblick - Allgaeu
+876,Active,2248,2,Allgaeu,Car,7,December,FiveStars,Alpenhotel - Allgaeu
+877,Skiing,2447,3,Allgaeu,Car,7,January,FiveStars,Alpenhotel - Allgaeu
+878,Recreation,2937,4,Allgaeu,Car,7,February,FiveStars,Alpenhotel - Allgaeu
+879,Active,1058,3,Allgaeu,Car,14,March,TwoStars,Gaestehaus Meier - Allgaeu
+880,Skiing,1587,4,Allgaeu,Car,7,February,TwoStars,Gaestehaus Meier - Allgaeu
+881,Recreation,688,2,Allgaeu,Car,7,January,TwoStars,Gaestehaus Meier - Allgaeu
+882,Skiing,530,4,Allgaeu,Car,7,December,HolidayFlat,H.Flat Nadenberg - Allgaeu
+883,Active,645,8,Allgaeu,Car,7,January,HolidayFlat,H.Flat Nadenberg - Allgaeu
+884,Skiing,745,6,Allgaeu,Car,7,February,HolidayFlat,H.Flat Nadenberg - Allgaeu
+885,Skiing,1188,2,Allgaeu,Car,14,March,HolidayFlat,H.Flat Oberallgaeu
+886,Recreation,879,4,Allgaeu,Car,7,February,HolidayFlat,H.Flat Oberallgaeu
+887,Active,624,3,Allgaeu,Car,7,January,HolidayFlat,H.Flat Oberallgaeu
+888,Skiing,459,3,Allgaeu,Car,8,December,HolidayFlat,H.Flat Alpina - Allgaeu
+889,Skiing,424,4,Allgaeu,Car,7,January,HolidayFlat,H.Flat Alpina - Allgaeu
+890,Recreation,1568,4,Allgaeu,Car,14,February,HolidayFlat,H.Flat Alpina - Allgaeu
+891,Skiing,854,4,Allgaeu,Car,7,March,HolidayFlat,H.Flat Reichenbach - Allgaeu
+892,Active,984,6,Allgaeu,Car,7,February,HolidayFlat,H.Flat Reichenbach - Allgaeu
+893,Recreation,439,2,Allgaeu,Car,7,January,HolidayFlat,H.Flat Sonnenhalde - Allgaeu
+894,Recreation,799,3,Allgaeu,Car,10,December,HolidayFlat,H.Flat Sonnenhalde - Allgaeu
+895,Active,998,3,Bavaria,Car,7,December,ThreeStars,Sporthotel Rosenberger - Bavaria
+896,Skiing,798,2,Bavaria,Car,7,January,ThreeStars,Sporthotel Rosenberger - Bavaria
+897,Skiing,998,3,Bavaria,Car,7,February,ThreeStars,Sporthotel Rosenberger - Bavaria
+898,Active,1348,2,Bavaria,Car,7,December,FourStars,H.Flat Eichenbuehl - Allgaeu
+899,Skiing,1147,3,Bavaria,Car,7,January,FourStars,H.Flat Eichenbuehl - Allgaeu
+900,Recreation,3188,2,Bavaria,Car,14,February,ThreeStars,Hotel Bavaria - Bavaria
+901,Active,3448,2,Bavaria,Car,10,December,ThreeStars,Hotel Bavaria - Bavaria
+902,Active,1658,2,Bavaria,Car,7,January,FourStars,Residenz Ludwig - Bavaria
+903,Skiing,2072,3,Bavaria,Car,7,February,FourStars,Residenz Ludwig - Bavaria
+904,Active,2985,3,Bavaria,Car,14,February,FourStars,Hotel Seidlpark - Bavaria
+905,Skiing,1658,2,Bavaria,Car,7,March,FourStars,Hotel Seidlpark - Bavaria
+906,Active,745,3,Bavaria,Car,7,January,TwoStars,Pension Laerchenhof - Bavaria
+907,Recreation,949,4,Bavaria,Car,7,February,TwoStars,Pension Laerchenhof - Bavaria
+908,Active,684,2,Bavaria,Car,7,January,HolidayFlat,H.Flat Chiemgau - Bavaria
+909,Skiing,1164,5,Bavaria,Car,14,February,HolidayFlat,H.Flat Chiemgau - Bavaria
+910,Active,529,4,Bavaria,Car,7,December,HolidayFlat,H.Flat Reiterhof - Bavaria
+911,Recreation,484,2,Bavaria,Car,7,February,HolidayFlat,H.Flat Reiterhof - Bavaria
+912,Skiing,449,2,Bavaria,Car,7,January,HolidayFlat,H.Flat Wildgatter - Bavaria
+913,Skiing,774,6,Bavaria,Car,7,February,HolidayFlat,H.Flat Wildgatter - Bavaria
+914,Active,379,2,Bavaria,Car,7,January,HolidayFlat,H.Flat Am Hochwald - Bavaria
+915,Recreation,459,3,Bavaria,Car,14,February,HolidayFlat,H.Flat Am Hochwald - Bavaria
+916,Active,454,3,Bavaria,Car,7,January,HolidayFlat,H.Flat Christopherhof - Bavaria
+917,Skiing,774,8,Bavaria,Car,7,March,HolidayFlat,H.Flat Christopherhof - Bavaria
+918,Recreation,699,6,Bavaria,Car,7,January,HolidayFlat,H.Flat Jaegerwiesen - Bavaria
+919,Active,1018,3,Bavaria,Car,14,February,HolidayFlat,H.Flat Jaegerwiesen - Bavaria
+920,Recreation,1338,2,ErzGebirge,Car,7,December,ThreeStars,Hotel Lugsteinhof - Erz Gebirge
+921,Skiing,1472,3,ErzGebirge,Car,7,January,ThreeStars,Hotel Lugsteinhof - Erz Gebirge
+922,Recreation,1257,4,ErzGebirge,Car,7,February,ThreeStars,Hotel Am Fichtelberg - Erz Gebirge
+923,Skiing,1178,2,ErzGebirge,Car,7,March,ThreeStars,Hotel Am Fichtelberg - Erz Gebirge
+924,Active,1257,4,ErzGebirge,Car,7,February,ThreeStars,Sporthotel Oberwiesenthal - Erz Gebirge
+925,Skiing,1338,2,ErzGebirge,Car,7,December,ThreeStars,Sporthotel Oberwiesenthal - Erz Gebirge
+926,Recreation,1235,3,ErzGebirge,Car,7,January,ThreeStars,Rathaushotel - Erz Gebirge
+927,Active,1482,4,ErzGebirge,Car,7,February,ThreeStars,Rathaushotel - Erz Gebirge
+928,Recreation,838,2,ErzGebirge,Car,14,March,ThreeStars,Hotel Stephanshoehe - Erz Gebirge
+929,Recreation,1472,3,ErzGebirge,Car,7,February,ThreeStars,Hotel Stephanshoehe - Erz Gebirge
+930,Skiing,604,2,ErzGebirge,Car,14,December,ThreeStars,Hotel Vogtland - Erz Gebirge
+931,Recreation,1782,4,ErzGebirge,Car,7,January,ThreeStars,Hotel Vogtland - Erz Gebirge
+932,Active,2935,3,ErzGebirge,Car,14,January,ThreeStars,Kurhotel Am See - Erz Gebirge
+933,Recreation,838,2,ErzGebirge,Car,7,March,ThreeStars,Kurhotel Am See - Erz Gebirge
+934,Recreation,1257,4,ErzGebirge,Car,7,February,ThreeStars,Kurhotel Am See - Erz Gebirge
+935,Recreation,559,6,ErzGebirge,Car,7,December,HolidayFlat,H.Flat Haus Vogtland - Erz Gebirge
+936,Recreation,549,7,ErzGebirge,Car,7,January,HolidayFlat,H.Flat Haus Vogtland - Erz Gebirge
+937,Active,1098,5,ErzGebirge,Car,14,March,HolidayFlat,H.Flat Haus Vogtland - Erz Gebirge
+938,Active,549,6,ErzGebirge,Car,7,February,HolidayFlat,H.Flat Haus Vogtland - Erz Gebirge
+939,Skiing,549,4,ErzGebirge,Car,7,February,HolidayFlat,H.Flat Haus Vogtland - Erz Gebirge
+940,Recreation,2128,2,Harz,Car,7,December,ThreeStars,Aparthotel Bocksberg - Harz
+941,Recreation,1910,3,Harz,Car,7,January,ThreeStars,Aparthotel Bocksberg - Harz
+942,Wandering,1648,2,Harz,Car,7,February,ThreeStars,Aparthotel Bocksberg - Harz
+943,Skiing,2007,4,Harz,Car,7,March,ThreeStars,Aparthotel Bocksberg - Harz
+944,Recreation,2368,2,Harz,Car,10,December,ThreeStars,Travelhotel Waldfrieden - Harz
+945,Recreation,1485,3,Harz,Car,7,January,ThreeStars,Travelhotel Waldfrieden - Harz
+946,Wandering,1298,2,Harz,Car,7,February,ThreeStars,Travelhotel Waldfrieden - Harz
+947,Active,1782,4,Harz,Car,7,March,ThreeStars,Travelhotel Waldfrieden - Harz
+948,Recreation,2007,4,Harz,Car,7,December,TwoStars,Hotel Harzquell - Harz
+949,Wandering,1168,2,Harz,Car,14,January,TwoStars,Hotel Harzquell - Harz
+950,Skiing,1460,3,Harz,Car,7,February,TwoStars,Hotel Harzquell - Harz
+951,Recreation,1522,3,Harz,Car,7,December,TwoStars,Hotel Fuerstenhoeh - Harz
+952,Recreation,1482,4,Harz,Car,7,January,TwoStars,Hotel Fuerstenhoeh - Harz
+953,Skiing,1235,3,Harz,Car,7,February,TwoStars,Hotel Fuerstenhoeh - Harz
+954,Wandering,599,3,Harz,Car,14,November,HolidayFlat,H.Flat Panoramic - Harz
+955,Recreation,679,5,Harz,Car,7,January,HolidayFlat,H.Flat Panoramic - Harz
+956,Recreation,419,2,Harz,Car,7,February,HolidayFlat,H.Flat Ferienpark - Harz
+957,Wandering,1114,4,Harz,Car,10,December,HolidayFlat,H.Flat Ferienpark - Harz
+958,Skiing,324,3,Harz,Car,7,December,HolidayFlat,H.Flat Teichtal - Harz
+959,Skiing,499,6,Harz,Car,7,February,HolidayFlat,H.Flat Teichtal - Harz
+960,Wandering,1227,4,BlackForest,Car,7,December,TwoStars,Hotel Hirschen - Black Forest
+961,Active,748,2,BlackForest,Car,7,January,TwoStars,Hotel Hirschen - Black Forest
+962,Skiing,1735,3,BlackForest,Car,7,February,FourStars,Treff-Hotel - Black Forest
+963,Wandering,2768,2,BlackForest,Car,14,March,FourStars,Treff-Hotel - Black Forest
+964,Recreation,1737,4,BlackForest,Car,7,February,ThreeStars,Berghotel Kandel - Black Forest
+965,Wandering,818,2,BlackForest,Car,7,January,ThreeStars,Berghotel Kandel - Black Forest
+966,Recreation,2322,3,BlackForest,Car,10,December,ThreeStars,Berghotel Mummelsee - Black Forest
+967,Skiing,1158,2,BlackForest,Car,7,February,ThreeStars,Berghotel Mummelsee - Black Forest
+968,Active,1008,2,BlackForest,Car,7,January,ThreeStars,Hotel Waldwinkel - Black Forest
+969,Recreation,1260,3,BlackForest,Car,14,February,ThreeStars,Hotel Waldwinkel - Black Forest
+970,Wandering,1257,4,BlackForest,Car,7,March,TwoStars,Gasthof Hochkopfhaus - Black Forest
+971,Skiing,838,2,BlackForest,Car,7,February,TwoStars,Gasthof Hochkopfhaus - Black Forest
+972,Recreation,897,3,BlackForest,Car,7,January,TwoStars,Landgasthof Schuetzen - Black Forest
+973,Wandering,688,2,BlackForest,Car,6,December,TwoStars,Landgasthof Schuetzen - Black Forest
+974,Active,454,4,BlackForest,Car,7,January,HolidayFlat,H.Flat Ferienpark Black Forest
+975,Active,514,6,BlackForest,Car,7,February,HolidayFlat,H.Flat Ferienpark Black Forest
+976,Recreation,459,2,BlackForest,Car,7,March,HolidayFlat,H.Flat Schwarzwaldgrund
+977,Recreation,1068,4,BlackForest,Car,14,February,HolidayFlat,H.Flat Schwarzwaldgrund
+978,Skiing,549,6,BlackForest,Car,7,January,HolidayFlat,H.Flat Sonnenrain - Black Forest
+979,Recreation,679,2,BlackForest,Car,7,December,HolidayFlat,H.Flat Schwarzwaldblick
+980,Recreation,599,4,BlackForest,Car,7,January,HolidayFlat,H.Flat Schwarzwaldblick
+981,Skiing,464,3,BlackForest,Car,7,February,HolidayFlat,H.Flat Schwiezer Hof - Black Forest
+982,Wandering,1033,5,BlackForest,Car,14,March,HolidayFlat,H.Flat Schwiezer Hof - Black Forest
+983,Recreation,989,4,BlackForest,Car,7,February,HolidayFlat,H.Flat Panorama-Blick - Black Forest
+984,Wandering,839,6,BlackForest,Car,7,January,HolidayFlat,H.Flat Panorama-Blick - Black Forest
+985,Wandering,1672,3,Thuringia,Car,7,December,ThreeStars,Berghotel Friedrichroda - Thuringia
+986,Recreation,1178,2,Thuringia,Car,7,January,ThreeStars,Berghotel Friedrichroda - Thuringia
+987,Active,4092,4,Thuringia,Car,14,February,ThreeStars,Hotel Finsterbergen - Thuringia
+988,Wandering,1368,2,Thuringia,Car,7,March,ThreeStars,Hotel Finsterbergen - Thuringia
+989,Wandering,1104,3,Thuringia,Car,7,February,TwoStars,Hotel Schoene Aussicht - Thuringia
+990,Skiing,883,2,Thuringia,Car,7,January,TwoStars,Hotel Schoene Aussicht - Thuringia
+991,Recreation,688,2,Thuringia,Car,7,December,ThreeStars,Berghotel Oberhof - Thuringia
+992,Wandering,1773,3,Thuringia,Car,14,November,ThreeStars,Berghotel Oberhof - Thuringia
+993,Wandering,1138,2,Thuringia,Car,7,January,FourStars,Hotel Panorama - Thuringia
+994,Recreation,1647,3,Thuringia,Car,7,March,FourStars,Hotel Panorama - Thuringia
+995,Skiing,1977,4,Thuringia,Car,7,February,FourStars,Hotel Panorama - Thuringia
+996,Wandering,1294,2,Thuringia,Car,14,January,TwoStars,Hotel Am Schuetzenberg - Thuringia
+997,Recreation,785,3,Thuringia,Car,7,December,TwoStars,Hotel Am Schuetzenberg - Thuringia
+998,Active,987,4,Thuringia,Car,7,February,TwoStars,Hotel Frankenwald - Thuringia
+999,Wandering,598,2,Thuringia,Car,7,March,TwoStars,Hotel Frankenwald - Thuringia
+1000,Wandering,389,3,Thuringia,Car,7,February,HolidayFlat,H.Flat Schmeheim - Thuringia
+1001,Wandering,389,4,Thuringia,Car,7,March,HolidayFlat,H.Flat Schmeheim - Thuringia
+1002,Recreation,389,3,Thuringia,Car,7,January,HolidayFlat,H.Flat Schmeheim - Thuringia
+1003,Active,924,4,Thuringia,Car,9,December,HolidayFlat,H.Flat Schmeheim - Thuringia
+1004,Skiing,389,4,Thuringia,Car,7,February,HolidayFlat,H.Flat Schmeheim - Thuringia
+1005,Wandering,855,4,Thuringia,Car,14,March,HolidayFlat,H.Flat Ruppertus - Thuringia
+1006,Wandering,483,4,Thuringia,Car,7,January,HolidayFlat,H.Flat Ruppertus - Thuringia
+1007,Recreation,774,4,Thuringia,Car,9,December,HolidayFlat,H.Flat Ruppertus - Thuringia
+1008,Active,483,3,Thuringia,Car,7,January,HolidayFlat,H.Flat Ruppertus - Thuringia
+1009,Skiing,483,4,Thuringia,Car,7,February,HolidayFlat,H.Flat Ruppertus - Thuringia
+1010,Active,624,4,France,Car,7,December,HolidayFlat,H.Flat Maeva - France
+1011,Skiing,624,4,France,Car,7,January,HolidayFlat,H.Flat Maeva - France
+1012,Recreation,1624,5,France,Car,7,February,HolidayFlat,H.Flat Maeva - France
+1013,Active,844,4,France,Car,7,March,HolidayFlat,H.Flat Le Cervin - France
+1014,Skiing,1654,5,France,Car,7,February,HolidayFlat,H.Flat Le Cervin - France
+1015,Recreation,824,6,France,Car,7,January,HolidayFlat,H.Flat Le Cervin - France
+1016,Active,764,4,France,Car,7,December,HolidayFlat,H.Flat Bellecote - France
+1017,Skiing,3368,5,France,Car,14,January,HolidayFlat,H.Flat Bellecote - France
+1018,Recreation,1014,4,France,Car,7,February,HolidayFlat,H.Flat Bellecote - France
+1019,Active,1339,4,France,Car,7,March,HolidayFlat,H.Flat Cheval Blanc - France
+1020,Skiing,1094,5,France,Car,7,February,HolidayFlat,H.Flat Cheval Blanc - France
+1021,Recreation,1728,6,France,Car,14,January,HolidayFlat,H.Flat Cheval Blanc - France
+1022,Active,589,4,France,Car,7,December,HolidayFlat,H.Flat Les Olympiades - France
+1023,Skiing,589,4,France,Car,7,January,HolidayFlat,H.Flat Les Olympiades - France
+1024,Recreation,1574,4,France,Car,7,February,HolidayFlat,H.Flat Les Olympiades - France
+1025,Active,1500,4,Portugal,Car,10,July,ThreeStars,Gasthof Adler - South Tyrol

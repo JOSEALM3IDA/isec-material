@@ -1,0 +1,9 @@
+Divisao;Aspersor?;Fogo?
+cozinha;sim;sim
+escritorio;sim;sim
+sala;sim;sim
+quarto 1;sim;sim
+quarto 2;sim;sim
+quarto 3;sim;sim
+estufa;sim;sim
+garagem;sim;sim

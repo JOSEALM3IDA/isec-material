@@ -1,0 +1,40 @@
+[System]
+Name='consumo'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=0
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='nivel'
+Range=[-1 1]
+NumMFs=3
+MF1='alto':'gaussmf',[0.25 -1]
+MF2='ok':'gaussmf',[0.25 0]
+MF3='baixo':'gaussmf',[0.25 1]
+
+[Input2]
+Name='fluxo'
+Range=[-0.4 0.4]
+NumMFs=3
+MF1='negativo':'gaussmf',[0.03 -0.1]
+MF2='ok':'gaussmf',[0.03 0]
+MF3='positivo':'gaussmf',[0.03 0.1]
+
+[Output1]
+Name='valvula'
+Range=[-1 1]
+NumMFs=5
+MF1='fecha-devagar':'trimf',[-0.6 -0.5 -0.4]
+MF2='abre-devagar':'trimf',[0.2 0.3 0.4]
+MF3='abre-rapido':'trimf',[0.8 0.9 1]
+MF4='fecha-rapido':'trimf',[-1 -0.9 -0.8]
+MF5='nada':'trimf',[-0.1 0 0.1]
+
+[Rules]
