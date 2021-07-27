@@ -1,0 +1,12 @@
+Fases de um projeto:
+Inicialização
+Planejamento
+Execução
+Controlo
+Fecho
+
+Modelo PEST:
+Político-Legal
+Económico
+Sócio-Cultural
+Tecnonógico
