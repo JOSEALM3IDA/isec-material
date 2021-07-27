@@ -1,0 +1,41 @@
+// {type:state}
+// {generate:true}
+
+(start)[new QuatroEmLinhaMaquinaEstados]->(PedeDecisaoInicio)
+(PedeDecisaoInicio)[iniciarJogo]->(PedeConfiguracao)
+(PedeDecisaoInicio)[continuarJogo]->(PedeDecisaoJogada)
+(PedeDecisaoInicio)[verReplay]->(AssisteJogada)
+
+(AssisteJogada)[avancar]->(AssisteJogada)
+(AssisteJogada)[avancar]->(PedeDecisaoInicio)
+(AssisteJogada)[avancar]->(FimJogo)
+(AssisteJogada)[iniciarJogo]->(PedeConfiguracao)
+(AssisteJogada)[continuarJogo]->(PedeDecisaoJogada)
+(AssisteJogada)[verReplay]->(AssisteJogada)
+(AssisteJogada)[voltar]->(PedeDecisaoInicio)
+
+(PedeConfiguracao)[adicionarJogador]->(PedeConfiguracao)
+(PedeConfiguracao)[adicionarJogador]->(PedeDecisaoJogada)
+(PedeConfiguracao)[voltar]->(PedeDecisaoInicio)
+
+(PedeDecisaoJogada)[jogarFicha]->(PedeDecisaoJogada)
+(PedeDecisaoJogada)[jogarFicha]->(FimJogo)
+(PedeDecisaoJogada)[aceitarMinijogo]->(JogaMinijogo)
+(PedeDecisaoJogada)[undoJogada]->(PedeDecisaoJogada)
+(PedeDecisaoJogada)[jogarFichaEspecial]->(PedeDecisaoJogada)
+(PedeDecisaoJogada)[desistir]->(FimJogo)
+(PedeDecisaoJogada)[iniciarJogo]->(PedeConfiguracao)
+(PedeDecisaoJogada)[continuarJogo]->(PedeDecisaoJogada)
+(PedeDecisaoJogada)[verReplay]->(AssisteJogada)
+(PedeDecisaoJogada)[voltar]->(PedeDecisaoInicio)
+
+(JogaMinijogo)[enviarRespostaMinijogo]->(PedeDecisaoJogada)
+(JogaMinijogo)[enviarRespostaMinijogo]->(JogaMinijogo)
+(JogaMinijogo)[iniciarJogo]->(PedeConfiguracao)
+(JogaMinijogo)[continuarJogo]->(PedeDecisaoJogada)
+(JogaMinijogo)[verReplay]->(AssisteJogada)
+
+(FimJogo)[iniciarJogo]->(PedeConfiguracao)
+(FimJogo)[continuarJogo]->(PedeDecisaoJogada)
+(FimJogo)[verReplay]->(AssisteJogada)
+(FimJogo)[voltar]->(PedeDecisaoInicio)

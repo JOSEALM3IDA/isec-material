@@ -1,0 +1,47 @@
+#menu-button {
+	-fx-background-color: #0073d3;
+	-fx-text-fill: white;
+	
+	-fx-font-size: 16;
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-border-style: dashed; 
+}
+
+#menu-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+	-fx-font-weight: bold;
+}
+
+#side-box {
+	-fx-border-style: hidden hidden hidden solid;
+    -fx-border-width: 2;
+    -fx-border-color: black;
+}
+
+#footer-box {
+	-fx-background-color: #0073d3;
+	-fx-text-fill: white;
+	-fx-border-style: solid hidden hidden hidden;
+    -fx-border-width: 2;
+    -fx-border-color: white;
+}
+
+#voltar-slider {
+    -fx-text-fill: white;
+	-fx-background-color: white;
+	-fx-border-style: solid;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+}
+
+#minijogo-info {
+	-fx-fill: white;
+	-fx-font-size: 52;
+}
+
+#minijogo-textfield {
+	-fx-font-size: 42;
+	-fx-background-color: #0073d3;
+}

@@ -1,0 +1,166 @@
+18/19
+
+1. quantos=0 quantos=0; a[1]=(10,1) ; a[0]=(10,2)
+2.
+  a) false true true
+  b) true true false
+
+3. m1 f1 f3 f5 m4 m5
+
+4. 13 15(2) 15(5) 28 36 41 43 49 51 52 53
+
+5.
+  a)
+States:
+	IDLE, WAIT_ITEM_TO_BE_SCANNED, WAIT_PAYMENT, WAIT_CASHIER_ACTION, WAIT_WEIGHT_TO_MATCH_SCANNED_ITEMS, WAIT_ITEM_TO_BE_IN_BAG
+
+Transitions:
+	IDLE
+		Start => WAIT_ITEM_TO_BE_SCANNED
+		
+	WAIT_ITEM_TO_BE_SCANNED
+		ScanItem => WAIT_ITEM_TO_BE_IN_BAG
+		ChangeBagWeight => WAIT_WEIGHT_TO_MATCH_SCANNED_ITEMS
+		Pay => WAIT_PAYMENT
+		
+	WAIT_PAYMENT
+		Pay [paymentSucceeded] => IDLE
+		
+	WAIT_CASHIER_ACTION
+		Solved => WAIT_ITEM_TO_BE_SCANNED
+		Aborted => IDLE
+		
+	WAIT_WEIGHT_TO_MATCH_SCANNED_ITEMS
+		ChangeBagWeight [getBagWeight() == getScannedItemsWeight()] => WAIT_ITEM_TO_BE_SCANNED
+		ChangeBagWeight [else] => WAIT_CASHIER_ACTION
+		Timeout => WAIT_CASHIER_ACTION
+	
+	WAIT_ITEM_TO_BE_IN_BAG
+		ChangeBagWeight [getBagWeight() == getScannedItemsWeight()] => WAIT_ITEM_TO_BE_SCANNED
+		ChangeBagWeight [else] => WAIT_CASHIER_ACTION
+		Timeout => WAIT_CASHIER_ACTION
+		
+
+  b)
+interface IStates {
+	IStates Start();
+	IStates ScanItem();
+	IStates ChangeBagWeight();
+	IStates Pay();
+	IStates Solved();
+	IStates Aborted();
+	IStates Timeout();
+	
+	Enums getState();
+}
+
+abstract class SateAdapter implements IStates {
+
+	protected Info info;
+	
+	public SateAdapter(Info info) { this.info = info; }
+
+	public IStates Start() { return this; }
+	public IStates ScanItem() { return this; }
+	public IStates ChangeBagWeight() { return this; }
+	public IStates Pay() { return this; }
+	public IStates Solved() { return this; }
+	public IStates Aborted() { return this; }
+	public IStates Timeout() { return this; }
+}
+
+6.
+  a) Classe SelfCheckoutCashdesk ter um objeto da classe Observable e ter um método público addView que permita fazer observable.addView(view). No processEvent deve ser invocado o observable.notifyViews().
+  b) 
+	public class CashDeskBasicView implements IView {
+		SelfCheckoutCashdesk cashdesk;
+		public CashDeskBasicView(SelfCheckoutCashdesk cashdesk) {
+			this.cashdesk = cashdesk;
+			cashdesk.addView(this);
+		}
+		
+		void update(Observable o) {
+			System.out.println("Situation changed: " + cashdesk.getSituation().toString());
+		}
+	}
+
+7.
+  a)
+	public class ProcessEventCommand implements ICommand {
+	
+		private SelfCheckoutCashdesk cashdesk; //command receiver
+		private Enums event;
+		private Info info;
+		
+		private Enums previousSituation;
+		private boolean executed;
+		
+		public ProcessEventCommand(SelfCheckoutCashdesk cashdesk, Enums event, Info info){
+			this.cashdesk = cashdesk;
+			this.event = event;
+			this.info = info;
+			executed = false;
+		}
+		
+		public boolean execute() {
+			if(executed)
+				return false;
+				
+			cashdesk.processEvent(event, info);
+			executed = true;
+			return true;
+		}
+		
+		public boolean undo() {
+			if(!executed)
+				return false;
+			
+			cashdesk.processEvent(previousSituation, info);
+			return true;
+		}
+	}
+
+  b) (new ProcessEventCommand(cashdesk, event, info)).execute();
+  
+8.
+  A - return 31*academicYear + 31*semestre + id.hashcode();
+  
+  B - 
+    if (obj == null || !(obj instanceof Proposal)) return false;
+	Propostal pp = (Proposal) obj;
+	return pp.id.equals(id) && pp.academicYear == academicYear && pp.semester == semester;
+	
+  C - 
+	return id + " - " + academicYear + " - " + semester + " - " + title;
+  
+  D -
+	if (academicYear > o.academicYear) return 1;
+	if (academicYear < o.academicYear) return -1;
+	
+	if (semester > o.semester) return 1;
+	if (semester < o.semester) return -1;
+	
+	return id.compareTo(o.id);
+  
+  E - 
+	super(id, academicYear, semester, title);
+	this.researchGroup = researchGroup;
+  
+  F - return super.toString() + " - " + researchGroup;
+  
+  G - 
+	super(id, academicYear, semester, title);
+	this.company = company;
+  
+  H - return super.toString() + " - " + company;
+  
+  I - momento isek estudasses ? oh cao : és anulado;
+	if (id == null || title == null || companyOrProject == null) return null;
+  
+  J - 
+	case PROJECT:
+		return new Project(id, academicYear, semester, title, companyOrProject);
+	case INTERNSHIP:
+		return new Internship(id, academicYear, semester, title, companyOrProject);
+	default:
+		return null;

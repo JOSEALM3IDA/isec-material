@@ -200,22 +200,11 @@ pPessoa inserirFimPessoas(pPessoa lista, pPessoa p) {
 
     p->prox = lista;
     lista = p;
-
-    /*
-    if (lista == NULL) {
-        lista = p;
-    } else {
-        aux = lista;
-        while(aux->prox != NULL)
-            aux = aux->prox;
-
-        aux->prox = p;
-    }
-     */
+	
     return lista;
 }
 
-plocal deepcopy(plocal origem, int tam) { // tudo fodido
+plocal deepcopy(plocal origem, int tam) {
     int i;
     pPessoa listaOrigem, novaPessoa;
     plocal novo = malloc(tam*sizeof(local));

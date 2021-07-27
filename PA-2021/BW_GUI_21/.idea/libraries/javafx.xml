@@ -1,0 +1,45 @@
+<component name="libraryTable">
+  <library name="javafx">
+    <CLASSES>
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+      <root url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" />
+    </SOURCES>
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+    <jarDirectory url="file:///Library/Java/JavaVirtualMachines/javafx-sdk-16/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
